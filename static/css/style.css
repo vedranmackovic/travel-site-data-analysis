@@ -1,13 +1,8 @@
 /* 
-
 Journey Template 
 http://www.templatemo.com/tm-511-journey
-
-Primary color (light blue)  : #69c6ba
-Highlight color (pink)		: #c66995
---------------------------------------
-
 */
+
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 13px;
@@ -241,7 +236,18 @@ label { font-weight: 700; }
     flex-direction: row-reverse;
 }
 
-.tm-slideshow { width: 50%; }
+.tm-slideshow {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tm-slideshow img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 .tm-slideshow-description {
     padding: 50px;
@@ -257,49 +263,6 @@ label { font-weight: 700; }
 }
 
 .tm-position-relative { position: relative; }
-
-.slick-prev, .slick-next {
-    width: 50px;
-    height: 50px;
-}
-
-.slick-prev, .slick-next,
-.slick-prev:focus,
-.slick-prev:active,
-.slick-next:focus,
-.slick-next:active {
-    background: rgba(0,0,0,0.5);    
-}
-
-.slick-prev:before, .slick-next:before { font-size: 22px; }
-
-.slick-prev:hover,
-.slick-next:hover {
-    background: #69c6ba;
-}
-
-.tm-slideshow-highlight .slick-prev:hover, 
-.tm-slideshow-highlight .slick-next:hover {
-    background: #c66995;
-}
-
-.slick-prev {
-    left: auto;
-    right: 95px;
-    z-index: 1000;
-}
-
-.tm-right .slick-prev {
-    left: 42px;
-    right: auto;
-}
-
-.slick-next { right: 42px; }
-
-.tm-right .slick-next {
-    right: auto;
-    left: 94px;
-}
 
 /* Tabs */
 .tm-tabs-links {
@@ -497,6 +460,9 @@ footer p { color: white; }
 
 @media screen and (max-width: 1080px) {
     .tm-tab-link-li { width: 25%; }
+    .tm-main-content {
+        margin-top: 60px;
+    }
 }
 
 @media screen and (max-width: 1033px) {
@@ -560,11 +526,6 @@ footer p { color: white; }
     .tm-slideshow-description {        
         margin-right: auto;
         margin-left: auto;
-    }
-
-    .slick-prev, .slick-next {
-        bottom: 0;
-        top: auto;
     }
 
     .tm-contact-form {
