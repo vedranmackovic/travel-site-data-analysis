@@ -248,6 +248,8 @@
     document.getElementById("img1").src = `../static/img/${destination.images[0]}`;
     document.getElementById("img2").src = `../static/img/${destination.images[1]}`;
     document.getElementById("img3").src = `../static/img/${destination.images[2]}`;
+    document.getElementById("inputCity").value = destination.name;
+    document.getElementById("inputCity").readOnly = true;
   } else {
     document.getElementById("location-name").textContent = "DESTINATION NOT FOUND";
     document.getElementById("location-description").textContent = "We couldn't load the destination info.";

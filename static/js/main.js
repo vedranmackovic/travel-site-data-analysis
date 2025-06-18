@@ -71,3 +71,23 @@ $('#inputCheckOut').datepicker({
     todayHighlight: true
 });
 
+function calculateDays() {
+    const checkInVal = $('#inputCheckIn').val();
+    const checkOutVal = $('#inputCheckOut').val();
+
+    if (checkInVal && checkOutVal) {
+        const checkInDate = new Date(checkInVal);
+        const checkOutDate = new Date(checkOutVal);
+
+        const diffTime = checkOutDate - checkInDate;
+        const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+        $('#inputDays').val(diffDays > 0 ? diffDays : 0);
+    } else {
+        $('#inputDays').val('');
+    }
+}
+
+// Attach the handler to datepicker selection
+$('#inputCheckIn').datepicker().on('changeDate', calculateDays);
+$('#inputCheckOut').datepicker().on('changeDate', calculateDays);
