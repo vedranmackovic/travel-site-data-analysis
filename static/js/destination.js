@@ -28,7 +28,7 @@
         images: ["Banff1.jpg", "Banff2.jpg", "Banff3.jpg"]
     },
     NewYork:{
-        name: "New York City",
+        name: "New York",
         description: `The city that never sleeps, New York dazzles with a skyline of legendary landmarks — 
         from the Empire State Building and Central Park to the Statue of Liberty and Times Square. 
         It's a cultural powerhouse with world-class museums like the MET and MoMA, a Broadway theatre district, 
@@ -70,7 +70,7 @@
         images: ["Patagonia1.jpg","Patagonia2.jpg","Patagonia3.jpg"]
     },
     Galapagos:{
-        name: "Galápagos Islands",
+        name: "Galapagos",
         description: `A living laboratory of evolution, the Galápagos Islands are teeming with unique wildlife — 
         from giant tortoises to blue-footed boobies. Located 1,000 km off Ecuador's coast, 
         the archipelago invites exploration by boat, snorkeling, and guided hikes. Protected as a UNESCO site, 
