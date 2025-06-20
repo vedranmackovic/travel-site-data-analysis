@@ -254,6 +254,7 @@ label { font-weight: 700; }
     width: 48%;
     z-index: 100;
     margin-left: -42px;
+    margin-top: -42px;
 }
 
 .tm-slideshow-description-left {
@@ -330,6 +331,7 @@ label { font-weight: 700; }
 
 .tm-recommended-place {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+    background-color: white;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
