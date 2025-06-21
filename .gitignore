@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+
+# Compiled files
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# SQLite or other local databases (optional)
+*.db
+
+# OS-specific
+.DS_Store
+Thumbs.db

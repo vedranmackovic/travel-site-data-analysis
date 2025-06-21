@@ -20,7 +20,7 @@
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg narbar-light">
-                        <a class="navbar-brand mr-auto" href="index.html">
+                        <a class="navbar-brand mr-auto" href="{{ url_for('home') }}">
                             <img src="../static/img/logo.png" alt="Site logo">
                             VeTravel
                         </a>
@@ -30,13 +30,13 @@
                         <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
                             <ul class="navbar-nav ml-auto">
                               <li class="nav-item">
-                                <a class="nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link active" href="{{ url_for('home') }}">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="destinations.html">Destinations</a>
+                                <a class="nav-link" href="{{ url_for('destinations') }}">Destinations</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact Us</a>
+                                <a class="nav-link" href="{{ url_for('contact') }}">Contact Us</a>
                             </li>
                         </ul>
                      </div>                            
@@ -83,7 +83,7 @@
                 <div class="tm-slideshow-description tm-bg-primary">
                     <h2 class="">Europe's most visited places</h2>
                     <p>Discover the timeless charm of Europe through its most visited destinations. From historic landmarks to vibrant cities, Europe offers a rich blend of culture, beauty, and unforgettable experiences. Let these highlights guide your travel inspiration.</p>
-                    <a href="destinations.html?tab=europe" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    <a href="{{ url_for('destinations', tab='europe') }}" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
                 </div>
             </section>
             <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
@@ -95,7 +95,7 @@
                 <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
                     <h2 class="">Asia's most popular places</h2>
                     <p>Asia captivates travelers with its rich history, vibrant cities, and stunning landscapes. Explore ancient temples, bustling markets, and serene beaches — from Japan and China to Thailand and beyond, Asia’s top destinations are as diverse as they are inspiring.</p>
-                    <a href="destinations.html?tab=asia" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">Continue Reading</a>
+                    <a href="{{ url_for('destinations', tab='asia') }}" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">Continue Reading</a>
                 </div>                        
             </section>
             <section class="tm-slideshow-section">
@@ -107,7 +107,7 @@
                 <div class="tm-slideshow-description tm-bg-primary">
                     <h2 class="">America's most famous places</h2>
                     <p>From the dazzling cities to breathtaking natural wonders, North America offers a diverse array of destinations. Whether you're drawn to the vibrant culture of the U.S., the scenic beauty of Canada, or the tropical warmth of Mexico, these popular spots promise unforgettable adventures.</p>
-                    <a href="destinations.html?tab=north-america" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
+                    <a href="{{ url_for('destinations', tab='north-america') }}" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Continue Reading</a>
                 </div>
             </section>
         </div>        
