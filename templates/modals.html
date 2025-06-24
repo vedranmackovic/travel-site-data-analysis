@@ -1,0 +1,50 @@
+<div id="loginModal" class="custom-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true" style="display:none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="POST" action="{{ url_for('login') }}">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Log In</h5>
+                    <button type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="email" name="email" placeholder="Email" class="form-control mb-2" required>
+                    <input type="password" name="password" placeholder="Password" class="form-control mb-2" required>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Log In</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="signupModal" class="custom-modal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true" style="display:none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form method="POST" action="{{ url_for('signup') }}">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+                    <button type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="email" name="email" placeholder="Email" class="form-control mb-2" required>
+                    <input type="password" name="password" placeholder="Password" class="form-control mb-2" required>
+                    <input type="text" name="name" placeholder="Full name" class="form-control mb-2" required>
+                    <input type="number" name="age" placeholder="Age" class="form-control mb-2" required min="1">
+                    <select name="gender" class="form-control mb-2" required>
+                        <option value="" disabled selected>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <input type="text" name="nationality" placeholder="Nationality" class="form-control mb-2" required>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

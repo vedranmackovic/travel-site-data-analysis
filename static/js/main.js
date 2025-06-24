@@ -91,3 +91,4 @@ function calculateDays() {
 // Attach the handler to datepicker selection
 $('#inputCheckIn').datepicker().on('changeDate', calculateDays);
 $('#inputCheckOut').datepicker().on('changeDate', calculateDays);
+
