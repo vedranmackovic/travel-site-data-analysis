@@ -22,12 +22,12 @@
 21,Bali,11/20/2023,11/25/2023,5,Emily Lee,27,Female,American,Airbnb,70,Bus,390 
 22,Niagara Falls,12/5/2023,12/12/2023,7,James Wilson,32,Male,Australian,Hotel,160,Plane,480 
 23,Great Barrier Reef,11/1/2023,11/8/2023,7,Sofia Russo,29,Female,Italian,Airbnb,130,Train,370 
-24,Santorini,9/15/2023,9/23/2023,8,Raj Patel,40,Male,Indian,Hostel,70 ,Plane,220 
+24,Santorini,9/15/2023,9/23/2023,8,Raj Patel,40,Male,Indian,Hostel,70,Plane,220 
 25,Machu Picchu,12/22/2023,12/28/2023,6,Lily Nguyen,24,Female,Vietnamese,Hotel,120,Train,320 
 26,Tokyo,8/1/2023,8/10/2023,9,David Kim,34,Male,Korean,Resort,360,Plane,700 
 27,Serengeti National Park,10/20/2023,10/28/2023,8,Maria Garcia,31,Female,Spanish,Hotel,180,Train,370 
-28,Grand Canyon,5/10/2022,5/18/2022,8,Alice Smith,30,Female,American,Hotel,140 ,Plane,450 
-29,Rome,6/15/2022,6/22/2022,7,Bob Johnson,45,Male,Canadian,Hostel,65 ,Train,100 
+28,Grand Canyon,5/10/2022,5/18/2022,8,Alice Smith,30,Female,American,Hotel,140,Plane,450 
+29,Rome,6/15/2022,6/22/2022,7,Bob Johnson,45,Male,Canadian,Hostel,65,Train,100 
 30,Madagascar,7/2/2022,7/11/2022,9,Charlie Lee,25,Male,Korean,Airbnb,80,Car rental,420 
 31,Great Wall of China,8/20/2022,9/2/2022,13,Emma Davis,28,Female,British,Hotel,160,Car rental,430 
 32,Bali,9/5/2022,9/14/2022,9,Olivia Martin,33,Female,Australian,Hostel,40,Bus,390 
@@ -50,15 +50,15 @@
 49,Phuket,6/20/2023,6/28/2023,8,Laura van den Berg,31,Female,Dutch,Hotel,100,Plane,590
 50,Taj Mahal,8/15/2023,8/22/2023,7,Jennifer Nguyen,31,Female,Canadian,Hotel,130,Train,260 
 51,Serengeti National Park,10/10/2023,10/20/2023,10,David Kim,25,Male,American,Hostel,50,Bus,350 
-52,Paris,11/5/2023,11/12/2023,7,Rachel Lee,27,Female,South Korean,Airbnb,130 ,Car rental,160 
+52,Paris,11/5/2023,11/12/2023,7,Rachel Lee,27,Female,South Korean,Airbnb,130,Car rental,160 
 53,Hawai'i Islands,12/24/2023,12/31/2023,7,Jessica Wong,28,Female,Canadian,Hotel,220,Plane,750 
-54,Serengeti National Park,1/15/2024,1/24/2024,9,Felipe Almeida,30,Male,Brazilian,Airbnb,100 ,Train,370 
+54,Serengeti National Park,1/15/2024,1/24/2024,9,Felipe Almeida,30,Male,Brazilian,Airbnb,100,Train,370 
 55,Tokyo,2/1/2024,2/9/2024,8,Nisa Patel,23,Female,Indian,Hostel,60,Bus,440 
 56,Tokyo,3/15/2024,3/23/2024,8,Ben Smith,35,Male,British,Hotel,220,Train,420 
-57,Fjord Norway,4/5/2024,4/13/2024,8,Laura Gomez,29,Female,Spanish,Airbnb,140 ,Car rental,190 
+57,Fjord Norway,4/5/2024,4/13/2024,8,Laura Gomez,29,Female,Spanish,Airbnb,140,Car rental,190 
 58,Serengeti National Park,5/10/2024,5/18/2024,8,Park Min Woo,27,Male,South Korean,Hostel,50,None,0 
 59,Rio de Janeiro,6/20/2024,6/27/2024,7,Michael Chen,26,Male,Chinese,Hotel,150,Car rental,470 
-60,Rome,7/15/2024,7/23/2024,8,Sofia Rossi,33,Female,Italian,Airbnb,125 ,Train,100 
+60,Rome,7/15/2024,7/23/2024,8,Sofia Rossi,33,Female,Italian,Airbnb,125,Train,100 
 61,Rio de Janeiro,7/12/2022,7/18/2022,6,Rachel Sanders,35,Female,American,Hotel,150,Plane,690
 62,Barcelona,9/3/2022,9/10/2022,7,Kenji Nakamura,28,Male,Japanese,Hostel,60,Train,80
 63,Bali,1/7/2023,1/16/2023,9,Emily Watson,29,Female,British,None,0,Car rental,410
@@ -74,7 +74,7 @@
 73,Paris,1/1/2023,1/9/2023,8,Alex Kim,29,Male,American,Hotel,210,Train,90
 74,Cape Town,4/15/2023,4/22/2023,7,Maria Hernandez,42,Female,Mexican,Resort,250,Plane,720
 75,Blue Lagoon,6/7/2023,6/14/2023,7,John Smith,46,Male,British,Hotel,240,Plane,280
-76,Hawai'i Islands,9/1/2023,9/10/2023,9,Mark Johnson,31,Male,South African,None,0 USD,Car rental,500
+76,Hawai'i Islands,9/1/2023,9/10/2023,9,Mark Johnson,31,Male,South African,None,0,Car rental,500
 77,Taj Mahal,11/12/2023,11/19/2023,7,Amanda Chen,25,Female,Taiwanese,Resort,210,Plane,410
 78,Hawai'i Islands,2/5/2024,2/12/2024,7,David Lee,38,Male,Australian,Hotel,220,Plane,750
 79,Bali,5/15/2024,5/22/2024,7,Nana Kwon,27,Female,Korean,Hotel,110,Plane,650
@@ -92,17 +92,17 @@
 91,Rome,3/10/2022,3/20/2022,11,Giulia Rossi,30,Female,Italian,Hostel,65,Plane,150
 92,Bali,4/15/2022,4/25/2022,11,Putra Wijaya,33,Male,Indonesian,Villa,170,Car rental,410
 93,Grand Canyon,5/1/2022,5/10/2022,10,Kim Min-ji,27,Female,Korean,Hotel,140,Train,280
-94,Paris,6/15/2022,6/20/2022,5,John Smith,35,Male,USA,Hotel,210 ,Plane,120 
-95,Tokyo,9/1/2022,9/10/2022,9,Emily Johnson,28,Female,Canada,Airbnb,140 ,Train,420 
+94,Paris,6/15/2022,6/20/2022,5,John Smith,35,Male,USA,Hotel,210,Plane,120 
+95,Tokyo,9/1/2022,9/10/2022,9,Emily Johnson,28,Female,Canada,Airbnb,140,Train,420 
 96,Sydney Opera House,11/23/2022,12/2/2022,9,David Lee,45,Male,South Korea,Hostel,70,Plane,740
-97,London,2/14/2023,2/19/2023,5,Sarah Brown,37,Female,UK,Hotel,$600 ,Plane,$700 
-98,New York,5/8/2023,5/14/2023,6,Michael Wong,50,Male,China,Airbnb,150 ,Car rental,390 
+97,Paris,2/14/2023,2/19/2023,5,Sarah Brown,37,Female,UK,Hotel,210,Plane,120 
+98,New York,5/8/2023,5/14/2023,6,Michael Wong,50,Male,China,Airbnb,150,Car rental,390 
 99,Rome,8/20/2023,8/27/2023,7,Jessica Chen,31,Female,Taiwan,Hotel,200,Plane,150 
-100,Swiss Alps,11/12/2023,11/20/2023,8,Ken Tanaka,42,Male,Japan,Hostel,85 ,Train,95 
+100,Swiss Alps,11/12/2023,11/20/2023,8,Ken Tanaka,42,Male,Japan,Hostel,85,Train,95 
 101,Cape Town,1/6/2024,1/14/2024,8,Maria Garcia,27,Female,Spain,Airbnb,90,Plane,720
-102,Rio de Janeiro,4/3/2024,4/10/2024,7,Rodrigo Oliveira,33,Male,Brazil,Hotel,150 ,Car rental,470
+102,Rio de Janeiro,4/3/2024,4/10/2024,7,Rodrigo Oliveira,33,Male,Brazil,Hotel,150,Car rental,470
 103,Bali,7/22/2024,7/28/2024,6,Olivia Kim,29,Female,South Korea,Villa,170,Plane,650
-104,Barcelona,10/10/2024,10/17/2024,7,Robert Mueller,41,Male,Germany,Hotel,190 ,Train,80 
+104,Barcelona,10/10/2024,10/17/2024,7,Robert Mueller,41,Male,Germany,Hotel,190,Train,80 
 105,Paris,5/15/2022,5/20/2022,5,John Smith,35,Male,USA,Hotel,210,Plane,120
 106,Tokyo,9/1/2022,9/10/2022,9,Sarah Lee,28,Female,South Korea,Airbnb,140,Train,420
 107,New York,6/20/2022,6/25/2022,5,Michael Wong,42,Male,Hong Kong,Hotel,150,Car rental,390

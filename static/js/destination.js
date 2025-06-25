@@ -1,7 +1,7 @@
 
   // 1. Destination data
 const destinations = {
-    Canyon: {
+    GrandCanyon: {
         name: "Grand Canyon",
         description: `A sheer mile-deep gorge carved over six million years by
         the Colorado River, offering vistas that shift from rust-red cliffs to shadowed side canyons.
@@ -24,7 +24,7 @@ const destinations = {
             "Car rental": 370
         }
     },
-    Niagara:{
+    NiagaraFalls:{
         name: "Niagara Falls",
         description: `A spectacular triad of waterfalls straddling the US-Canada border, Niagara Falls is famed 
         for its thunderous Horseshoe Falls, scenic walking paths, and mist-drenched cliffside view decks. 
@@ -47,7 +47,7 @@ const destinations = {
             "Car rental": 370
         }
     },
-    Banff:{
+    BanffNationalPark:{
         name: "Banff National Park",
         description: `Canada's first national park, nestled in the heart of the Rockies, captivates with towering glaciated peaks, 
         turquoise lakes, and dense forests. Watch wildlife (bears, elk, wolves), paddle Lake Louise or Moraine Lake, 
@@ -92,8 +92,8 @@ const destinations = {
             "Car rental": 390
         }
     },
-    Hawaii:{
-        name: "Hawai'i Islands",
+    HawaiiIslands:{
+        name: "Hawaii Islands",
         description: `Hawaii is a Pacific paradise of volcanic landscapes, lush rainforests, waterfalls, 
         and palm-lined beaches. Each island offers something distinct: O'ahu's surf and nightlife, Maui's 
         Road to Hāna and luxury, Kaua'i's dramatic cliffs, and the Big Island's lava flows and stargazing. 
@@ -137,7 +137,7 @@ const destinations = {
             "Car rental": 410
         }
     },
-    Rio:{
+    RiodeJaneiro:{
         name: "Rio de Janeiro",
         description: `Famed for its carnival spirit, dramatic landscapes, and samba rhythms, Rio is a city of vibrant contrasts. 
         Christ the Redeemer watches over lush mountains, golden beaches like Copacabana, and a buzzing urban life. 
@@ -160,7 +160,7 @@ const destinations = {
         }
     },
     Patagonia:{
-        name: "Patagonia - Torres del Paine",
+        name: "Patagonia",
         description: `Patagonia is a vast wilderness at the edge of the world, home to jagged peaks, glaciers, 
         wind-swept steppes, and pristine lakes. From trekking in Torres del Paine to cruising past icebergs in 
         Los Glaciares National Park, it's a dream for adventurers. Wildlife like guanacos, condors, and penguins 
@@ -288,7 +288,7 @@ const destinations = {
             "Car rental": 200
         }
     },
-    Alps:{
+    SwissAlps:{
         name: "Swiss Alps",
         description: `A panorama of jagged peaks, alpine meadows, and glacial lakes, 
         the Swiss Alps offer four-season adventure. Ski world-class resorts like Zermatt or St. Moritz, 
@@ -332,7 +332,7 @@ const destinations = {
         }
     },
     Fjord:{
-        name: "Fjord Norway",
+        name: "Fjord",
         description: `Norway's fjords are nature's masterpieces — steep cliffs, thundering waterfalls, 
         and glassy inlets carved by ancient glaciers. Cruise through Geirangerfjord or Nærøyfjord, 
         explore charming fishing villages, and hike to panoramic lookouts. With midnight sun or northern lights, 
@@ -396,7 +396,7 @@ const destinations = {
             "Car rental": 410
         }
     },
-    GreatWall:{
+    GreatWallofChina:{
         name: "Great Wall of China",
         description: `Winding over 13,000 miles across mountains and deserts, the Great Wall of China 
         is one of the most iconic and ambitious feats of human engineering. Built over centuries to protect Chinese empires, 
@@ -462,7 +462,7 @@ const destinations = {
             "Car rental": 440
         }
     },
-    Serengeti:{
+    SerengetiNationalPark:{
         name: "Serengeti National Park",
         description: `A vast savannah teeming with life, Serengeti National Park is the stage for the Great Migration — 
         millions of wildebeest and zebras crossing plains and rivers. Home to the “Big Five,” 
@@ -484,7 +484,7 @@ const destinations = {
             "Car rental": 460
         }
     },
-    Cape:{
+    CapeTown:{
         name: "Cape Town",
         description: `Cape Town is a city of striking contrasts — nestled between Table Mountain and the Atlantic, 
         it offers beaches, vineyards, and rich history. Take a cable car to the summit, visit Robben Island, 
@@ -506,7 +506,7 @@ const destinations = {
             "Car rental": 490
         }
     },
-    Victoria:{
+    VictoriaFalls:{
         name: "Victoria Falls",
         description: `Known as "The Smoke That Thunders," Victoria Falls is one of the largest and most powerful 
         waterfalls in the world. The Zambezi River plunges over 100 meters into a dramatic gorge, sending mist and rainbows 
@@ -549,7 +549,7 @@ const destinations = {
             "Car rental": 420
         }
     },
-    Giza:{
+    PyramidsofGiza:{
         name: "Pyramids of Giza",
         description: `Giza is home to the iconic Pyramids and the Great Sphinx, standing as 
         ancient guardians on the edge of the Sahara. These monumental tombs, built over 4,500 years ago, 
@@ -571,7 +571,7 @@ const destinations = {
             "Car rental": 290
         }
     },
-    BarrierReef:{
+    GreatBarrierReef:{
         name: "Great Barrier Reef",
         description: `The world's largest coral reef system, the Great Barrier Reef stretches over 2,300 kilometers 
         along Australia's northeast coast. It hosts an underwater paradise of coral gardens, sea turtles, reef sharks, 
@@ -594,7 +594,7 @@ const destinations = {
         }
     },
     Sydney:{
-        name: "Sydney Opera House",
+        name: "Sydney",
         description: `Sydney dazzles with its iconic harbor, the white sails of the Opera House, 
         and the arching Harbour Bridge. Bondi Beach, Darling Harbour, and historic The Rocks all offer coastal charm, 
         while the Blue Mountains lie just beyond. Culture, nature, and cosmopolitan flair unite in this dynamic Australian city.`,
@@ -615,7 +615,7 @@ const destinations = {
         }
     },
     Uluru:{
-        name: "Uluru (Ayers Rock)",
+        name: "Uluru",
         description: `Uluru, also known as Ayers Rock, is a sacred sandstone monolith rising from Australia's Red Centre. 
         Its color changes with the light, especially stunning at sunrise and sunset. Deeply significant to 
         the Anangu people, it offers guided walks, Aboriginal stories, and a profound connection to the land.`,
@@ -635,8 +635,8 @@ const destinations = {
             "Car rental": 490
         }
     },
-    Antartica:{
-        name: "Antarctic Peninsula",
+    AntarticaPeninsula:{
+        name: "Antartica Peninsula",
         description: `A journey to the Antarctic Peninsula is a true expedition to Earth's last great wilderness. 
         Towering icebergs, glaciers, and snow-covered mountains frame colonies of penguins, seals, and passing whales. 
         Visitors arrive by icebreaker or cruise, stepping onto a continent untouched by cities and rich with raw, frozen beauty.`,
@@ -672,38 +672,38 @@ if (place && destinations[place]) {
     document.getElementById("inputCity").readOnly = true;
     const accSelect = document.getElementById("inputAccommodation");
     Array.from(accSelect.options).forEach((option) => {
-        const value = option.value;
-        if (value && destination.accommodationPrices[value]) {
-            option.textContent = `${value} $${destination.accommodationPrices[value]}`;
-        } else if (value) {
-            option.textContent = value; // fallback if no price
+        const baseValue = option.value;
+        if (baseValue && destination.accommodationPrices[baseValue] != null) {
+            const price = destination.accommodationPrices[baseValue];
+            option.textContent = `${baseValue} $${price}`;
+            option.value = `${baseValue} $${price}`;
+        } else if (baseValue) {
+            option.textContent = baseValue;
+            option.value = `${baseValue} $0`;
         }
     });
-const transportSelect = document.getElementById("inputTransport");
-Array.from(transportSelect.options).forEach((option) => {
-    const value = option.value;
-    if (value && destination.transportPrices[value] != null) {
-        option.textContent = `${value} $${destination.transportPrices[value]}`;
-        option.style.display = ""; // show valid ones
-    } else if (value) {
-        option.style.display = "none"; // hide options with null price
-    }
+    const transportSelect = document.getElementById("inputTransport");
+    Array.from(transportSelect.options).forEach((option) => {
+        const baseValue = option.value;
+        if (baseValue && destination.transportPrices[baseValue] != null) {
+            const price = destination.transportPrices[baseValue];
+            option.textContent = `${baseValue} $${price}`;
+            option.value = `${baseValue} $${price}`;
+            option.style.display = "";
+        } else if (baseValue !== "None") {
+            option.style.display = "none";
+        }
     });
     document.getElementById("inputCost").value = `$${destination.serviceCost}`;
     function calculateTotalCost(destination) {
-        const accommodationType = document.getElementById("inputAccommodation").value;
-        const transportType = document.getElementById("inputTransport").value;
-
-        let totalCost = destination.serviceCost; // Start with service cost
-
-        if (accommodationType !== "None" && destination.accommodationPrices[accommodationType]) {
-            totalCost += destination.accommodationPrices[accommodationType];
-        }
-
-        if (transportType !== "None" && destination.transportPrices[transportType]) {
-            totalCost += destination.transportPrices[transportType];
-        }
-
+        const accRaw = document.getElementById("inputAccommodation").value;
+        const transportRaw = document.getElementById("inputTransport").value;
+        const [accType, accPriceStr] = accRaw.split(" $");
+        const [transType, transPriceStr] = transportRaw.split(" $");
+        let totalCost = destination.serviceCost;
+        const accPrice = parseFloat(accPriceStr) || 0;
+        const transPrice = parseFloat(transPriceStr) || 0;
+        totalCost += accPrice + transPrice;
         document.getElementById("inputCost").value = `$${totalCost}`;
     }
     document.getElementById("inputAccommodation").addEventListener("change", () => calculateTotalCost(destination));
@@ -712,3 +712,5 @@ Array.from(transportSelect.options).forEach((option) => {
     document.getElementById("location-name").textContent = "DESTINATION NOT FOUND";
     document.getElementById("location-description").textContent = "We couldn't load the destination info.";
 }
+
+
