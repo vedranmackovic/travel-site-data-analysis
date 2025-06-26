@@ -136,3 +136,866 @@
 135,Victoria Falls,9/1/2023,9/8/2023,7,Ryan Chen,34,Male,Chinese,Hostel,50,Train,350
 136,Patagonia - Torres del Paine,9/15/2023,9/22/2023,7,Sofia Rodriguez,25,Female,Spanish,Airbnb,85,Plane,630
 137,Patagonia - Torres del Paine,10/1/2023,10/8/2023,7,William Brown,39,Male,New Zealander,Hotel,130,Train,380
+138,Barcelona,6/3/2024,6/11/2024,8,Luca Lee,52,Female,Japanese,Villa,260,Car rental,140
+139,Rome,10/12/2025,10/21/2025,9,Skyler Martin,33,Male,Spanish,Hostel,65,Plane,150
+140,Rio de Janeiro,8/11/2025,8/19/2025,8,Shawn Martinez,39,Female,Chinese,Airbnb,90,Car rental,470
+141,Rome,4/4/2024,4/11/2024,7,Drew Hernandez,30,Female,Spanish,Airbnb,125,Plane,150
+142,Tokyo,4/24/2023,5/3/2023,9,Phoenix Thompson,20,Female,French,Resort,360,Train,440
+143,Rio de Janeiro,6/10/2023,6/17/2023,7,Remy Adams,36,Female,Indian,Resort,240,Plane,690
+144,Barcelona,8/5/2025,8/13/2025,8,Noel Martinez,28,Female,German,Airbnb,120,Bus,80
+145,Tokyo,4/21/2025,4/30/2025,9,Jesse Garcia,50,Male,German,Resort,360,Plane,700
+146,Tokyo,9/15/2024,9/23/2024,8,Justice Lopez,54,Male,Spanish,Resort,360,Plane,700
+147,Tokyo,3/13/2023,3/22/2023,9,River Davis,21,Female,Australian,Airbnb,140,Car rental,470
+148,Rio de Janeiro,8/10/2023,8/16/2023,6,Sam Clark,37,Male,Australian,Hotel,150,Train,420
+149,Tokyo,10/20/2025,10/27/2025,7,Bailey Moore,41,Female,Spanish,Resort,360,Car rental,470
+150,Rio de Janeiro,7/19/2024,7/28/2024,9,Skyler Scott,48,Male,Japanese,Villa,200,Car rental,470
+151,Rio de Janeiro,8/4/2025,8/11/2025,7,Sky Rivera,35,Male,Indian,Resort,240,Bus,400
+152,Barcelona,6/6/2023,6/16/2023,10,Sam Clark,38,Male,Australian,Airbnb,120,Bus,80
+153,Barcelona,8/20/2024,8/29/2024,9,Sam Clark,37,Male,Australian,Hotel,190,Car rental,140
+154,Tokyo,5/23/2025,6/1/2025,9,Kendall Taylor,23,Male,Spanish,Hostel,60,Plane,700
+155,Barcelona,6/18/2024,6/25/2024,7,Sam Clark,37,Male,Australian,Airbnb,120,Train,65
+156,Barcelona,6/6/2023,6/14/2023,8,Tatum Miller,24,Male,German,Airbnb,120,Train,65
+157,Rio de Janeiro,7/23/2023,7/31/2023,8,Devin Anderson,47,Female,French,Airbnb,90,Car rental,470
+158,Rome,3/20/2024,3/26/2024,6,Drew Hernandez,30,Female,Spanish,Airbnb,125,Car rental,170
+159,Bali,6/8/2023,6/18/2023,10,Sawyer Brown,55,Male,British,Resort,200,Plane,650
+160,Tokyo,9/17/2023,9/26/2023,9,Emerson Lopez,50,Female,Indian,Airbnb,140,Bus,420
+161,Barcelona,7/3/2025,7/12/2025,9,Remy Adams,36,Female,Indian,Resort,310,Car rental,140
+162,Rome,3/6/2025,3/14/2025,8,Morgan White,34,Male,American,Airbnb,125,Plane,150
+163,Rome,3/15/2025,3/21/2025,6,Logan Mitchell,50,Male,French,Airbnb,125,Car rental,170
+164,Bali,8/1/2024,8/11/2024,10,Phoenix Thompson,20,Female,French,Airbnb,70,Bus,370
+165,Rome,5/20/2025,5/29/2025,9,Shawn Nelson,49,Male,Indian,Hotel,200,Train,85
+166,Rome,10/5/2024,10/13/2024,8,Sam Clark,38,Male,Australian,Hotel,200,Train,85
+167,Rome,10/8/2025,10/15/2025,7,Kendall Baker,26,Male,Indian,Hotel,200,Bus,100
+168,Rio de Janeiro,6/4/2023,6/13/2023,9,Sky Rivera,35,Male,Indian,Hotel,150,Car rental,470
+169,Barcelona,8/9/2025,8/18/2025,9,Harper Martinez,26,Male,Spanish,Villa,260,Plane,110
+170,Rome,4/13/2025,4/20/2025,7,Jesse Torres,20,Male,German,Hostel,65,Car rental,170
+171,Rio de Janeiro,7/11/2024,7/21/2024,10,Devin Anderson,47,Female,French,Hostel,55,Bus,400
+172,Tokyo,10/22/2025,10/31/2025,9,Elliot Gonzalez,53,Female,Spanish,Airbnb,140,Plane,700
+173,Rome,5/18/2024,5/28/2024,10,Cameron Roberts,44,Female,Japanese,Resort,320,Car rental,170
+174,Rome,4/19/2025,4/28/2025,9,Milan Robinson,55,Female,German,Airbnb,125,Train,85
+175,Rome,9/23/2025,10/2/2025,9,Jordan Campbell,47,Male,German,Hotel,200,Plane,150
+176,Barcelona,8/19/2023,8/27/2023,8,Noel Torres,46,Male,Australian,Villa,260,Bus,80
+177,Rome,4/14/2023,4/21/2023,7,Sawyer Martin,47,Female,Canadian,Hotel,200,Car rental,170
+178,Rome,9/21/2025,9/27/2025,6,Sam Clark,37,Male,Australian,Airbnb,125,Plane,150
+179,Rio de Janeiro,8/25/2025,9/3/2025,9,Luca Thompson,26,Male,Australian,Villa,200,Plane,690
+180,Tokyo,5/8/2023,5/14/2023,6,Kai Hernandez,35,Male,French,Resort,360,Bus,420
+181,Tokyo,5/1/2023,5/7/2023,6,Sawyer Brown,55,Male,British,Hotel,220,Car rental,470
+182,Tokyo,9/5/2024,9/12/2024,7,Bailey Lewis,46,Female,American,Airbnb,140,Plane,700
+183,Rome,4/3/2023,4/13/2023,10,Avery Baker,40,Male,Indian,Resort,320,Train,85
+184,Rio de Janeiro,6/8/2025,6/17/2025,9,Milan Robinson,55,Female,German,Hostel,55,Car rental,470
+185,Bali,6/15/2025,6/23/2025,8,Cameron Johnson,55,Male,Spanish,Villa,170,Plane,650
+186,Rio de Janeiro,7/19/2024,7/27/2024,8,Casey Baker,41,Female,British,Hostel,55,Bus,400
+187,Rome,4/13/2024,4/22/2024,9,Cameron Johnson,55,Male,Spanish,Airbnb,125,Car rental,170
+188,Barcelona,7/23/2025,7/31/2025,8,Justice Lopez,54,Male,Spanish,Villa,260,Plane,110
+189,Rome,3/20/2025,3/29/2025,9,Cameron Johnson,27,Female,Canadian,Airbnb,125,Bus,100
+190,Barcelona,8/7/2023,8/17/2023,10,Noel Gomez,23,Male,American,Resort,310,Plane,110
+191,Barcelona,7/2/2024,7/12/2024,10,Chris Gonzalez,46,Male,Canadian,Hotel,190,Bus,80
+192,Barcelona,8/14/2024,8/21/2024,7,Noel Martinez,28,Female,German,Hotel,190,Plane,110
+193,Barcelona,8/9/2025,8/16/2025,7,Emerson Robinson,33,Female,Canadian,Resort,310,Plane,110
+194,Rome,9/3/2023,9/10/2023,7,Chris Gonzalez,46,Male,Canadian,Airbnb,125,Plane,150
+195,Barcelona,7/1/2023,7/9/2023,8,Alex Davis,24,Male,German,Villa,260,Plane,110
+196,Tokyo,5/19/2025,5/28/2025,9,Casey Williams,41,Male,German,Villa,310,Plane,700
+197,Bali,6/20/2024,6/30/2024,10,Cameron Johnson,55,Male,Spanish,Hotel,110,Train,390
+198,Rio de Janeiro,7/23/2025,7/31/2025,8,Bailey Lewis,46,Female,American,Hostel,55,Bus,400
+199,Rome,3/10/2023,3/19/2023,9,Dana Jackson,49,Male,British,Hotel,200,Train,85
+200,Tokyo,9/12/2024,9/22/2024,10,Skyler Garcia,35,Female,French,Hostel,60,Train,440
+201,Rio de Janeiro,6/16/2025,6/26/2025,10,Shawn Thompson,37,Male,Indian,Hostel,55,Car rental,470
+202,Bali,7/15/2023,7/22/2023,7,Logan Mitchell,50,Male,French,Hotel,110,Plane,650
+203,Tokyo,9/9/2023,9/16/2023,7,Noel Martinez,28,Female,German,Airbnb,140,Plane,700
+204,Rome,10/1/2025,10/7/2025,6,Harper Martinez,26,Male,Spanish,Hotel,200,Train,85
+205,Barcelona,8/7/2023,8/17/2023,10,Luca Thompson,26,Male,Australian,Hostel,60,Train,65
+206,Barcelona,6/9/2025,6/16/2025,7,Sawyer Ramirez,23,Male,Japanese,Airbnb,120,Train,65
+207,Rio de Janeiro,8/1/2023,8/8/2023,7,Spencer Garcia,31,Male,Spanish,Airbnb,90,Train,420
+208,Bali,6/9/2023,6/15/2023,6,Shiloh Lee,53,Male,German,Hostel,40,Plane,650
+209,Rome,3/16/2025,3/25/2025,9,Spencer Garcia,31,Male,Spanish,Resort,320,Bus,100
+210,Bali,8/8/2024,8/18/2024,10,Skyler Scott,48,Male,Japanese,Resort,200,Bus,370
+211,Rio de Janeiro,6/2/2025,6/11/2025,9,Jesse Garcia,50,Male,German,Airbnb,90,Car rental,470
+212,Rome,9/3/2025,9/9/2025,6,Harper Jackson,47,Female,American,Hotel,200,Car rental,170
+213,Rio de Janeiro,7/20/2023,7/30/2023,10,Bailey Lewis,46,Female,American,Hostel,55,Bus,400
+214,Bali,8/20/2024,8/29/2024,9,Shawn Martinez,39,Female,Chinese,Villa,170,Plane,650
+215,Tokyo,9/8/2024,9/17/2024,9,Sawyer Martin,47,Female,Canadian,Resort,360,Train,440
+216,Rome,3/11/2025,3/20/2025,9,Alex White,39,Female,Japanese,Villa,275,Car rental,170
+217,Bali,7/3/2025,7/9/2025,6,Phoenix Thompson,20,Female,French,Airbnb,70,Train,390
+218,Tokyo,5/5/2025,5/15/2025,10,Harper Smith,24,Male,Australian,Villa,310,Bus,420
+219,Rio de Janeiro,6/14/2025,6/22/2025,8,Kendall Miller,21,Female,Spanish,Resort,240,Plane,690
+220,Rome,5/12/2025,5/18/2025,6,Remy Sanchez,45,Male,British,Hotel,200,Plane,150
+221,Rio de Janeiro,7/8/2025,7/14/2025,6,Spencer Roberts,31,Male,Indian,Hostel,55,Train,420
+222,Rio de Janeiro,8/8/2024,8/17/2024,9,Morgan White,34,Male,American,Airbnb,90,Bus,400
+223,Rio de Janeiro,8/23/2025,8/31/2025,8,Luca Lee,52,Female,Japanese,Resort,240,Bus,400
+224,Barcelona,7/1/2024,7/8/2024,7,Rowan Baker,44,Male,Spanish,Airbnb,120,Plane,110
+225,Rio de Janeiro,8/21/2023,8/27/2023,6,Alex Garcia,35,Male,Japanese,Villa,200,Bus,400
+226,Rio de Janeiro,7/11/2024,7/18/2024,7,Sawyer Martinez,49,Female,French,Hostel,55,Car rental,470
+227,Bali,6/6/2023,6/16/2023,10,River King,32,Male,Chinese,Airbnb,70,Bus,370
+228,Tokyo,9/16/2025,9/26/2025,10,Noel Lewis,34,Male,German,Airbnb,140,Car rental,470
+229,Rome,3/12/2025,3/21/2025,9,Kendall Baker,26,Male,Indian,Airbnb,125,Train,85
+230,Bali,8/10/2025,8/16/2025,6,Skyler Garcia,35,Female,French,Resort,200,Car rental,410
+231,Rome,4/10/2023,4/17/2023,7,Skyler Martin,33,Male,Spanish,Resort,320,Bus,100
+232,Barcelona,6/1/2024,6/10/2024,9,Shawn Taylor,29,Male,British,Airbnb,120,Plane,110
+233,Rome,10/23/2024,10/30/2024,7,Kai Mitchell,52,Female,German,Hostel,65,Train,85
+234,Rio de Janeiro,8/2/2024,8/11/2024,9,Payton Perez,31,Female,Australian,Airbnb,90,Bus,400
+235,Rome,9/19/2025,9/28/2025,9,Cameron Johnson,27,Female,Canadian,Hotel,200,Plane,150
+236,Rome,3/11/2024,3/18/2024,7,Logan Taylor,55,Female,Spanish,Airbnb,125,Bus,100
+237,Rome,3/8/2024,3/17/2024,9,Drew Miller,55,Male,Indian,Airbnb,125,Bus,100
+238,Rome,5/24/2024,6/1/2024,8,Emerson Lopez,50,Female,Indian,Resort,320,Bus,100
+239,Bali,8/4/2025,8/14/2025,10,Skyler Martin,33,Male,Spanish,Hostel,40,Bus,370
+240,Barcelona,8/5/2025,8/12/2025,7,Hayden Jackson,55,Male,German,Airbnb,120,Plane,110
+241,Barcelona,8/5/2023,8/11/2023,6,Justice Lopez,54,Male,Spanish,Airbnb,120,Train,65
+242,Rome,10/21/2025,10/31/2025,10,Sam Allen,21,Male,Chinese,Villa,275,Car rental,170
+243,Rio de Janeiro,6/10/2025,6/19/2025,9,Remy Adams,36,Female,Indian,Hotel,150,Plane,690
+244,Tokyo,3/21/2024,3/27/2024,6,Blake Jackson,49,Female,Canadian,Hotel,220,Plane,700
+245,Rio de Janeiro,8/18/2024,8/24/2024,6,Reese Jackson,51,Male,German,Resort,240,Car rental,470
+246,Rio de Janeiro,7/17/2025,7/24/2025,7,Blake Jackson,49,Female,Canadian,Hostel,55,Plane,690
+247,Rome,3/17/2025,3/24/2025,7,Kendall Miller,21,Female,Spanish,Hotel,200,Plane,150
+248,Barcelona,8/20/2025,8/27/2025,7,Jesse Garcia,50,Male,German,Villa,260,Car rental,140
+249,Bali,7/22/2024,8/1/2024,10,Noel Martinez,28,Female,German,Airbnb,70,Car rental,410
+250,Bali,8/22/2023,8/31/2023,9,Noel Lewis,34,Male,German,Hotel,110,Plane,650
+251,Bali,6/19/2024,6/26/2024,7,Noel Gomez,23,Male,American,Resort,200,Train,390
+252,Bali,8/3/2025,8/11/2025,8,Morgan White,34,Male,American,Villa,170,Train,390
+253,Rome,10/3/2025,10/12/2025,9,Luca Lee,52,Female,Japanese,Airbnb,125,Train,85
+254,Bali,6/7/2024,6/15/2024,8,Hayden Jackson,55,Male,German,Hotel,110,Plane,650
+255,Rome,4/3/2023,4/11/2023,8,Shawn Taylor,29,Male,British,Hostel,65,Train,85
+256,Rio de Janeiro,7/25/2025,8/4/2025,10,Sawyer Martin,47,Female,Canadian,Resort,240,Bus,400
+257,Rio de Janeiro,6/23/2023,7/3/2023,10,Spencer Garcia,31,Male,Spanish,Villa,200,Train,420
+258,Rome,4/15/2024,4/25/2024,10,Parker Robinson,24,Female,Australian,Hotel,200,Car rental,170
+259,Rome,9/7/2024,9/15/2024,8,Noel Gomez,23,Male,American,Hostel,65,Train,85
+260,Barcelona,6/21/2024,6/30/2024,9,Shawn Thompson,37,Male,Indian,Hostel,60,Train,65
+261,Rio de Janeiro,6/25/2024,7/2/2024,7,River King,32,Male,Chinese,Hotel,150,Bus,400
+262,Rome,3/8/2024,3/17/2024,9,Elliot Gonzalez,53,Female,Spanish,Resort,320,Train,85
+263,Tokyo,10/12/2024,10/19/2024,7,Morgan White,34,Male,American,Villa,310,Bus,420
+264,Tokyo,5/4/2023,5/12/2023,8,Noel Torres,46,Male,Australian,Airbnb,140,Train,440
+265,Barcelona,8/5/2024,8/14/2024,9,Alex Garcia,35,Male,Japanese,Hotel,190,Plane,110
+266,Rio de Janeiro,7/7/2023,7/14/2023,7,Blake Jackson,49,Female,Canadian,Hotel,150,Bus,400
+267,Rio de Janeiro,7/8/2023,7/16/2023,8,Shawn Martinez,39,Female,Chinese,Resort,240,Car rental,470
+268,Tokyo,10/15/2025,10/21/2025,6,Harper Martinez,26,Male,Spanish,Hostel,60,Car rental,470
+269,Rome,10/19/2025,10/26/2025,7,Skyler Garcia,35,Female,French,Resort,320,Bus,100
+270,Barcelona,8/12/2023,8/19/2023,7,Skyler Campbell,24,Male,Australian,Airbnb,120,Car rental,140
+271,Rome,5/3/2025,5/13/2025,10,Spencer Roberts,31,Male,Indian,Hostel,65,Bus,100
+272,Rio de Janeiro,7/2/2024,7/11/2024,9,Kai Hernandez,35,Male,French,Resort,240,Bus,400
+273,Bali,7/8/2023,7/14/2023,6,River King,32,Male,Chinese,Hotel,110,Plane,650
+274,Rio de Janeiro,7/18/2023,7/26/2023,8,Shawn Taylor,29,Male,British,Airbnb,90,Train,420
+275,Barcelona,6/5/2025,6/11/2025,6,Tatum Miller,24,Male,German,Villa,260,Car rental,140
+276,Rome,3/7/2023,3/13/2023,6,Skyler Campbell,24,Male,Australian,Hotel,200,Plane,150
+277,Barcelona,8/11/2023,8/19/2023,8,Alex Davis,24,Male,German,Airbnb,120,Plane,110
+278,Bali,7/13/2025,7/21/2025,8,Harper Martinez,26,Male,Spanish,Villa,170,Car rental,410
+279,Rome,5/3/2025,5/12/2025,9,River Davis,21,Female,Australian,Villa,275,Plane,150
+280,Bali,8/23/2024,9/1/2024,9,Harper Smith,24,Male,Australian,Airbnb,70,Plane,650
+281,Rome,5/20/2023,5/29/2023,9,Parker Robinson,24,Female,Australian,Airbnb,125,Car rental,170
+282,Tokyo,10/24/2024,10/31/2024,7,Remy Adams,36,Female,Indian,Hotel,220,Car rental,470
+283,Barcelona,6/3/2023,6/10/2023,7,Rowan Baker,44,Male,Spanish,Resort,310,Car rental,140
+284,Bali,6/20/2025,6/27/2025,7,Skyler Scott,48,Male,Japanese,Airbnb,70,Car rental,410
+285,Rome,3/19/2024,3/26/2024,7,Casey Baker,41,Female,British,Airbnb,125,Plane,150
+286,Bali,7/8/2025,7/14/2025,6,Avery Baker,40,Male,Indian,Villa,170,Plane,650
+287,Barcelona,6/9/2025,6/17/2025,8,Rowan Baker,44,Male,Spanish,Villa,260,Car rental,140
+288,Rome,9/7/2025,9/13/2025,6,Logan Taylor,55,Female,Spanish,Hostel,65,Plane,150
+289,Tokyo,9/3/2025,9/11/2025,8,Jamie Jackson,48,Male,French,Villa,310,Train,440
+290,Bali,6/23/2024,6/30/2024,7,Remy Sanchez,45,Male,British,Hotel,110,Plane,650
+291,Rio de Janeiro,6/8/2023,6/17/2023,9,Noel Martinez,28,Female,German,Hostel,55,Bus,400
+292,Bali,8/5/2024,8/15/2024,10,Rowan Baker,44,Male,Spanish,Resort,200,Plane,650
+293,Tokyo,9/17/2025,9/26/2025,9,Sawyer Martinez,49,Female,French,Airbnb,140,Car rental,470
+294,Rome,5/21/2023,5/27/2023,6,Shawn Taylor,29,Male,British,Resort,320,Bus,100
+295,Rome,10/21/2023,10/31/2023,10,Blake Jackson,49,Female,Canadian,Resort,320,Plane,150
+296,Barcelona,8/5/2023,8/13/2023,8,River Davis,21,Female,Australian,Villa,260,Bus,80
+297,Barcelona,8/10/2024,8/16/2024,6,Parker Robinson,24,Female,Australian,Airbnb,120,Train,65
+298,Barcelona,8/10/2023,8/20/2023,10,Chris Gonzalez,46,Male,Canadian,Resort,310,Plane,110
+299,Tokyo,10/5/2025,10/12/2025,7,Casey Williams,41,Male,German,Resort,360,Train,440
+300,Rio de Janeiro,6/1/2025,6/7/2025,6,Sage Hill,53,Female,Indian,Resort,240,Plane,690
+301,Rio de Janeiro,7/20/2025,7/26/2025,6,Jesse Garcia,50,Male,German,Airbnb,90,Train,420
+302,Rio de Janeiro,6/22/2024,7/1/2024,9,Arden Hall,32,Female,Japanese,Airbnb,90,Plane,690
+303,Rome,9/14/2023,9/23/2023,9,Alex Thompson,28,Female,Canadian,Hotel,200,Bus,100
+304,Barcelona,8/11/2024,8/19/2024,8,Shawn Nelson,49,Male,Indian,Airbnb,120,Train,65
+305,Barcelona,6/15/2024,6/21/2024,6,Harper Jackson,47,Female,American,Airbnb,120,Bus,80
+306,Rome,3/10/2023,3/19/2023,9,Elliot Gonzalez,53,Female,Spanish,Hostel,65,Train,85
+307,Rome,10/24/2024,11/1/2024,8,Reese Jackson,51,Male,German,Hostel,65,Train,85
+308,Barcelona,7/16/2024,7/22/2024,6,Logan Green,54,Male,Japanese,Villa,260,Car rental,140
+309,Rome,4/19/2023,4/27/2023,8,Sawyer Martinez,49,Female,French,Resort,320,Car rental,170
+310,Tokyo,5/25/2024,6/3/2024,9,Shiloh Lee,53,Male,German,Villa,310,Train,440
+311,Tokyo,10/7/2025,10/15/2025,8,Noel Martinez,28,Female,German,Villa,310,Bus,420
+312,Bali,7/25/2025,8/4/2025,10,Shawn Martinez,39,Female,Chinese,Hotel,110,Car rental,410
+313,Rio de Janeiro,8/17/2023,8/26/2023,9,Alex White,39,Female,Japanese,Airbnb,90,Train,420
+314,Tokyo,5/16/2023,5/26/2023,10,Payton Perez,31,Female,Australian,Hotel,220,Bus,420
+315,Barcelona,8/11/2024,8/18/2024,7,Kendall Thomas,34,Male,Australian,Resort,310,Train,65
+316,Rio de Janeiro,8/18/2025,8/27/2025,9,Jamie Garcia,51,Male,German,Airbnb,90,Plane,690
+317,Rio de Janeiro,7/11/2023,7/17/2023,6,Logan Taylor,55,Female,Spanish,Airbnb,90,Car rental,470
+318,Rio de Janeiro,7/9/2025,7/19/2025,10,Shawn Thompson,37,Male,Indian,Airbnb,90,Bus,400
+319,Barcelona,8/21/2023,8/31/2023,10,Spencer Roberts,31,Male,Indian,Hotel,190,Car rental,140
+320,Rome,10/23/2023,10/29/2023,6,Skyler Scott,48,Male,Japanese,Hostel,65,Train,85
+321,Tokyo,4/14/2024,4/21/2024,7,Logan Green,54,Male,Japanese,Villa,310,Plane,700
+322,Rio de Janeiro,8/2/2025,8/9/2025,7,Logan Mitchell,50,Male,French,Resort,240,Car rental,470
+323,Barcelona,7/17/2025,7/26/2025,9,Tatum Green,44,Female,American,Resort,310,Plane,110
+324,Barcelona,7/22/2025,7/30/2025,8,Phoenix Thompson,20,Female,French,Villa,260,Plane,110
+325,Rome,10/10/2024,10/17/2024,7,Reese Jackson,51,Male,German,Hostel,65,Train,85
+326,Bali,7/12/2024,7/22/2024,10,Alex Thompson,28,Female,Canadian,Hostel,40,Car rental,410
+327,Bali,8/18/2025,8/27/2025,9,Noel Harris,30,Male,Canadian,Airbnb,70,Bus,370
+328,Bali,7/23/2023,7/29/2023,6,Jamie Garcia,51,Male,German,Hostel,40,Plane,650
+329,Rome,4/18/2023,4/26/2023,8,Morgan White,34,Male,American,Airbnb,125,Car rental,170
+330,Tokyo,4/2/2025,4/8/2025,6,Bailey Moore,41,Female,Spanish,Resort,360,Train,440
+331,Bali,6/1/2025,6/11/2025,10,Logan Mitchell,50,Male,French,Villa,170,Bus,370
+332,Rome,4/25/2025,5/3/2025,8,Emerson Davis,35,Male,British,Villa,275,Car rental,170
+333,Bali,8/8/2025,8/18/2025,10,Bailey Lewis,46,Female,American,Hotel,110,Bus,370
+334,Tokyo,3/13/2023,3/22/2023,9,Logan Walker,31,Male,Indian,Hostel,60,Car rental,470
+335,Bali,8/20/2024,8/26/2024,6,River Davis,21,Female,Australian,Hotel,110,Bus,370
+336,Tokyo,9/21/2025,9/29/2025,8,Logan Green,54,Male,Japanese,Airbnb,140,Train,440
+337,Barcelona,8/22/2024,8/29/2024,7,Skyler Campbell,24,Male,Australian,Hotel,190,Plane,110
+338,Rio de Janeiro,7/3/2025,7/12/2025,9,Sam Allen,21,Male,Chinese,Villa,200,Car rental,470
+339,Tokyo,5/8/2024,5/14/2024,6,Remy Sanchez,45,Male,British,Hostel,60,Train,440
+340,Rome,5/10/2024,5/20/2024,10,Blake Perez,33,Female,Chinese,Hostel,65,Car rental,170
+341,Rio de Janeiro,7/23/2025,7/30/2025,7,Noel Harris,30,Male,Canadian,Hotel,150,Plane,690
+342,Tokyo,9/22/2023,10/2/2023,10,Kendall Miller,21,Female,Spanish,Villa,310,Plane,700
+343,Bali,8/8/2024,8/15/2024,7,Logan Taylor,55,Female,Spanish,Hotel,110,Plane,650
+344,Rome,10/12/2025,10/21/2025,9,Jamie Jackson,48,Male,French,Hostel,65,Car rental,170
+345,Rio de Janeiro,8/25/2023,9/4/2023,10,Drew Hernandez,30,Female,Spanish,Villa,200,Train,420
+346,Rio de Janeiro,8/4/2023,8/10/2023,6,Harper Smith,24,Male,Australian,Villa,200,Plane,690
+347,Rio de Janeiro,7/17/2023,7/26/2023,9,Shawn Martinez,39,Female,Chinese,Hostel,55,Train,420
+348,Barcelona,8/15/2023,8/21/2023,6,Skyler Garcia,35,Female,French,Resort,310,Car rental,140
+349,Bali,6/24/2024,7/1/2024,7,Shawn Nelson,49,Male,Indian,Hotel,110,Car rental,410
+350,Tokyo,3/18/2024,3/24/2024,6,Casey Ramirez,46,Female,German,Hotel,220,Car rental,470
+351,Rome,4/25/2024,5/2/2024,7,Elliot Lopez,49,Male,Indian,Hotel,200,Plane,150
+352,Rome,9/13/2024,9/19/2024,6,Shawn Taylor,29,Male,British,Airbnb,125,Car rental,170
+353,Rio de Janeiro,6/18/2023,6/27/2023,9,Casey Sanchez,44,Female,German,Hostel,55,Plane,690
+354,Barcelona,7/15/2023,7/25/2023,10,Avery Baker,40,Male,Indian,Hostel,60,Bus,80
+355,Rio de Janeiro,7/12/2023,7/19/2023,7,Riley Lewis,43,Female,Canadian,Villa,200,Train,420
+356,Barcelona,7/20/2025,7/26/2025,6,Remy Adams,36,Female,Indian,Hotel,190,Bus,80
+357,Barcelona,6/15/2025,6/25/2025,10,Kai Gomez,24,Female,Japanese,Hotel,190,Bus,80
+358,Tokyo,9/8/2024,9/18/2024,10,Casey Baker,41,Female,British,Hostel,60,Bus,420
+359,Tokyo,10/11/2023,10/21/2023,10,Sawyer Ramirez,23,Male,Japanese,Hostel,60,Plane,700
+360,Bali,8/17/2023,8/24/2023,7,Devin Anderson,47,Female,French,Hostel,40,Plane,650
+361,Bali,8/24/2025,8/31/2025,7,Logan Mitchell,50,Male,French,Airbnb,70,Bus,370
+362,Rome,5/21/2023,5/30/2023,9,Sam Clark,38,Male,Australian,Resort,320,Car rental,170
+363,Rio de Janeiro,7/23/2023,7/30/2023,7,Alex Davis,24,Male,German,Villa,200,Train,420
+364,Tokyo,10/17/2024,10/24/2024,7,Shawn Nelson,49,Male,Indian,Resort,360,Car rental,470
+365,Barcelona,8/3/2024,8/12/2024,9,Noel Torres,46,Male,Australian,Airbnb,120,Train,65
+366,Tokyo,5/13/2023,5/23/2023,10,River King,32,Male,Chinese,Resort,360,Train,440
+367,Tokyo,10/7/2025,10/16/2025,9,Jaden Adams,30,Male,Canadian,Hotel,220,Train,440
+368,Bali,6/24/2023,6/30/2023,6,Arden Roberts,32,Female,Japanese,Airbnb,70,Bus,370
+369,Rome,4/18/2024,4/26/2024,8,Kai Mitchell,52,Female,German,Hostel,65,Train,85
+370,Bali,8/12/2025,8/20/2025,8,Skyler Scott,48,Male,Japanese,Villa,170,Car rental,410
+371,Bali,6/24/2024,7/3/2024,9,Blake Perez,33,Female,Chinese,Resort,200,Car rental,410
+372,Bali,7/2/2024,7/12/2024,10,Bailey Anderson,35,Male,Chinese,Hostel,40,Plane,650
+373,Barcelona,8/19/2025,8/28/2025,9,Skyler Martin,33,Male,Spanish,Hotel,190,Plane,110
+374,Barcelona,7/19/2023,7/26/2023,7,Kendall Taylor,23,Male,Spanish,Hostel,60,Plane,110
+375,Rio de Janeiro,8/21/2024,8/30/2024,9,Arden Hall,32,Female,Japanese,Airbnb,90,Plane,690
+376,Barcelona,8/18/2023,8/27/2023,9,Kendall Thomas,34,Male,Australian,Airbnb,120,Train,65
+377,Rome,10/16/2025,10/25/2025,9,Payton Perez,31,Female,Australian,Airbnb,125,Bus,100
+378,Tokyo,3/17/2023,3/25/2023,8,Cameron Johnson,27,Female,Canadian,Resort,360,Car rental,470
+379,Bali,6/4/2023,6/14/2023,10,Casey Williams,41,Male,German,Hotel,110,Car rental,410
+380,Barcelona,7/13/2024,7/19/2024,6,Cameron Roberts,44,Female,Japanese,Hostel,60,Plane,110
+381,Rome,4/10/2025,4/16/2025,6,River King,32,Male,Chinese,Villa,275,Train,85
+382,Tokyo,9/18/2024,9/27/2024,9,Dana Jackson,49,Male,British,Hotel,220,Car rental,470
+383,Tokyo,9/21/2024,9/29/2024,8,Kendall Miller,21,Female,Spanish,Hostel,60,Bus,420
+384,Tokyo,4/23/2023,5/3/2023,10,Morgan Garcia,47,Female,American,Resort,360,Bus,420
+385,Bali,7/18/2025,7/28/2025,10,Rowan Wilson,26,Male,Japanese,Hotel,110,Bus,370
+386,Tokyo,4/19/2023,4/26/2023,7,Sage Hill,53,Female,Indian,Hostel,60,Plane,700
+387,Rome,10/8/2023,10/18/2023,10,Alex Davis,24,Male,German,Hotel,200,Plane,150
+388,Rio de Janeiro,6/23/2025,6/29/2025,6,Noel Torres,46,Male,Australian,Airbnb,90,Car rental,470
+389,Bali,6/3/2024,6/11/2024,8,Payton Perez,31,Female,Australian,Hotel,110,Bus,370
+390,Rio de Janeiro,6/21/2024,6/29/2024,8,Jaden Adams,30,Male,Canadian,Resort,240,Car rental,470
+391,Rome,9/14/2025,9/21/2025,7,Blake Jackson,49,Female,Canadian,Hostel,65,Plane,150
+392,Rio de Janeiro,7/8/2025,7/14/2025,6,Casey Sanchez,44,Female,German,Villa,200,Bus,400
+393,Bali,8/5/2025,8/14/2025,9,Harper Smith,24,Male,Australian,Hostel,40,Car rental,410
+394,Bali,7/15/2023,7/23/2023,8,Phoenix Thompson,20,Female,French,Hotel,110,Bus,370
+395,Bali,6/14/2023,6/23/2023,9,Bailey Anderson,35,Male,Chinese,Hotel,110,Train,390
+396,Rio de Janeiro,6/3/2023,6/11/2023,8,Luca Lee,52,Female,Japanese,Resort,240,Car rental,470
+397,Tokyo,3/10/2024,3/19/2024,9,Shawn Martinez,39,Female,Chinese,Resort,360,Plane,700
+398,Tokyo,10/6/2025,10/15/2025,9,Noel Torres,46,Male,Australian,Resort,360,Train,440
+399,Barcelona,7/5/2024,7/11/2024,6,Parker Robinson,24,Female,Australian,Airbnb,120,Plane,110
+400,Rome,9/3/2024,9/11/2024,8,Parker Robinson,24,Female,Australian,Airbnb,125,Car rental,170
+401,Barcelona,6/5/2024,6/13/2024,8,Chris Gonzalez,46,Male,Canadian,Villa,260,Train,65
+402,Rome,9/11/2024,9/20/2024,9,Sage Davis,33,Female,Indian,Airbnb,125,Car rental,170
+403,Rio de Janeiro,8/23/2024,8/30/2024,7,Dana Jackson,49,Male,British,Hostel,55,Plane,690
+404,Bali,7/24/2024,8/2/2024,9,Jesse Torres,20,Male,German,Hostel,40,Car rental,410
+405,Barcelona,7/12/2024,7/18/2024,6,Spencer Roberts,31,Male,Indian,Airbnb,120,Car rental,140
+406,Barcelona,8/1/2025,8/10/2025,9,Morgan Garcia,47,Female,American,Resort,310,Train,65
+407,Barcelona,6/14/2025,6/23/2025,9,Logan Taylor,55,Female,Spanish,Villa,260,Plane,110
+408,Bali,6/23/2025,7/2/2025,9,Jamie Jackson,48,Male,French,Hostel,40,Plane,650
+409,Tokyo,9/18/2025,9/28/2025,10,Milan Robinson,55,Female,German,Villa,310,Car rental,470
+410,Rome,10/20/2024,10/26/2024,6,Justice Jackson,41,Male,Indian,Resort,320,Bus,100
+411,Barcelona,8/2/2025,8/12/2025,10,Justice Lopez,54,Male,Spanish,Airbnb,120,Train,65
+412,Rome,3/4/2023,3/12/2023,8,Tatum Miller,24,Male,German,Airbnb,125,Car rental,170
+413,Rio de Janeiro,7/13/2024,7/22/2024,9,Skyler Martin,33,Male,Spanish,Resort,240,Train,420
+414,Rio de Janeiro,6/16/2024,6/22/2024,6,Shawn Taylor,29,Male,British,Resort,240,Train,420
+415,Rome,4/12/2025,4/20/2025,8,Kendall Taylor,23,Male,Spanish,Hotel,200,Bus,100
+416,Rome,9/4/2024,9/13/2024,9,Alex White,39,Female,Japanese,Hostel,65,Car rental,170
+417,Rome,3/23/2024,3/29/2024,6,Noel Harris,30,Male,Canadian,Airbnb,125,Bus,100
+418,Barcelona,6/13/2024,6/20/2024,7,Shawn Martinez,39,Female,Chinese,Airbnb,120,Car rental,140
+419,Rome,10/7/2025,10/16/2025,9,River Davis,21,Female,Australian,Villa,275,Bus,100
+420,Rome,4/7/2025,4/15/2025,8,Emerson Lopez,50,Female,Indian,Villa,275,Bus,100
+421,Tokyo,4/12/2025,4/20/2025,8,Alex Davis,24,Male,German,Resort,360,Bus,420
+422,Rome,9/17/2025,9/25/2025,8,Emerson Robinson,33,Female,Canadian,Hotel,200,Plane,150
+423,Rome,3/12/2025,3/20/2025,8,Devin Anderson,47,Female,French,Resort,320,Car rental,170
+424,Rio de Janeiro,8/3/2025,8/10/2025,7,Kendall Thomas,34,Male,Australian,Hostel,55,Plane,690
+425,Tokyo,4/12/2023,4/19/2023,7,Phoenix Thompson,20,Female,French,Hostel,60,Plane,700
+426,Rome,9/14/2025,9/21/2025,7,Hayden Jackson,55,Male,German,Villa,275,Train,85
+427,Rio de Janeiro,7/5/2024,7/12/2024,7,Quinn Johnson,22,Male,French,Hostel,55,Train,420
+428,Rome,3/16/2024,3/23/2024,7,Phoenix Thompson,20,Female,French,Resort,320,Bus,100
+429,Rome,9/14/2024,9/23/2024,9,Logan Green,54,Male,Japanese,Resort,320,Car rental,170
+430,Barcelona,7/2/2023,7/10/2023,8,Quinn Johnson,22,Male,French,Hotel,190,Bus,80
+431,Rio de Janeiro,8/24/2024,9/2/2024,9,Skyler Martin,33,Male,Spanish,Airbnb,90,Train,420
+432,Tokyo,3/24/2024,3/31/2024,7,Alex Davis,24,Male,German,Villa,310,Train,440
+433,Tokyo,3/15/2024,3/21/2024,6,Alex Thompson,28,Female,Canadian,Villa,310,Plane,700
+434,Barcelona,8/21/2025,8/30/2025,9,Skyler Scott,48,Male,Japanese,Hostel,60,Plane,110
+435,Rio de Janeiro,6/19/2023,6/27/2023,8,Parker Robinson,24,Female,Australian,Hostel,55,Train,420
+436,Bali,8/10/2024,8/18/2024,8,Casey Williams,41,Male,German,Resort,200,Train,390
+437,Bali,7/2/2023,7/10/2023,8,Spencer Roberts,31,Male,Indian,Resort,200,Bus,370
+438,Barcelona,8/11/2023,8/18/2023,7,Dana Jackson,49,Male,British,Hostel,60,Train,65
+439,Rome,5/21/2025,5/30/2025,9,Bailey Anderson,35,Male,Chinese,Villa,275,Train,85
+440,Rome,10/24/2024,11/1/2024,8,Milan Robinson,55,Female,German,Hotel,200,Bus,100
+441,Bali,8/1/2024,8/7/2024,6,Justice Jackson,41,Male,Indian,Villa,170,Car rental,410
+442,Rome,9/7/2025,9/16/2025,9,Justice Taylor,39,Male,Australian,Airbnb,125,Bus,100
+443,Rome,5/18/2024,5/28/2024,10,Sawyer Ramirez,23,Male,Japanese,Airbnb,125,Plane,150
+444,Rio de Janeiro,6/2/2025,6/8/2025,6,Spencer Garcia,31,Male,Spanish,Villa,200,Plane,690
+445,Rome,9/15/2023,9/21/2023,6,Sam Clark,38,Male,Australian,Hotel,200,Bus,100
+446,Barcelona,7/3/2023,7/11/2023,8,Riley Lewis,43,Female,Canadian,Hostel,60,Plane,110
+447,Tokyo,9/21/2023,9/29/2023,8,Chris Gonzalez,46,Male,Canadian,Airbnb,140,Train,440
+448,Barcelona,6/1/2025,6/8/2025,7,Noel Harris,30,Male,Canadian,Villa,260,Bus,80
+449,Tokyo,9/1/2025,9/7/2025,6,Jesse Torres,20,Male,German,Hostel,60,Train,440
+450,Bali,6/16/2025,6/22/2025,6,Drew Hernandez,30,Female,Spanish,Hotel,110,Car rental,410
+451,Rome,5/12/2023,5/20/2023,8,Jordan Campbell,47,Male,German,Hotel,200,Bus,100
+452,Rome,10/19/2023,10/25/2023,6,Jamie Jackson,48,Male,French,Hostel,65,Train,85
+453,Barcelona,6/21/2025,6/28/2025,7,Reese Jackson,51,Male,German,Villa,260,Plane,110
+454,Rio de Janeiro,6/5/2023,6/11/2023,6,Logan Mitchell,50,Male,French,Villa,200,Train,420
+455,Rome,4/8/2024,4/16/2024,8,Emerson Lopez,50,Female,Indian,Airbnb,125,Car rental,170
+456,Tokyo,3/22/2025,3/30/2025,8,Tatum Miller,24,Male,German,Hostel,60,Plane,700
+457,Rio de Janeiro,7/10/2025,7/16/2025,6,Arden Roberts,32,Female,Japanese,Resort,240,Train,420
+458,Rome,9/21/2023,10/1/2023,10,Kai Gomez,24,Female,Japanese,Villa,275,Bus,100
+459,Bali,6/1/2024,6/11/2024,10,Shawn Thompson,37,Male,Indian,Resort,200,Train,390
+460,Tokyo,3/13/2023,3/23/2023,10,Elliot Lopez,49,Male,Indian,Airbnb,140,Train,440
+461,Rio de Janeiro,7/3/2025,7/13/2025,10,Noel Gomez,23,Male,American,Villa,200,Car rental,470
+462,Rio de Janeiro,7/3/2023,7/13/2023,10,Casey Williams,41,Male,German,Hostel,55,Plane,690
+463,Barcelona,8/21/2024,8/27/2024,6,Arden Roberts,32,Female,Japanese,Resort,310,Plane,110
+464,Rome,3/14/2023,3/20/2023,6,Sky Rivera,35,Male,Indian,Hostel,65,Bus,100
+465,Rio de Janeiro,8/24/2024,8/31/2024,7,Kendall Thomas,34,Male,Australian,Resort,240,Bus,400
+466,Tokyo,9/12/2023,9/22/2023,10,Harper Martinez,26,Male,Spanish,Hostel,60,Bus,420
+467,Bali,8/25/2023,9/2/2023,8,Tatum Green,44,Female,American,Hostel,40,Plane,650
+468,Tokyo,5/17/2024,5/23/2024,6,Justice Taylor,39,Male,Australian,Hotel,220,Plane,700
+469,Rio de Janeiro,8/12/2024,8/18/2024,6,Blake Perez,33,Female,Chinese,Hotel,150,Car rental,470
+470,Rio de Janeiro,7/25/2023,7/31/2023,6,Arden Hall,32,Female,Japanese,Hostel,55,Plane,690
+471,Tokyo,3/8/2023,3/14/2023,6,Spencer Roberts,31,Male,Indian,Hostel,60,Bus,420
+472,Bali,6/18/2023,6/27/2023,9,Rowan Wilson,26,Male,Japanese,Villa,170,Train,390
+473,Bali,7/9/2025,7/15/2025,6,Skyler Martin,33,Male,Spanish,Hostel,40,Car rental,410
+474,Bali,6/17/2023,6/23/2023,6,Spencer Roberts,31,Male,Indian,Hotel,110,Bus,370
+475,Tokyo,5/3/2024,5/13/2024,10,Harper Jackson,47,Female,American,Villa,310,Plane,700
+476,Tokyo,10/10/2024,10/20/2024,10,Kendall Thomas,34,Male,Australian,Airbnb,140,Train,440
+477,Rome,10/25/2023,11/1/2023,7,Bailey Moore,41,Female,Spanish,Airbnb,125,Car rental,170
+478,Tokyo,10/12/2023,10/18/2023,6,Cameron Roberts,44,Female,Japanese,Villa,310,Bus,420
+479,Tokyo,4/17/2023,4/24/2023,7,Luca Thompson,26,Male,Australian,Villa,310,Plane,700
+480,Rome,5/3/2025,5/9/2025,6,Shawn Thompson,37,Male,Indian,Hotel,200,Train,85
+481,Rio de Janeiro,8/3/2024,8/13/2024,10,Jordan Campbell,47,Male,German,Villa,200,Plane,690
+482,Rio de Janeiro,8/19/2023,8/25/2023,6,Sawyer Martin,47,Female,Canadian,Hostel,55,Car rental,470
+483,Barcelona,7/13/2024,7/21/2024,8,Sawyer Brown,55,Male,British,Hostel,60,Plane,110
+484,Barcelona,7/11/2024,7/20/2024,9,Justice Lopez,54,Male,Spanish,Hotel,190,Train,65
+485,Rio de Janeiro,7/15/2024,7/23/2024,8,Harper Martinez,26,Male,Spanish,Airbnb,90,Train,420
+486,Barcelona,7/17/2024,7/23/2024,6,Bailey Lewis,46,Female,American,Hotel,190,Train,65
+487,Bali,7/15/2023,7/25/2023,10,Casey Baker,41,Female,British,Airbnb,70,Train,390
+488,Rio de Janeiro,6/5/2024,6/11/2024,6,Kai Mitchell,52,Female,German,Hostel,55,Bus,400
+489,Tokyo,9/12/2023,9/18/2023,6,Shiloh Lee,53,Male,German,Hostel,60,Train,440
+490,Rio de Janeiro,6/7/2023,6/16/2023,9,Casey Ramirez,46,Female,German,Airbnb,90,Bus,400
+491,Tokyo,9/2/2023,9/9/2023,7,Spencer Garcia,31,Male,Spanish,Airbnb,140,Bus,420
+492,Rome,9/22/2023,10/1/2023,9,Spencer Roberts,31,Male,Indian,Villa,275,Car rental,170
+493,Bali,7/15/2024,7/22/2024,7,Sam Allen,21,Male,Chinese,Hostel,40,Train,390
+494,Rio de Janeiro,7/16/2025,7/25/2025,9,Bailey Nelson,52,Female,German,Resort,240,Train,420
+495,Rome,9/5/2024,9/14/2024,9,Shawn Martinez,39,Female,Chinese,Hotel,200,Bus,100
+496,Rio de Janeiro,8/12/2024,8/21/2024,9,Emerson Robinson,33,Female,Canadian,Hostel,55,Bus,400
+497,Rome,5/6/2024,5/12/2024,6,Kai Hernandez,35,Male,French,Airbnb,125,Plane,150
+498,Rio de Janeiro,6/16/2024,6/26/2024,10,Phoenix Thompson,20,Female,French,Hostel,55,Bus,400
+499,Rio de Janeiro,6/22/2023,6/29/2023,7,Quinn Anderson,41,Male,British,Hostel,55,Train,420
+500,Rio de Janeiro,7/12/2025,7/19/2025,7,Elliot Gonzalez,53,Female,Spanish,Hotel,150,Train,420
+501,Barcelona,8/12/2025,8/22/2025,10,Sam Allen,21,Male,Chinese,Resort,310,Plane,110
+502,Tokyo,5/20/2023,5/27/2023,7,Skyler Martin,33,Male,Spanish,Resort,360,Car rental,470
+503,Bali,6/5/2023,6/15/2023,10,Spencer Garcia,31,Male,Spanish,Hostel,40,Plane,650
+504,Barcelona,7/23/2023,8/1/2023,9,Logan Taylor,55,Female,Spanish,Hotel,190,Plane,110
+505,Rome,10/23/2025,11/2/2025,10,Cameron Johnson,55,Male,Spanish,Airbnb,125,Train,85
+506,Barcelona,7/24/2024,8/1/2024,8,Quinn Anderson,41,Male,British,Resort,310,Train,65
+507,Tokyo,3/12/2023,3/20/2023,8,Blake Jackson,49,Female,Canadian,Airbnb,140,Train,440
+508,Rome,9/19/2023,9/26/2023,7,Arden Hall,32,Female,Japanese,Airbnb,125,Car rental,170
+509,Rome,3/11/2024,3/19/2024,8,Emerson Davis,35,Male,British,Hotel,200,Bus,100
+510,Tokyo,4/24/2024,4/30/2024,6,Justice Lopez,54,Male,Spanish,Airbnb,140,Train,440
+511,Tokyo,3/14/2025,3/21/2025,7,Shawn Martinez,39,Female,Chinese,Airbnb,140,Car rental,470
+512,Rome,5/7/2023,5/14/2023,7,Jaden Adams,30,Male,Canadian,Hostel,65,Bus,100
+513,Rio de Janeiro,7/10/2025,7/17/2025,7,Logan Mitchell,50,Male,French,Resort,240,Plane,690
+514,Tokyo,3/12/2023,3/18/2023,6,Sawyer Martin,47,Female,Canadian,Villa,310,Car rental,470
+515,Tokyo,3/1/2023,3/8/2023,7,Riley Lewis,43,Female,Canadian,Airbnb,140,Car rental,470
+516,Bali,7/13/2023,7/22/2023,9,Parker Robinson,24,Female,Australian,Hotel,110,Car rental,410
+517,Bali,7/13/2023,7/21/2023,8,Quinn Johnson,22,Male,French,Hotel,110,Car rental,410
+518,Rome,9/9/2024,9/16/2024,7,River Davis,21,Female,Australian,Hotel,200,Plane,150
+519,Rio de Janeiro,8/4/2025,8/10/2025,6,Elliot Gonzalez,53,Female,Spanish,Hotel,150,Train,420
+520,Bali,6/18/2025,6/24/2025,6,Remy Sanchez,45,Male,British,Resort,200,Car rental,410
+521,Rome,9/6/2023,9/13/2023,7,Harper Smith,24,Male,Australian,Hotel,200,Train,85
+522,Barcelona,6/22/2024,7/1/2024,9,Sawyer Ramirez,23,Male,Japanese,Hostel,60,Bus,80
+523,Barcelona,8/3/2024,8/9/2024,6,Emerson Robinson,33,Female,Canadian,Resort,310,Plane,110
+524,Rio de Janeiro,8/15/2024,8/21/2024,6,Noel Torres,46,Male,Australian,Villa,200,Plane,690
+525,Rio de Janeiro,7/5/2023,7/12/2023,7,Drew Hernandez,30,Female,Spanish,Resort,240,Car rental,470
+526,Rio de Janeiro,8/25/2023,8/31/2023,6,Morgan Garcia,47,Female,American,Resort,240,Bus,400
+527,Rio de Janeiro,7/21/2024,7/30/2024,9,Noel Gomez,23,Male,American,Airbnb,90,Car rental,470
+528,Rio de Janeiro,7/13/2023,7/20/2023,7,Spencer Roberts,31,Male,Indian,Villa,200,Bus,400
+529,Rio de Janeiro,7/23/2024,7/30/2024,7,Drew Miller,55,Male,Indian,Villa,200,Bus,400
+530,Rome,5/10/2023,5/18/2023,8,Noel Lewis,34,Male,German,Airbnb,125,Plane,150
+531,Rome,5/24/2023,6/2/2023,9,Remy Adams,36,Female,Indian,Hotel,200,Train,85
+532,Bali,8/3/2025,8/10/2025,7,Skyler Scott,48,Male,Japanese,Airbnb,70,Car rental,410
+533,Barcelona,7/2/2025,7/12/2025,10,Kendall Baker,26,Male,Indian,Villa,260,Car rental,140
+534,Tokyo,10/19/2023,10/25/2023,6,Emerson Davis,35,Male,British,Airbnb,140,Car rental,470
+535,Barcelona,6/15/2023,6/21/2023,6,Sam Allen,21,Male,Chinese,Hostel,60,Bus,80
+536,Tokyo,10/15/2024,10/22/2024,7,Casey Sanchez,44,Female,German,Hostel,60,Plane,700
+537,Rio de Janeiro,6/9/2024,6/15/2024,6,Rowan Wilson,26,Male,Japanese,Resort,240,Plane,690
+538,Tokyo,10/25/2023,11/1/2023,7,Noel Gomez,23,Male,American,Villa,310,Bus,420
+539,Barcelona,7/17/2025,7/23/2025,6,Skyler Martin,33,Male,Spanish,Hostel,60,Plane,110
+540,Tokyo,4/20/2025,4/26/2025,6,Skyler Scott,48,Male,Japanese,Villa,310,Train,440
+541,Rome,4/15/2024,4/23/2024,8,Riley Lewis,43,Female,Canadian,Airbnb,125,Car rental,170
+542,Rio de Janeiro,6/1/2025,6/11/2025,10,Casey Baker,41,Female,British,Resort,240,Car rental,470
+543,Bali,8/4/2024,8/13/2024,9,Sage Hill,53,Female,Indian,Resort,200,Plane,650
+544,Bali,7/21/2024,7/29/2024,8,Elliot Lopez,49,Male,Indian,Airbnb,70,Plane,650
+545,Barcelona,8/13/2023,8/21/2023,8,Logan Green,54,Male,Japanese,Resort,310,Train,65
+546,Barcelona,7/14/2024,7/23/2024,9,Casey Sanchez,44,Female,German,Hotel,190,Car rental,140
+547,Tokyo,4/22/2024,5/2/2024,10,Noel Torres,46,Male,Australian,Resort,360,Train,440
+548,Rome,10/6/2023,10/14/2023,8,Cameron Johnson,55,Male,Spanish,Airbnb,125,Plane,150
+549,Rome,10/25/2025,11/1/2025,7,Sawyer Martin,47,Female,Canadian,Hostel,65,Plane,150
+550,Bali,6/24/2024,7/2/2024,8,Casey Sanchez,44,Female,German,Hotel,110,Train,390
+551,Tokyo,4/17/2024,4/23/2024,6,Rowan Wilson,26,Male,Japanese,Resort,360,Bus,420
+552,Rome,3/5/2024,3/12/2024,7,Casey Sanchez,44,Female,German,Resort,320,Plane,150
+553,Bali,7/23/2023,7/30/2023,7,Emerson Robinson,33,Female,Canadian,Villa,170,Car rental,410
+554,Tokyo,4/11/2025,4/17/2025,6,Skyler Scott,48,Male,Japanese,Villa,310,Plane,700
+555,Rome,10/25/2023,11/1/2023,7,Sage Davis,33,Female,Indian,Airbnb,125,Train,85
+556,Tokyo,9/13/2025,9/22/2025,9,Quinn Johnson,22,Male,French,Hostel,60,Car rental,470
+557,Rome,4/24/2025,5/2/2025,8,Jesse Torres,20,Male,German,Hotel,200,Bus,100
+558,Bali,8/1/2023,8/8/2023,7,Shiloh Lee,53,Male,German,Resort,200,Train,390
+559,Bali,7/17/2023,7/27/2023,10,Skyler Martin,33,Male,Spanish,Airbnb,70,Train,390
+560,Barcelona,7/15/2024,7/25/2024,10,Sky Rivera,35,Male,Indian,Hotel,190,Bus,80
+561,Rio de Janeiro,6/11/2025,6/20/2025,9,Devin Anderson,47,Female,French,Airbnb,90,Car rental,470
+562,Barcelona,6/8/2023,6/15/2023,7,Quinn Anderson,41,Male,British,Hostel,60,Car rental,140
+563,Tokyo,5/23/2023,5/29/2023,6,Sawyer Ramirez,23,Male,Japanese,Resort,360,Train,440
+564,Bali,6/22/2025,6/28/2025,6,Milan Robinson,55,Female,German,Resort,200,Bus,370
+565,Bali,8/22/2023,8/28/2023,6,Shawn Martinez,39,Female,Chinese,Villa,170,Train,390
+566,Rome,10/23/2025,10/30/2025,7,Alex Thompson,28,Female,Canadian,Hotel,200,Plane,150
+567,Tokyo,3/4/2024,3/13/2024,9,Shawn Thompson,37,Male,Indian,Resort,360,Bus,420
+568,Rio de Janeiro,6/12/2025,6/21/2025,9,Emerson Robinson,33,Female,Canadian,Hostel,55,Plane,690
+569,Barcelona,8/16/2023,8/24/2023,8,Kendall Taylor,23,Male,Spanish,Hotel,190,Car rental,140
+570,Tokyo,10/22/2023,10/31/2023,9,Kai Gomez,24,Female,Japanese,Hotel,220,Bus,420
+571,Tokyo,3/9/2025,3/16/2025,7,Cameron Roberts,44,Female,Japanese,Resort,360,Bus,420
+572,Bali,6/6/2023,6/12/2023,6,Kendall Thomas,34,Male,Australian,Airbnb,70,Car rental,410
+573,Bali,6/4/2025,6/10/2025,6,Kendall Taylor,23,Male,Spanish,Airbnb,70,Car rental,410
+574,Barcelona,7/20/2024,7/28/2024,8,Shiloh Lee,53,Male,German,Hostel,60,Plane,110
+575,Tokyo,3/13/2023,3/22/2023,9,Justice Taylor,39,Male,Australian,Airbnb,140,Plane,700
+576,Tokyo,10/16/2024,10/26/2024,10,Spencer Garcia,31,Male,Spanish,Hostel,60,Bus,420
+577,Rome,10/1/2024,10/8/2024,7,Casey Baker,41,Female,British,Hostel,65,Car rental,170
+578,Rome,3/3/2024,3/11/2024,8,Jesse Torres,20,Male,German,Hotel,200,Car rental,170
+579,Bali,7/17/2025,7/27/2025,10,Dana Jackson,49,Male,British,Hotel,110,Train,390
+580,Rio de Janeiro,8/8/2025,8/17/2025,9,Justice Jackson,41,Male,Indian,Hotel,150,Car rental,470
+581,Barcelona,6/11/2024,6/19/2024,8,Arden Hall,32,Female,Japanese,Hotel,190,Car rental,140
+582,Rio de Janeiro,6/3/2024,6/12/2024,9,Noel Lewis,34,Male,German,Hostel,55,Car rental,470
+583,Rio de Janeiro,7/11/2024,7/17/2024,6,Kendall Baker,26,Male,Indian,Villa,200,Bus,400
+584,Tokyo,3/18/2024,3/28/2024,10,Arden Hall,32,Female,Japanese,Hotel,220,Car rental,470
+585,Tokyo,10/7/2025,10/16/2025,9,Sage Davis,33,Female,Indian,Resort,360,Plane,700
+586,Bali,7/18/2024,7/28/2024,10,Alex White,39,Female,Japanese,Hotel,110,Train,390
+587,Rome,3/25/2023,4/1/2023,7,Devin Anderson,47,Female,French,Airbnb,125,Car rental,170
+588,Bali,8/12/2025,8/18/2025,6,Sage Davis,33,Female,Indian,Airbnb,70,Plane,650
+589,Bali,6/13/2023,6/20/2023,7,Justice Lopez,54,Male,Spanish,Resort,200,Train,390
+590,Barcelona,6/21/2024,7/1/2024,10,Kendall Thomas,34,Male,Australian,Airbnb,120,Bus,80
+591,Rome,3/17/2024,3/23/2024,6,Harper Martinez,26,Male,Spanish,Villa,275,Train,85
+592,Rome,4/23/2025,5/3/2025,10,Shawn Martinez,39,Female,Chinese,Resort,320,Car rental,170
+593,Rome,9/11/2024,9/19/2024,8,Payton Perez,31,Female,Australian,Villa,275,Train,85
+594,Barcelona,8/24/2025,9/3/2025,10,Blake Jackson,49,Female,Canadian,Hostel,60,Car rental,140
+595,Rio de Janeiro,6/20/2023,6/28/2023,8,Alex Thompson,28,Female,Canadian,Airbnb,90,Train,420
+596,Bali,8/23/2025,8/31/2025,8,Casey Sanchez,44,Female,German,Hostel,40,Train,390
+597,Tokyo,10/22/2025,10/31/2025,9,Logan Taylor,55,Female,Spanish,Airbnb,140,Car rental,470
+598,Rio de Janeiro,8/4/2023,8/10/2023,6,Casey Baker,41,Female,British,Airbnb,90,Car rental,470
+599,Barcelona,7/25/2023,8/1/2023,7,Milan Robinson,55,Female,German,Hotel,190,Bus,80
+600,Bali,8/24/2025,9/3/2025,10,Bailey Nelson,52,Female,German,Villa,170,Bus,370
+601,Rome,3/1/2025,3/9/2025,8,Milan Robinson,55,Female,German,Villa,275,Plane,150
+602,Rio de Janeiro,8/23/2025,8/31/2025,8,Emerson Robinson,33,Female,Canadian,Villa,200,Train,420
+603,Rio de Janeiro,6/10/2025,6/19/2025,9,Alex Davis,24,Male,German,Resort,240,Train,420
+604,Tokyo,10/4/2025,10/13/2025,9,Sam Allen,21,Male,Chinese,Hostel,60,Train,440
+605,Rome,4/19/2023,4/27/2023,8,Jesse Garcia,50,Male,German,Airbnb,125,Plane,150
+606,Bali,6/11/2023,6/21/2023,10,Sage Davis,33,Female,Indian,Villa,170,Train,390
+607,Rio de Janeiro,8/12/2025,8/18/2025,6,Noel Lewis,34,Male,German,Airbnb,90,Car rental,470
+608,Bali,8/3/2023,8/13/2023,10,Logan Taylor,55,Female,Spanish,Resort,200,Train,390
+609,Rome,5/8/2023,5/15/2023,7,Emerson Davis,35,Male,British,Resort,320,Car rental,170
+610,Bali,6/25/2024,7/5/2024,10,Sage Hill,53,Female,Indian,Airbnb,70,Plane,650
+611,Rome,5/15/2023,5/22/2023,7,Avery Baker,40,Male,Indian,Resort,320,Bus,100
+612,Rio de Janeiro,8/11/2023,8/20/2023,9,Tatum Miller,24,Male,German,Resort,240,Train,420
+613,Rome,10/25/2023,11/2/2023,8,Skyler Garcia,35,Female,French,Airbnb,125,Plane,150
+614,Rio de Janeiro,7/21/2023,7/28/2023,7,Hayden Jackson,55,Male,German,Villa,200,Car rental,470
+615,Rio de Janeiro,8/18/2023,8/24/2023,6,Bailey Lewis,46,Female,American,Hotel,150,Bus,400
+616,Tokyo,9/4/2025,9/11/2025,7,Sam Clark,38,Male,Australian,Hostel,60,Train,440
+617,Rome,9/23/2023,10/1/2023,8,Casey Williams,41,Male,German,Hotel,200,Train,85
+618,Tokyo,5/18/2023,5/24/2023,6,Bailey Nelson,52,Female,German,Hotel,220,Bus,420
+619,Barcelona,7/21/2024,7/30/2024,9,Spencer Roberts,31,Male,Indian,Airbnb,120,Car rental,140
+620,Bali,6/18/2025,6/24/2025,6,Sawyer Brown,55,Male,British,Hotel,110,Car rental,410
+621,Rio de Janeiro,6/12/2025,6/22/2025,10,Tatum Miller,24,Male,German,Hotel,150,Bus,400
+622,Tokyo,4/5/2025,4/14/2025,9,Sage Hill,53,Female,Indian,Villa,310,Train,440
+623,Bali,8/21/2025,8/29/2025,8,Kai Hernandez,35,Male,French,Hostel,40,Plane,650
+624,Rome,4/24/2024,5/2/2024,8,Devin Anderson,47,Female,French,Resort,320,Bus,100
+625,Rome,4/8/2023,4/18/2023,10,Sawyer Ramirez,23,Male,Japanese,Resort,320,Train,85
+626,Barcelona,8/2/2025,8/12/2025,10,Chris Gonzalez,46,Male,Canadian,Hotel,190,Train,65
+627,Rio de Janeiro,6/9/2025,6/15/2025,6,Shawn Nelson,49,Male,Indian,Hotel,150,Plane,690
+628,Rio de Janeiro,6/22/2024,6/29/2024,7,Emerson Robinson,33,Female,Canadian,Villa,200,Plane,690
+629,Bali,7/16/2023,7/25/2023,9,Sawyer Martin,47,Female,Canadian,Resort,200,Bus,370
+630,Rio de Janeiro,8/12/2025,8/20/2025,8,Luca Thompson,26,Male,Australian,Airbnb,90,Train,420
+631,Barcelona,6/23/2023,7/2/2023,9,Riley Lewis,43,Female,Canadian,Hotel,190,Plane,110
+632,Bali,7/15/2024,7/23/2024,8,Remy Adams,36,Female,Indian,Hostel,40,Plane,650
+633,Bali,8/20/2023,8/26/2023,6,Skyler Scott,48,Male,Japanese,Villa,170,Bus,370
+634,Barcelona,8/21/2024,8/27/2024,6,Remy Adams,36,Female,Indian,Resort,310,Train,65
+635,Tokyo,10/13/2025,10/23/2025,10,Justice Taylor,39,Male,Australian,Hotel,220,Bus,420
+636,Tokyo,10/16/2025,10/23/2025,7,Sawyer Ramirez,23,Male,Japanese,Resort,360,Plane,700
+637,Rome,9/17/2023,9/27/2023,10,Noel Martinez,28,Female,German,Hostel,65,Plane,150
+638,Rome,4/20/2025,4/27/2025,7,Sawyer Martinez,49,Female,French,Airbnb,125,Bus,100
+639,Rio de Janeiro,6/19/2023,6/29/2023,10,Alex Davis,24,Male,German,Hostel,55,Car rental,470
+640,Barcelona,6/25/2023,7/4/2023,9,Sage Hill,53,Female,Indian,Villa,260,Plane,110
+641,Tokyo,3/22/2023,3/29/2023,7,Jordan Campbell,47,Male,German,Airbnb,140,Plane,700
+642,Bali,6/2/2024,6/10/2024,8,Tatum Green,44,Female,American,Villa,170,Car rental,410
+643,Rio de Janeiro,8/19/2025,8/26/2025,7,Justice Lopez,54,Male,Spanish,Airbnb,90,Plane,690
+644,Rome,5/13/2025,5/20/2025,7,Milan Robinson,55,Female,German,Airbnb,125,Bus,100
+645,Rome,9/20/2024,9/26/2024,6,Tatum Green,44,Female,American,Airbnb,125,Plane,150
+646,Barcelona,6/17/2023,6/25/2023,8,Payton Perez,31,Female,Australian,Villa,260,Train,65
+647,Barcelona,8/23/2024,8/29/2024,6,Sawyer Ramirez,23,Male,Japanese,Hostel,60,Train,65
+648,Barcelona,6/16/2025,6/25/2025,9,Sage Hill,53,Female,Indian,Villa,260,Plane,110
+649,Barcelona,7/1/2025,7/8/2025,7,Jesse Torres,20,Male,German,Resort,310,Train,65
+650,Barcelona,8/17/2023,8/23/2023,6,Jesse Garcia,50,Male,German,Resort,310,Train,65
+651,Barcelona,6/17/2024,6/26/2024,9,Spencer Roberts,31,Male,Indian,Hotel,190,Train,65
+652,Rio de Janeiro,6/15/2023,6/25/2023,10,Devin Anderson,47,Female,French,Hotel,150,Plane,690
+653,Rome,10/5/2024,10/15/2024,10,Rowan Wilson,26,Male,Japanese,Hostel,65,Train,85
+654,Barcelona,8/22/2023,8/30/2023,8,Shawn Taylor,29,Male,British,Resort,310,Plane,110
+655,Rio de Janeiro,7/13/2023,7/20/2023,7,Kendall Thomas,34,Male,Australian,Resort,240,Bus,400
+656,Tokyo,10/4/2023,10/11/2023,7,Justice Lopez,54,Male,Spanish,Hostel,60,Car rental,470
+657,Rio de Janeiro,8/25/2025,8/31/2025,6,Rowan Wilson,26,Male,Japanese,Resort,240,Bus,400
+658,Tokyo,9/25/2023,10/4/2023,9,River King,32,Male,Chinese,Resort,360,Car rental,470
+659,Rio de Janeiro,6/9/2024,6/18/2024,9,Morgan White,34,Male,American,Resort,240,Bus,400
+660,Barcelona,8/14/2025,8/22/2025,8,Shawn Taylor,29,Male,British,Hotel,190,Plane,110
+661,Tokyo,3/13/2025,3/20/2025,7,Logan Green,54,Male,Japanese,Hotel,220,Bus,420
+662,Bali,6/14/2023,6/24/2023,10,Justice Jackson,41,Male,Indian,Villa,170,Plane,650
+663,Bali,7/20/2025,7/28/2025,8,Chris Gonzalez,46,Male,Canadian,Resort,200,Car rental,410
+664,Rome,10/16/2025,10/23/2025,7,Casey Sanchez,44,Female,German,Hostel,65,Car rental,170
+665,Rio de Janeiro,7/19/2024,7/27/2024,8,River King,32,Male,Chinese,Resort,240,Car rental,470
+666,Barcelona,8/20/2024,8/26/2024,6,Sawyer Martin,47,Female,Canadian,Resort,310,Car rental,140
+667,Rome,9/20/2023,9/29/2023,9,Emerson Davis,35,Male,British,Hotel,200,Bus,100
+668,Tokyo,3/20/2024,3/26/2024,6,Sawyer Martinez,49,Female,French,Airbnb,140,Train,440
+669,Rome,10/2/2025,10/9/2025,7,Noel Harris,30,Male,Canadian,Villa,275,Plane,150
+670,Rio de Janeiro,6/22/2025,6/28/2025,6,Bailey Nelson,52,Female,German,Resort,240,Train,420
+671,Barcelona,7/25/2023,8/3/2023,9,Noel Martinez,28,Female,German,Hotel,190,Train,65
+672,Rome,3/24/2025,3/30/2025,6,Quinn Anderson,41,Male,British,Villa,275,Train,85
+673,Rio de Janeiro,6/17/2024,6/25/2024,8,Justice Lopez,54,Male,Spanish,Hotel,150,Plane,690
+674,Tokyo,4/11/2025,4/20/2025,9,Blake Perez,33,Female,Chinese,Villa,310,Train,440
+675,Rio de Janeiro,7/8/2025,7/16/2025,8,Quinn Anderson,41,Male,British,Resort,240,Bus,400
+676,Barcelona,8/22/2023,8/29/2023,7,Quinn Anderson,41,Male,British,Resort,310,Plane,110
+677,Rio de Janeiro,6/3/2023,6/12/2023,9,Bailey Moore,41,Female,Spanish,Airbnb,90,Train,420
+678,Tokyo,5/20/2024,5/28/2024,8,Reese Jackson,51,Male,German,Resort,360,Bus,420
+679,Rio de Janeiro,8/9/2023,8/18/2023,9,Arden Hall,32,Female,Japanese,Airbnb,90,Car rental,470
+680,Rio de Janeiro,6/15/2025,6/21/2025,6,Bailey Nelson,52,Female,German,Airbnb,90,Car rental,470
+681,Rio de Janeiro,6/1/2025,6/8/2025,7,Drew Hernandez,30,Female,Spanish,Villa,200,Plane,690
+682,Rio de Janeiro,8/9/2024,8/16/2024,7,Milan Robinson,55,Female,German,Hotel,150,Plane,690
+683,Bali,8/11/2024,8/19/2024,8,Shawn Martinez,39,Female,Chinese,Hostel,40,Plane,650
+684,Rome,5/12/2024,5/21/2024,9,River Davis,21,Female,Australian,Villa,275,Train,85
+685,Rome,4/4/2025,4/12/2025,8,Remy Adams,36,Female,Indian,Hostel,65,Train,85
+686,Rio de Janeiro,6/24/2023,7/1/2023,7,Kai Gomez,24,Female,Japanese,Villa,200,Car rental,470
+687,Bali,8/19/2024,8/25/2024,6,Casey Williams,41,Male,German,Villa,170,Plane,650
+688,Tokyo,5/16/2023,5/22/2023,6,Jamie Garcia,51,Male,German,Hostel,60,Bus,420
+689,Bali,8/18/2024,8/26/2024,8,Blake Jackson,49,Female,Canadian,Airbnb,70,Plane,650
+690,Rome,5/15/2025,5/22/2025,7,Quinn Johnson,22,Male,French,Hotel,200,Car rental,170
+691,Bali,6/6/2023,6/14/2023,8,Parker Robinson,24,Female,Australian,Villa,170,Car rental,410
+692,Bali,7/20/2025,7/29/2025,9,Jordan Campbell,47,Male,German,Airbnb,70,Plane,650
+693,Rome,4/6/2024,4/12/2024,6,Elliot Gonzalez,53,Female,Spanish,Airbnb,125,Car rental,170
+694,Tokyo,9/17/2023,9/23/2023,6,Sawyer Martin,47,Female,Canadian,Villa,310,Bus,420
+695,Bali,8/13/2023,8/21/2023,8,Justice Lopez,54,Male,Spanish,Resort,200,Train,390
+696,Barcelona,6/5/2025,6/15/2025,10,Jordan Campbell,47,Male,German,Airbnb,120,Car rental,140
+697,Tokyo,9/15/2024,9/25/2024,10,Parker Robinson,24,Female,Australian,Hotel,220,Plane,700
+698,Rome,10/10/2025,10/18/2025,8,Devin Anderson,47,Female,French,Resort,320,Car rental,170
+699,Rio de Janeiro,7/12/2024,7/21/2024,9,Jesse Torres,20,Male,German,Hostel,55,Bus,400
+700,Barcelona,8/25/2023,9/1/2023,7,Blake Perez,33,Female,Chinese,Airbnb,120,Bus,80
+701,Tokyo,4/1/2025,4/11/2025,10,Alex Thompson,28,Female,Canadian,Villa,310,Plane,700
+702,Barcelona,6/6/2024,6/15/2024,9,River King,32,Male,Chinese,Villa,260,Car rental,140
+703,Rio de Janeiro,8/18/2025,8/26/2025,8,Bailey Anderson,35,Male,Chinese,Airbnb,90,Plane,690
+704,Barcelona,7/4/2023,7/13/2023,9,Logan Mitchell,50,Male,French,Hotel,190,Train,65
+705,Rome,5/1/2023,5/8/2023,7,Drew Miller,55,Male,Indian,Airbnb,125,Car rental,170
+706,Rio de Janeiro,7/9/2023,7/16/2023,7,Noel Lewis,34,Male,German,Hotel,150,Train,420
+707,Rome,4/1/2023,4/10/2023,9,Skyler Campbell,24,Male,Australian,Hotel,200,Train,85
+708,Bali,7/15/2024,7/21/2024,6,Sawyer Ramirez,23,Male,Japanese,Villa,170,Plane,650
+709,Tokyo,9/3/2024,9/13/2024,10,Luca Thompson,26,Male,Australian,Hostel,60,Bus,420
+710,Rome,9/24/2023,9/30/2023,6,Noel Torres,46,Male,Australian,Hostel,65,Bus,100
+711,Tokyo,9/21/2024,9/29/2024,8,Sam Clark,38,Male,Australian,Resort,360,Bus,420
+712,Bali,6/21/2023,6/30/2023,9,Emerson Robinson,33,Female,Canadian,Hotel,110,Train,390
+713,Tokyo,3/13/2025,3/20/2025,7,Bailey Lewis,46,Female,American,Hostel,60,Plane,700
+714,Tokyo,10/5/2025,10/13/2025,8,Shiloh Lee,53,Male,German,Resort,360,Car rental,470
+715,Tokyo,3/22/2024,4/1/2024,10,Shawn Taylor,29,Male,British,Hostel,60,Train,440
+716,Tokyo,4/23/2025,5/3/2025,10,Alex White,39,Female,Japanese,Hotel,220,Plane,700
+717,Barcelona,8/21/2024,8/29/2024,8,Justice Lopez,54,Male,Spanish,Villa,260,Train,65
+718,Barcelona,8/5/2024,8/13/2024,8,Kendall Baker,26,Male,Indian,Hotel,190,Car rental,140
+719,Rome,9/7/2025,9/17/2025,10,Jesse Garcia,50,Male,German,Villa,275,Plane,150
+720,Rio de Janeiro,7/9/2025,7/19/2025,10,River Davis,21,Female,Australian,Airbnb,90,Plane,690
+721,Barcelona,7/9/2024,7/19/2024,10,Shawn Martinez,39,Female,Chinese,Hotel,190,Train,65
+722,Rome,4/1/2025,4/11/2025,10,Noel Martinez,28,Female,German,Hotel,200,Car rental,170
+723,Rio de Janeiro,6/22/2025,7/2/2025,10,Noel Martinez,28,Female,German,Hostel,55,Plane,690
+724,Rome,10/22/2023,10/28/2023,6,Bailey Lewis,46,Female,American,Airbnb,125,Bus,100
+725,Barcelona,6/16/2023,6/23/2023,7,Jesse Garcia,50,Male,German,Hostel,60,Bus,80
+726,Tokyo,9/17/2025,9/27/2025,10,Sawyer Martin,47,Female,Canadian,Resort,360,Car rental,470
+727,Rio de Janeiro,6/20/2024,6/26/2024,6,Drew Hernandez,30,Female,Spanish,Airbnb,90,Bus,400
+728,Barcelona,8/2/2024,8/10/2024,8,Shiloh Lee,53,Male,German,Villa,260,Bus,80
+729,Rome,5/17/2025,5/23/2025,6,Luca Lee,52,Female,Japanese,Airbnb,125,Bus,100
+730,Tokyo,10/4/2023,10/10/2023,6,Justice Taylor,39,Male,Australian,Airbnb,140,Bus,420
+731,Barcelona,6/17/2023,6/24/2023,7,Noel Harris,30,Male,Canadian,Resort,310,Car rental,140
+732,Barcelona,6/25/2025,7/5/2025,10,Morgan Garcia,47,Female,American,Resort,310,Car rental,140
+733,Rome,4/18/2023,4/27/2023,9,Quinn Anderson,41,Male,British,Villa,275,Bus,100
+734,Bali,7/18/2024,7/26/2024,8,Payton Perez,31,Female,Australian,Hostel,40,Car rental,410
+735,Rome,4/19/2025,4/29/2025,10,River King,32,Male,Chinese,Villa,275,Plane,150
+736,Rome,9/15/2024,9/24/2024,9,Sawyer Ramirez,23,Male,Japanese,Resort,320,Plane,150
+737,Tokyo,4/10/2025,4/16/2025,6,Sage Davis,33,Female,Indian,Airbnb,140,Bus,420
+738,Barcelona,8/9/2023,8/19/2023,10,Alex Thompson,28,Female,Canadian,Hostel,60,Plane,110
+739,Rio de Janeiro,6/15/2023,6/23/2023,8,Hayden Jackson,55,Male,German,Resort,240,Train,420
+740,Barcelona,6/8/2025,6/16/2025,8,Cameron Roberts,44,Female,Japanese,Airbnb,120,Plane,110
+741,Tokyo,4/24/2025,4/30/2025,6,Alex Thompson,28,Female,Canadian,Resort,360,Car rental,470
+742,Bali,8/23/2024,9/2/2024,10,Noel Harris,30,Male,Canadian,Villa,170,Train,390
+743,Rio de Janeiro,8/13/2025,8/19/2025,6,Sawyer Martin,47,Female,Canadian,Airbnb,90,Bus,400
+744,Tokyo,9/4/2024,9/11/2024,7,Skyler Scott,48,Male,Japanese,Airbnb,140,Plane,700
+745,Rio de Janeiro,7/17/2023,7/23/2023,6,Kai Mitchell,52,Female,German,Hotel,150,Car rental,470
+746,Rio de Janeiro,8/23/2024,8/30/2024,7,Phoenix Thompson,20,Female,French,Resort,240,Train,420
+747,Tokyo,10/17/2025,10/23/2025,6,Cameron Roberts,44,Female,Japanese,Villa,310,Car rental,470
+748,Rio de Janeiro,6/9/2023,6/18/2023,9,Dana Jackson,49,Male,British,Hostel,55,Train,420
+749,Rio de Janeiro,7/14/2025,7/22/2025,8,Bailey Lewis,46,Female,American,Hotel,150,Bus,400
+750,Bali,6/15/2025,6/21/2025,6,Parker Robinson,24,Female,Australian,Resort,200,Car rental,410
+751,Rio de Janeiro,7/23/2023,7/29/2023,6,Bailey Moore,41,Female,Spanish,Hostel,55,Plane,690
+752,Rome,4/24/2024,5/4/2024,10,Sky Rivera,35,Male,Indian,Villa,275,Bus,100
+753,Barcelona,7/20/2025,7/27/2025,7,Sawyer Ramirez,23,Male,Japanese,Resort,310,Plane,110
+754,Tokyo,4/2/2024,4/10/2024,8,Justice Jackson,41,Male,Indian,Villa,310,Bus,420
+755,Bali,7/21/2023,7/30/2023,9,Noel Torres,46,Male,Australian,Airbnb,70,Bus,370
+756,Rome,9/20/2024,9/30/2024,10,Jordan Campbell,47,Male,German,Resort,320,Bus,100
+757,Barcelona,8/1/2025,8/7/2025,6,Sawyer Martinez,49,Female,French,Hostel,60,Car rental,140
+758,Rio de Janeiro,7/24/2024,7/31/2024,7,Bailey Moore,41,Female,Spanish,Airbnb,90,Plane,690
+759,Bali,7/8/2025,7/18/2025,10,Cameron Johnson,27,Female,Canadian,Airbnb,70,Plane,650
+760,Tokyo,10/9/2023,10/16/2023,7,Remy Adams,36,Female,Indian,Airbnb,140,Car rental,470
+761,Bali,8/13/2023,8/23/2023,10,Cameron Roberts,44,Female,Japanese,Villa,170,Train,390
+762,Rio de Janeiro,6/7/2025,6/14/2025,7,Sky Rivera,35,Male,Indian,Airbnb,90,Car rental,470
+763,Rio de Janeiro,8/23/2024,9/2/2024,10,Casey Ramirez,46,Female,German,Hostel,55,Train,420
+764,Rome,3/18/2024,3/28/2024,10,Jamie Jackson,48,Male,French,Hostel,65,Train,85
+765,Tokyo,3/25/2023,4/2/2023,8,Noel Harris,30,Male,Canadian,Hostel,60,Plane,700
+766,Rome,5/5/2025,5/12/2025,7,Logan Mitchell,50,Male,French,Airbnb,125,Car rental,170
+767,Rio de Janeiro,8/1/2023,8/9/2023,8,Morgan Garcia,47,Female,American,Hostel,55,Train,420
+768,Rome,4/2/2023,4/11/2023,9,Quinn Johnson,22,Male,French,Hostel,65,Train,85
+769,Tokyo,4/25/2023,5/2/2023,7,Bailey Anderson,35,Male,Chinese,Airbnb,140,Car rental,470
+770,Barcelona,7/15/2025,7/22/2025,7,Elliot Lopez,49,Male,Indian,Villa,260,Car rental,140
+771,Rome,5/13/2025,5/23/2025,10,Riley Lewis,43,Female,Canadian,Hotel,200,Car rental,170
+772,Rio de Janeiro,6/15/2025,6/24/2025,9,Kai Mitchell,52,Female,German,Resort,240,Bus,400
+773,Barcelona,6/18/2025,6/27/2025,9,Jesse Garcia,50,Male,German,Resort,310,Car rental,140
+774,Tokyo,9/10/2024,9/18/2024,8,Tatum Green,44,Female,American,Hostel,60,Plane,700
+775,Barcelona,6/23/2025,7/3/2025,10,Shawn Nelson,49,Male,Indian,Villa,260,Plane,110
+776,Rome,10/4/2025,10/11/2025,7,Alex Garcia,35,Male,Japanese,Villa,275,Bus,100
+777,Barcelona,6/9/2024,6/17/2024,8,Rowan Baker,44,Male,Spanish,Villa,260,Train,65
+778,Barcelona,8/15/2023,8/23/2023,8,Justice Jackson,41,Male,Indian,Hotel,190,Bus,80
+779,Rio de Janeiro,8/13/2024,8/19/2024,6,Harper Smith,24,Male,Australian,Villa,200,Train,420
+780,Barcelona,6/6/2023,6/12/2023,6,Shawn Taylor,29,Male,British,Airbnb,120,Train,65
+781,Bali,8/6/2024,8/12/2024,6,Shawn Thompson,37,Male,Indian,Airbnb,70,Car rental,410
+782,Barcelona,7/16/2023,7/25/2023,9,Spencer Garcia,31,Male,Spanish,Hotel,190,Plane,110
+783,Tokyo,4/19/2023,4/28/2023,9,Kai Hernandez,35,Male,French,Resort,360,Car rental,470
+784,Rome,10/1/2025,10/8/2025,7,Kendall Thomas,34,Male,Australian,Villa,275,Bus,100
+785,Bali,6/5/2023,6/11/2023,6,Shawn Martinez,39,Female,Chinese,Resort,200,Train,390
+786,Bali,8/19/2023,8/29/2023,10,Dana Jackson,49,Male,British,Hotel,110,Train,390
+787,Bali,7/6/2023,7/13/2023,7,Alex Thompson,28,Female,Canadian,Hotel,110,Bus,370
+788,Bali,8/19/2024,8/27/2024,8,Casey Baker,41,Female,British,Resort,200,Train,390
+789,Tokyo,9/3/2024,9/12/2024,9,Bailey Nelson,52,Female,German,Airbnb,140,Plane,700
+790,Tokyo,3/23/2023,3/31/2023,8,Shawn Martinez,39,Female,Chinese,Airbnb,140,Car rental,470
+791,Rio de Janeiro,6/20/2025,6/26/2025,6,Luca Thompson,26,Male,Australian,Villa,200,Train,420
+792,Bali,8/19/2024,8/29/2024,10,Logan Taylor,55,Female,Spanish,Villa,170,Plane,650
+793,Barcelona,8/21/2025,8/30/2025,9,Quinn Anderson,41,Male,British,Resort,310,Car rental,140
+794,Barcelona,7/7/2025,7/13/2025,6,Arden Hall,32,Female,Japanese,Resort,310,Train,65
+795,Tokyo,4/20/2025,4/29/2025,9,Harper Martinez,26,Male,Spanish,Villa,310,Bus,420
+796,Tokyo,4/1/2025,4/8/2025,7,Logan Mitchell,50,Male,French,Airbnb,140,Plane,700
+797,Bali,7/17/2024,7/27/2024,10,Justice Jackson,41,Male,Indian,Airbnb,70,Bus,370
+798,Tokyo,9/24/2024,10/4/2024,10,Bailey Lewis,46,Female,American,Hotel,220,Plane,700
+799,Tokyo,9/18/2023,9/26/2023,8,Rowan Wilson,26,Male,Japanese,Hostel,60,Car rental,470
+800,Barcelona,6/5/2024,6/13/2024,8,Cameron Johnson,27,Female,Canadian,Resort,310,Plane,110
+801,Bali,8/13/2025,8/20/2025,7,Rowan Baker,44,Male,Spanish,Villa,170,Train,390
+802,Rome,5/7/2024,5/17/2024,10,Sawyer Martinez,49,Female,French,Hostel,65,Plane,150
+803,Barcelona,6/3/2023,6/12/2023,9,Alex Thompson,28,Female,Canadian,Hotel,190,Plane,110
+804,Tokyo,9/2/2024,9/8/2024,6,Sky Rivera,35,Male,Indian,Resort,360,Bus,420
+805,Bali,6/11/2025,6/18/2025,7,Tatum Green,44,Female,American,Hotel,110,Plane,650
+806,Bali,8/4/2024,8/12/2024,8,Logan Green,54,Male,Japanese,Airbnb,70,Plane,650
+807,Barcelona,7/9/2025,7/16/2025,7,Justice Lopez,54,Male,Spanish,Resort,310,Plane,110
+808,Bali,6/10/2023,6/20/2023,10,Logan Taylor,55,Female,Spanish,Resort,200,Train,390
+809,Rio de Janeiro,6/16/2023,6/22/2023,6,Alex White,39,Female,Japanese,Villa,200,Bus,400
+810,Rome,5/7/2024,5/17/2024,10,Emerson Lopez,50,Female,Indian,Resort,320,Plane,150
+811,Rome,4/20/2023,4/28/2023,8,Sky Rivera,35,Male,Indian,Villa,275,Train,85
+812,Rome,9/16/2024,9/22/2024,6,Noel Martinez,28,Female,German,Hostel,65,Plane,150
+813,Rome,9/6/2024,9/14/2024,8,Elliot Lopez,49,Male,Indian,Hotel,200,Plane,150
+814,Bali,6/13/2025,6/19/2025,6,Shawn Taylor,29,Male,British,Resort,200,Train,390
+815,Barcelona,6/16/2025,6/25/2025,9,Logan Mitchell,50,Male,French,Resort,310,Train,65
+816,Bali,8/11/2024,8/21/2024,10,Elliot Lopez,49,Male,Indian,Hostel,40,Car rental,410
+817,Barcelona,8/19/2025,8/28/2025,9,Justice Jackson,41,Male,Indian,Hostel,60,Bus,80
+818,Rio de Janeiro,8/4/2024,8/13/2024,9,Skyler Garcia,35,Female,French,Resort,240,Car rental,470
+819,Bali,6/22/2025,7/2/2025,10,Sam Allen,21,Male,Chinese,Villa,170,Bus,370
+820,Rome,3/3/2025,3/10/2025,7,Shawn Taylor,29,Male,British,Airbnb,125,Car rental,170
+821,Rome,4/22/2023,4/30/2023,8,Kendall Taylor,23,Male,Spanish,Resort,320,Car rental,170
+822,Rio de Janeiro,7/3/2025,7/13/2025,10,Alex Thompson,28,Female,Canadian,Airbnb,90,Car rental,470
+823,Rio de Janeiro,7/2/2023,7/10/2023,8,Shiloh Lee,53,Male,German,Resort,240,Car rental,470
+824,Tokyo,5/1/2023,5/8/2023,7,Shawn Martinez,39,Female,Chinese,Hotel,220,Plane,700
+825,Rio de Janeiro,7/13/2025,7/22/2025,9,Sawyer Brown,55,Male,British,Villa,200,Plane,690
+826,Rio de Janeiro,6/7/2024,6/17/2024,10,Sawyer Brown,55,Male,British,Hostel,55,Train,420
+827,Tokyo,9/22/2025,10/1/2025,9,Shiloh Lee,53,Male,German,Hotel,220,Train,440
+828,Tokyo,10/14/2024,10/24/2024,10,Jamie Jackson,48,Male,French,Hostel,60,Car rental,470
+829,Rome,9/13/2025,9/21/2025,8,River Davis,21,Female,Australian,Resort,320,Car rental,170
+830,Barcelona,7/24/2025,7/31/2025,7,Skyler Martin,33,Male,Spanish,Villa,260,Bus,80
+831,Rio de Janeiro,8/12/2025,8/18/2025,6,Skyler Campbell,24,Male,Australian,Airbnb,90,Car rental,470
+832,Rio de Janeiro,8/16/2023,8/22/2023,6,Bailey Nelson,52,Female,German,Villa,200,Plane,690
+833,Rio de Janeiro,6/17/2025,6/27/2025,10,Alex Garcia,35,Male,Japanese,Airbnb,90,Car rental,470
+834,Barcelona,8/18/2025,8/28/2025,10,Sawyer Martinez,49,Female,French,Villa,260,Bus,80
+835,Rio de Janeiro,6/16/2025,6/25/2025,9,Sky Rivera,35,Male,Indian,Hotel,150,Plane,690
+836,Rome,5/10/2024,5/18/2024,8,Hayden Jackson,55,Male,German,Resort,320,Plane,150
+837,Tokyo,10/9/2025,10/15/2025,6,Parker Robinson,24,Female,Australian,Resort,360,Plane,700
+838,Rome,3/22/2025,3/30/2025,8,Sam Clark,38,Male,Australian,Resort,320,Train,85
+839,Rio de Janeiro,6/5/2024,6/15/2024,10,Logan Walker,31,Male,Indian,Hotel,150,Plane,690
+840,Bali,7/9/2025,7/17/2025,8,Sam Clark,37,Male,Australian,Airbnb,70,Train,390
+841,Tokyo,4/22/2025,5/1/2025,9,Shiloh Lee,53,Male,German,Resort,360,Train,440
+842,Barcelona,6/17/2024,6/23/2024,6,River King,32,Male,Chinese,Airbnb,120,Train,65
+843,Tokyo,9/25/2024,10/4/2024,9,Alex White,39,Female,Japanese,Hostel,60,Train,440
+844,Rome,5/2/2025,5/10/2025,8,Kai Gomez,24,Female,Japanese,Hostel,65,Train,85
+845,Tokyo,9/16/2024,9/24/2024,8,Alex Davis,24,Male,German,Hotel,220,Train,440
+846,Rio de Janeiro,8/13/2025,8/22/2025,9,Rowan Wilson,26,Male,Japanese,Hostel,55,Car rental,470
+847,Barcelona,7/15/2023,7/24/2023,9,Blake Perez,33,Female,Chinese,Resort,310,Car rental,140
+848,Bali,8/21/2023,8/29/2023,8,Casey Baker,41,Female,British,Resort,200,Bus,370
+849,Rio de Janeiro,7/4/2024,7/12/2024,8,Sawyer Brown,55,Male,British,Airbnb,90,Plane,690
+850,Rio de Janeiro,8/8/2025,8/18/2025,10,Dana Jackson,49,Male,British,Villa,200,Car rental,470
+851,Tokyo,9/4/2023,9/14/2023,10,Shawn Martinez,39,Female,Chinese,Hotel,220,Bus,420
+852,Rome,5/9/2025,5/16/2025,7,Justice Lopez,54,Male,Spanish,Airbnb,125,Train,85
+853,Tokyo,10/22/2023,10/29/2023,7,Bailey Nelson,52,Female,German,Resort,360,Bus,420
+854,Tokyo,4/13/2025,4/23/2025,10,Devin Anderson,47,Female,French,Hotel,220,Bus,420
+855,Tokyo,9/22/2024,9/28/2024,6,River Davis,21,Female,Australian,Hostel,60,Plane,700
+856,Rome,5/9/2025,5/16/2025,7,Cameron Johnson,55,Male,Spanish,Airbnb,125,Car rental,170
+857,Barcelona,8/25/2023,9/3/2023,9,Jamie Garcia,51,Male,German,Villa,260,Bus,80
+858,Rio de Janeiro,7/4/2025,7/10/2025,6,Sawyer Ramirez,23,Male,Japanese,Hotel,150,Car rental,470
+859,Tokyo,3/16/2024,3/23/2024,7,Sam Clark,37,Male,Australian,Resort,360,Plane,700
+860,Tokyo,4/23/2024,5/1/2024,8,Dana Jackson,49,Male,British,Hotel,220,Car rental,470
+861,Rio de Janeiro,7/13/2024,7/19/2024,6,Jamie Garcia,51,Male,German,Hotel,150,Car rental,470
+862,Barcelona,7/4/2025,7/14/2025,10,Kai Hernandez,35,Male,French,Hotel,190,Car rental,140
+863,Bali,6/21/2024,6/27/2024,6,Casey Williams,41,Male,German,Airbnb,70,Plane,650
+864,Rio de Janeiro,6/10/2025,6/19/2025,9,Sam Allen,21,Male,Chinese,Hotel,150,Car rental,470
+865,Tokyo,10/15/2024,10/21/2024,6,Noel Torres,46,Male,Australian,Resort,360,Plane,700
+866,Rio de Janeiro,8/8/2025,8/14/2025,6,Sawyer Ramirez,23,Male,Japanese,Villa,200,Train,420
+867,Barcelona,8/2/2024,8/9/2024,7,Bailey Nelson,52,Female,German,Villa,260,Bus,80
+868,Rio de Janeiro,6/16/2023,6/26/2023,10,Kendall Thomas,34,Male,Australian,Hostel,55,Bus,400
+869,Barcelona,7/24/2024,8/2/2024,9,Reese Jackson,51,Male,German,Hotel,190,Train,65
+870,Tokyo,4/25/2024,5/1/2024,6,Bailey Lewis,46,Female,American,Resort,360,Train,440
+871,Barcelona,7/5/2023,7/14/2023,9,Emerson Lopez,50,Female,Indian,Airbnb,120,Bus,80
+872,Bali,6/19/2024,6/25/2024,6,Parker Robinson,24,Female,Australian,Resort,200,Train,390
+873,Tokyo,3/16/2023,3/22/2023,6,Jamie Jackson,48,Male,French,Resort,360,Car rental,470
+874,Rome,5/17/2023,5/26/2023,9,Justice Jackson,41,Male,Indian,Hostel,65,Train,85
+875,Tokyo,3/18/2024,3/25/2024,7,Reese Jackson,51,Male,German,Airbnb,140,Plane,700
+876,Tokyo,5/25/2025,6/4/2025,10,Logan Green,54,Male,Japanese,Resort,360,Bus,420
+877,Rome,3/2/2023,3/10/2023,8,Cameron Roberts,44,Female,Japanese,Villa,275,Train,85
+878,Barcelona,8/25/2024,9/3/2024,9,Noel Gomez,23,Male,American,Villa,260,Plane,110
+879,Tokyo,3/16/2023,3/26/2023,10,Jesse Garcia,50,Male,German,Hotel,220,Train,440
+880,Bali,6/4/2024,6/11/2024,7,Emerson Robinson,33,Female,Canadian,Hostel,40,Bus,370
+881,Tokyo,10/15/2023,10/22/2023,7,Quinn Johnson,22,Male,French,Villa,310,Train,440
+882,Barcelona,8/19/2023,8/25/2023,6,Elliot Gonzalez,53,Female,Spanish,Airbnb,120,Train,65
+883,Barcelona,7/6/2024,7/14/2024,8,Remy Adams,36,Female,Indian,Hotel,190,Car rental,140
+884,Barcelona,7/7/2025,7/17/2025,10,Shawn Martinez,39,Female,Chinese,Hotel,190,Car rental,140
+885,Rome,9/24/2025,10/1/2025,7,Rowan Wilson,26,Male,Japanese,Airbnb,125,Bus,100
+886,Bali,6/19/2025,6/25/2025,6,Bailey Moore,41,Female,Spanish,Villa,170,Train,390
+887,Tokyo,10/2/2025,10/11/2025,9,Shawn Thompson,37,Male,Indian,Hotel,220,Car rental,470
+888,Rome,9/8/2024,9/14/2024,6,Avery Baker,40,Male,Indian,Villa,275,Bus,100
+889,Tokyo,5/10/2023,5/17/2023,7,Luca Lee,52,Female,Japanese,Villa,310,Train,440
+890,Tokyo,5/6/2025,5/15/2025,9,Tatum Miller,24,Male,German,Hotel,220,Car rental,470
+891,Bali,6/13/2025,6/21/2025,8,River Davis,21,Female,Australian,Villa,170,Bus,370
+892,Tokyo,10/18/2024,10/28/2024,10,Avery Baker,40,Male,Indian,Airbnb,140,Car rental,470
+893,Tokyo,3/17/2025,3/25/2025,8,Arden Roberts,32,Female,Japanese,Resort,360,Plane,700
+894,Tokyo,10/2/2024,10/10/2024,8,Noel Lewis,34,Male,German,Villa,310,Plane,700
+895,Barcelona,8/25/2025,9/1/2025,7,Noel Martinez,28,Female,German,Resort,310,Bus,80
+896,Bali,7/24/2025,8/3/2025,10,Jamie Jackson,48,Male,French,Hostel,40,Bus,370
+897,Barcelona,7/17/2024,7/26/2024,9,Drew Hernandez,30,Female,Spanish,Hostel,60,Plane,110
+898,Tokyo,9/16/2024,9/26/2024,10,Remy Adams,36,Female,Indian,Hotel,220,Plane,700
+899,Barcelona,6/16/2025,6/23/2025,7,Justice Lopez,54,Male,Spanish,Airbnb,120,Bus,80
+900,Bali,8/1/2025,8/9/2025,8,Rowan Wilson,26,Male,Japanese,Villa,170,Car rental,410
+901,Tokyo,5/14/2025,5/24/2025,10,Logan Green,54,Male,Japanese,Hotel,220,Train,440
+902,Bali,8/6/2023,8/16/2023,10,Alex Garcia,35,Male,Japanese,Airbnb,70,Car rental,410
+903,Barcelona,6/4/2023,6/10/2023,6,Noel Gomez,23,Male,American,Hostel,60,Train,65
+904,Rio de Janeiro,7/6/2024,7/13/2024,7,Phoenix Thompson,20,Female,French,Hostel,55,Car rental,470
+905,Rio de Janeiro,7/16/2023,7/23/2023,7,Emerson Davis,35,Male,British,Airbnb,90,Bus,400
+906,Bali,8/17/2025,8/25/2025,8,Kendall Thomas,34,Male,Australian,Hostel,40,Bus,370
+907,Bali,8/5/2025,8/15/2025,10,Tatum Miller,24,Male,German,Villa,170,Plane,650
+908,Bali,8/21/2023,8/28/2023,7,Blake Jackson,49,Female,Canadian,Hotel,110,Plane,650
+909,Tokyo,9/11/2023,9/21/2023,10,Blake Jackson,49,Female,Canadian,Resort,360,Car rental,470
+910,Rome,5/12/2024,5/20/2024,8,River King,32,Male,Chinese,Airbnb,125,Bus,100
+911,Tokyo,9/17/2024,9/25/2024,8,Devin Anderson,47,Female,French,Hostel,60,Train,440
+912,Rio de Janeiro,7/21/2023,7/29/2023,8,Elliot Lopez,49,Male,Indian,Villa,200,Bus,400
+913,Barcelona,8/25/2025,9/1/2025,7,Shawn Thompson,37,Male,Indian,Resort,310,Car rental,140
+914,Barcelona,7/2/2025,7/10/2025,8,Emerson Robinson,33,Female,Canadian,Villa,260,Plane,110
+915,Bali,8/10/2025,8/19/2025,9,Blake Perez,33,Female,Chinese,Villa,170,Bus,370
+916,Rome,5/16/2023,5/22/2023,6,Sam Allen,21,Male,Chinese,Hostel,65,Bus,100
+917,Bali,7/9/2025,7/18/2025,9,Devin Anderson,47,Female,French,Resort,200,Car rental,410
+918,Tokyo,4/19/2024,4/25/2024,6,Justice Jackson,41,Male,Indian,Airbnb,140,Bus,420
+919,Bali,6/2/2024,6/10/2024,8,Alex Garcia,35,Male,Japanese,Villa,170,Train,390
+920,Rome,5/17/2024,5/23/2024,6,Noel Martinez,28,Female,German,Airbnb,125,Bus,100
+921,Barcelona,6/18/2025,6/26/2025,8,Hayden Jackson,55,Male,German,Hostel,60,Bus,80
+922,Bali,8/19/2023,8/27/2023,8,Phoenix Thompson,20,Female,French,Airbnb,70,Plane,650
+923,Tokyo,9/14/2024,9/22/2024,8,Alex Garcia,35,Male,Japanese,Hostel,60,Plane,700
+924,Tokyo,4/7/2025,4/17/2025,10,Emerson Davis,35,Male,British,Hostel,60,Train,440
+925,Rio de Janeiro,7/3/2024,7/9/2024,6,Reese Jackson,51,Male,German,Resort,240,Bus,400
+926,Tokyo,5/5/2024,5/14/2024,9,Spencer Garcia,31,Male,Spanish,Villa,310,Plane,700
+927,Rio de Janeiro,7/1/2025,7/7/2025,6,Devin Anderson,47,Female,French,Airbnb,90,Train,420
+928,Barcelona,6/7/2024,6/14/2024,7,Skyler Martin,33,Male,Spanish,Hostel,60,Train,65
+929,Rome,9/25/2023,10/4/2023,9,Harper Smith,24,Male,Australian,Hotel,200,Bus,100
+930,Tokyo,5/22/2023,5/28/2023,6,Rowan Wilson,26,Male,Japanese,Airbnb,140,Bus,420
+931,Tokyo,5/12/2025,5/19/2025,7,Rowan Baker,44,Male,Spanish,Hostel,60,Plane,700
+932,Rio de Janeiro,8/25/2023,8/31/2023,6,Payton Perez,31,Female,Australian,Hostel,55,Bus,400
+933,Barcelona,8/1/2023,8/7/2023,6,Avery Baker,40,Male,Indian,Hostel,60,Plane,110
+934,Rome,9/4/2023,9/14/2023,10,Jordan Campbell,47,Male,German,Hotel,200,Plane,150
+935,Rome,3/3/2025,3/11/2025,8,Jamie Jackson,48,Male,French,Airbnb,125,Plane,150
+936,Tokyo,10/24/2024,11/1/2024,8,Arden Hall,32,Female,Japanese,Villa,310,Plane,700
+937,Rome,9/7/2024,9/13/2024,6,Casey Sanchez,44,Female,German,Hostel,65,Car rental,170
+938,Rome,4/13/2023,4/22/2023,9,Jamie Garcia,51,Male,German,Resort,320,Bus,100
+939,Rio de Janeiro,7/7/2023,7/15/2023,8,Justice Jackson,41,Male,Indian,Hotel,150,Train,420
+940,Rio de Janeiro,7/5/2025,7/14/2025,9,Remy Sanchez,45,Male,British,Villa,200,Car rental,470
+941,Tokyo,3/6/2024,3/15/2024,9,Rowan Baker,44,Male,Spanish,Hotel,220,Bus,420
+942,Bali,8/4/2025,8/10/2025,6,Jaden Adams,30,Male,Canadian,Hostel,40,Plane,650
+943,Rio de Janeiro,7/22/2023,7/31/2023,9,Sage Hill,53,Female,Indian,Villa,200,Car rental,470
+944,Rio de Janeiro,8/1/2025,8/7/2025,6,Quinn Johnson,22,Male,French,Airbnb,90,Plane,690
+945,Tokyo,9/15/2024,9/24/2024,9,Sawyer Brown,55,Male,British,Villa,310,Car rental,470
+946,Tokyo,4/16/2025,4/25/2025,9,Bailey Nelson,52,Female,German,Hostel,60,Plane,700
+947,Bali,8/22/2023,8/31/2023,9,Jamie Jackson,48,Male,French,Villa,170,Car rental,410
+948,Rome,9/20/2025,9/28/2025,8,Kendall Miller,21,Female,Spanish,Airbnb,125,Car rental,170
+949,Bali,8/2/2023,8/9/2023,7,Shawn Taylor,29,Male,British,Airbnb,70,Bus,370
+950,Bali,7/13/2025,7/19/2025,6,Noel Martinez,28,Female,German,Resort,200,Bus,370
+951,Bali,6/22/2024,6/29/2024,7,Riley Lewis,43,Female,Canadian,Airbnb,70,Car rental,410
+952,Barcelona,6/10/2025,6/16/2025,6,Bailey Moore,41,Female,Spanish,Airbnb,120,Bus,80
+953,Barcelona,7/22/2023,7/31/2023,9,Alex White,39,Female,Japanese,Hotel,190,Plane,110
+954,Bali,8/4/2024,8/13/2024,9,Cameron Johnson,27,Female,Canadian,Villa,170,Car rental,410
+955,Bali,7/21/2023,7/27/2023,6,Reese Jackson,51,Male,German,Airbnb,70,Car rental,410
+956,Barcelona,7/19/2023,7/28/2023,9,Casey Williams,41,Male,German,Airbnb,120,Plane,110
+957,Rio de Janeiro,7/3/2023,7/11/2023,8,Morgan Garcia,47,Female,American,Villa,200,Car rental,470
+958,Bali,7/13/2023,7/21/2023,8,Payton Perez,31,Female,Australian,Villa,170,Plane,650
+959,Rio de Janeiro,8/23/2023,9/2/2023,10,Drew Miller,55,Male,Indian,Villa,200,Train,420
+960,Rio de Janeiro,8/15/2025,8/23/2025,8,River Davis,21,Female,Australian,Villa,200,Train,420
+961,Rio de Janeiro,8/21/2025,8/27/2025,6,Cameron Johnson,55,Male,Spanish,Resort,240,Car rental,470
+962,Barcelona,6/5/2023,6/13/2023,8,Tatum Green,44,Female,American,Airbnb,120,Car rental,140
+963,Rome,4/14/2025,4/22/2025,8,Sawyer Brown,55,Male,British,Airbnb,125,Bus,100
+964,Barcelona,6/4/2024,6/11/2024,7,Noel Gomez,23,Male,American,Airbnb,120,Train,65
+965,Tokyo,4/1/2024,4/9/2024,8,Riley Lewis,43,Female,Canadian,Hostel,60,Train,440
+966,Bali,7/12/2023,7/18/2023,6,Harper Smith,24,Male,Australian,Resort,200,Plane,650
+967,Barcelona,7/15/2023,7/24/2023,9,Sawyer Ramirez,23,Male,Japanese,Hotel,190,Train,65
+968,Rio de Janeiro,6/9/2025,6/16/2025,7,Phoenix Thompson,20,Female,French,Villa,200,Car rental,470
+969,Rome,10/2/2023,10/8/2023,6,Noel Martinez,28,Female,German,Airbnb,125,Plane,150
+970,Barcelona,8/23/2024,8/31/2024,8,Justice Jackson,41,Male,Indian,Airbnb,120,Car rental,140
+971,Rome,4/23/2023,5/1/2023,8,Rowan Wilson,26,Male,Japanese,Airbnb,125,Car rental,170
+972,Tokyo,9/21/2025,9/28/2025,7,Kendall Thomas,34,Male,Australian,Hotel,220,Train,440
+973,Rome,10/3/2024,10/9/2024,6,Sage Davis,33,Female,Indian,Hostel,65,Plane,150
+974,Barcelona,8/14/2025,8/22/2025,8,Emerson Davis,35,Male,British,Resort,310,Train,65
+975,Rome,10/11/2023,10/19/2023,8,Blake Jackson,49,Female,Canadian,Hostel,65,Plane,150
+976,Tokyo,9/13/2023,9/23/2023,10,Emerson Robinson,33,Female,Canadian,Villa,310,Plane,700
+977,Tokyo,9/7/2023,9/15/2023,8,Skyler Martin,33,Male,Spanish,Hotel,220,Train,440
+978,Barcelona,7/20/2025,7/28/2025,8,Drew Hernandez,30,Female,Spanish,Hotel,190,Car rental,140
+979,Rome,4/7/2023,4/15/2023,8,Sawyer Brown,55,Male,British,Villa,275,Bus,100
+980,Rome,4/20/2024,4/27/2024,7,Noel Gomez,23,Male,American,Villa,275,Train,85
+981,Tokyo,9/22/2024,9/29/2024,7,Harper Smith,24,Male,Australian,Villa,310,Train,440
+982,Rome,3/18/2023,3/24/2023,6,Skyler Campbell,24,Male,Australian,Villa,275,Plane,150
+983,Bali,8/22/2024,9/1/2024,10,Noel Lewis,34,Male,German,Hostel,40,Car rental,410
+984,Tokyo,10/13/2025,10/21/2025,8,Logan Taylor,55,Female,Spanish,Hotel,220,Plane,700
+985,Bali,6/9/2025,6/16/2025,7,Jamie Garcia,51,Male,German,Hostel,40,Bus,370
+986,Rome,3/11/2023,3/21/2023,10,Payton Perez,31,Female,Australian,Airbnb,125,Car rental,170
+987,Bali,8/16/2024,8/23/2024,7,Tatum Green,44,Female,American,Villa,170,Train,390
+988,Rome,3/8/2023,3/15/2023,7,Luca Lee,52,Female,Japanese,Hotel,200,Train,85
+989,Rome,9/14/2025,9/20/2025,6,Bailey Nelson,52,Female,German,Airbnb,125,Train,85
+990,Tokyo,10/16/2025,10/25/2025,9,Arden Hall,32,Female,Japanese,Villa,310,Plane,700
+991,Tokyo,3/7/2024,3/15/2024,8,Arden Hall,32,Female,Japanese,Hostel,60,Bus,420
+992,Tokyo,3/8/2024,3/17/2024,9,Casey Ramirez,46,Female,German,Resort,360,Train,440
+993,Tokyo,3/15/2023,3/24/2023,9,Emerson Lopez,50,Female,Indian,Airbnb,140,Train,440
+994,Bali,6/21/2023,6/29/2023,8,Blake Jackson,49,Female,Canadian,Resort,200,Train,390
+995,Tokyo,9/9/2023,9/16/2023,7,Bailey Lewis,46,Female,American,Hotel,220,Car rental,470
+996,Rome,4/13/2023,4/22/2023,9,Kai Gomez,24,Female,Japanese,Hotel,200,Bus,100
+997,Rio de Janeiro,6/12/2025,6/22/2025,10,Casey Sanchez,44,Female,German,Hostel,55,Plane,690
+998,Rome,5/19/2024,5/29/2024,10,Emerson Robinson,33,Female,Canadian,Villa,275,Car rental,170
+999,Tokyo,4/14/2025,4/23/2025,9,Riley Lewis,43,Female,Canadian,Villa,310,Plane,700
+1000,Tokyo,4/21/2024,4/28/2024,7,Sawyer Martinez,49,Female,French,Resort,360,Plane,700

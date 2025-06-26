@@ -103,7 +103,7 @@ def import_bookings_from_csv():
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('index.html', active_page="home")
 
 @app.route("/contact", methods=['GET', 'POST'])
 def contact():
@@ -121,7 +121,7 @@ def contact():
         flash("Thank you for contacting us! We will get back to you soon.", "success")
         return redirect(url_for("contact"))
     
-    return render_template("contact.html")
+    return render_template("contact.html", active_page="contact")
 
 @app.route("/destination", methods=["GET", "POST"])
 def destination():
@@ -176,11 +176,18 @@ def destination():
         flash("Booking successful!")
         return redirect(url_for('destination', place=dest))
 
-    return render_template("destination.html")
+    return render_template("destination.html", active_page="none")
 
 @app.route("/destinations")
 def destinations():
-    return render_template("destinations.html")
+    return render_template("destinations.html", active_page="destinations")
+
+@app.route("/control")
+def control():
+    if not session.get('is_admin'):
+        flash("Access denied.", "danger")
+        return redirect(url_for('home'))
+    return render_template("control.html", active_page="control")
 
 @app.route('/login', methods=['POST'])
 def login():
@@ -193,6 +200,7 @@ def login():
         session['user_id'] = user.id
         session['user_name'] = user.name
         session['user_email'] = user.email
+        session['is_admin'] = user.admin
         flash('Logged in successfully.', 'success')
     else:
         flash('Invalid email or password.', 'danger')
