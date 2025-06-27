@@ -14,13 +14,13 @@
         <nav class="navbar navbar-expand-lg navbar-light tm-bg-gray rounded">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Dashboard</a>
+                    <a class="nav-link active" href="#">Dashboard</a>
                 </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Graphs</a>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Users</a>
+                    <a class="nav-link" href="{{ url_for('users') }}">Users</a>
                 </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Messages</a>
@@ -30,36 +30,48 @@
                 </li>
             </ul>
         </nav>
-        <h1 class="text-center mt-4 mb-2">WELCOME TO WORKSPACE</h1>
-        <p class="text-center">Select a section above to manage users, view data, or analyze platform activity.</p>
-        <div class="container mt-5 pb-5">
-            <h2 class="text-center">Dashboard Overview</h2>
-            <div class="row text-center mt-4 pb-5">
-                <div class="col-md-4">
-                    <h5>Total Users</h5>
-                    <p>123</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Total Bookings</h5>
-                    <p>456</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Contact Messages</h5>
-                    <p>7</p>
+        <h1 class="text-center mt-4 mb-2 display-5 fw-bold">WELCOME TO WORKSPACE</h1>
+    <p class="text-center text-muted">Select a section above to manage users, view data, or analyze platform activity.</p>
+
+    <div class="container mt-5 pb-5">
+        <h2 class="text-center mb-4">Dashboard Overview</h2>
+
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-3">
+                <div class="card shadow-sm rounded p-3 text-center">
+                    <h5 class="card-title">Total Users</h5>
+                    <p class="fs-4 fw-bold mb-0">{{ total_users }}</p>
                 </div>
             </div>
-            <div class="row text-center mt-5 pb-5 justify-content-center">
-                <div class="col-md-4">
-                    <h5>Site Visits</h5>
-                    <p>2345</p>
+            <div class="col-md-3">
+                <div class="card shadow-sm rounded p-3 text-center">
+                    <h5 class="card-title">Total Bookings</h5>
+                    <p class="fs-4 fw-bold mb-0">{{ total_bookings }}</p>
                 </div>
-                <div class="col-md-4">
-                    <h5>Most Popular Destination</h5>
-                    <p>Destination from booking</p>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm rounded p-3 text-center">
+                    <h5 class="card-title">Contact Messages</h5>
+                    <p class="fs-4 fw-bold mb-0">{{ total_messages }}</p>
                 </div>
             </div>
         </div>
-    </div>    
+
+        <div class="row g-4 justify-content-center mt-4">
+            <div class="col-md-3">
+                <div class="card shadow-sm rounded p-3 text-center">
+                    <h5 class="card-title">Site Visits</h5>
+                    <p class="fs-4 fw-bold mb-0">3456</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-sm rounded p-3 text-center">
+                    <h5 class="card-title">Most Popular Destination</h5>
+                    <p class="fs-5 mb-0">{{ popular_destination }}</p>
+                </div>
+            </div>
+        </div>
+    </div> 
     <footer class="tm-container-outer">
             <p>Copyright © 2025 VETRAVEL. Design inspired by TemplateMo.</p>
     </footer>

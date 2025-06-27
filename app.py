@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import func
 import os
 import csv
 from datetime import datetime
@@ -187,7 +188,65 @@ def control():
     if not session.get('is_admin'):
         flash("Access denied.", "danger")
         return redirect(url_for('home'))
-    return render_template("control.html", active_page="control")
+    
+    most_popular = (
+        db.session.query(Booking.destination, func.count(Booking.destination).label('count'))
+        .group_by(Booking.destination)
+        .order_by(func.count(Booking.destination).desc())
+        .first()
+    )
+    data = {
+    "total_users": User.query.count(),
+    "total_bookings": Booking.query.count(),
+    "total_messages": Contact.query.count(),
+    "popular_destination": most_popular.destination if most_popular else 'N/A'
+    }
+
+    return render_template("control.html", active_page="control",**data)
+
+@app.route("/users", methods=["GET", "POST"])
+def users():
+    if not session.get('is_admin'):
+        flash("Access denied.", "danger")
+        return redirect(url_for('home'))
+
+    current_user_email = session.get('user_email')
+
+    if request.method == "POST":
+        user_id = request.form.get('user_id')
+        user = User.query.get(user_id)
+
+        if not user:
+            flash("User not found.", "danger")
+            return redirect(url_for('users'))
+
+        action = request.form.get('action')
+
+        if action == "delete_user":
+            if user.admin:
+                flash("Cannot delete admin users.", "danger")
+                return redirect(url_for('users'))
+            db.session.delete(user)
+            db.session.commit()
+            flash(f"User {user.name} has been deleted.", "success")
+            return redirect(url_for('users'))
+
+        if current_user_email != 'admin@admin.com':
+            flash("Only main admin can change admin status.", "danger")
+            return redirect(url_for('users'))
+
+        if user.email == 'admin@admin.com':
+            flash("Cannot change main admin status.", "danger")
+            return redirect(url_for('users'))
+
+        new_admin = request.form.get('admin') == 'True'
+        user.admin = new_admin
+        db.session.commit()
+        flash(f"Admin status for {user.name} updated.", "success")
+        return redirect(url_for('users'))
+
+    all_users = User.query.all()
+    return render_template("users.html", active_page="control", users=all_users)
 
 @app.route('/login', methods=['POST'])
 def login():

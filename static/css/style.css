@@ -479,6 +479,40 @@ footer p { color: white; }
     font-weight: 600;
 }
 
+.table-responsive {
+  max-height: 300px;      /* Or whatever height you want */
+  overflow-y: auto;
+}
+
+.table-responsive thead th {
+  position: sticky;
+  top: 0;
+  background-color: #343a40; /* Same as Bootstrap's thead-dark background */
+  color: white;              /* Text color for the header */
+  z-index: 10;               /* Make sure it stays above body rows */
+}
+
+.admin-yes {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 12px 0 0 12px;
+  cursor: pointer;
+}
+
+.admin-no {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 12px 0 0 12px;
+  cursor: pointer;
+}
+
+.no-border-left {
+  border-left: none;
+  border-radius: 0 12px 12px 0;
+}
+
 #google-map { height: 600px; }
 
 @media screen and (max-width: 1080px) {
