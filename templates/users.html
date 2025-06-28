@@ -23,7 +23,7 @@
                     <a class="nav-link active" href="#">Users</a>
                 </li>
                 <li class="nav-item mx-3">
-                    <a class="nav-link" href="#">Messages</a>
+                    <a class="nav-link" href="{{ url_for('messages') }}">Messages</a>
                 </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Bookings</a>
@@ -35,7 +35,7 @@
             <div class="mb-3 text-center">
                 <input type="text" id="emailSearch" class="form-control w-50 mx-auto" placeholder="Search by email">
             </div>
-            <div class="table-responsive" style="max-height: 265px; overflow-y: auto;" >
+            <div class="table-responsive" style="max-height: 400px; overflow-y: auto;" >
                 <table class="table table-bordered table-striped table-hover" id="usersTable">
                     <thead class="thead-dark">
                         <tr>

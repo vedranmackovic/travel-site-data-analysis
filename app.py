@@ -23,6 +23,7 @@ class Contact(db.Model):
     email = db.Column(db.String(120), nullable=False)
     subject = db.Column(db.String(200), nullable=False)
     message = db.Column(db.Text, nullable=False)
+    answered = db.Column(db.Boolean, default=False, nullable=False)
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -247,6 +248,28 @@ def users():
 
     all_users = User.query.all()
     return render_template("users.html", active_page="control", users=all_users)
+
+@app.route('/messages', methods=["GET", "POST"])
+def messages():
+    if not session.get('is_admin'):
+        flash("Access denied.", "danger")
+        return redirect(url_for('home'))
+    
+    if request.method == "POST":
+        if request.form.get('action') == "mark_answered":
+            contact_id = request.form.get('contact_id')
+
+            contact = Contact.query.get(contact_id)
+            if not contact:
+                flash("Message not found.", "danger")
+                return redirect(url_for('messages'))
+
+            contact.answered = True
+            db.session.commit()
+            return redirect(url_for('messages'))
+
+    all_contacts = Contact.query.all()
+    return render_template("messages.html", active_page="control", contacts=all_contacts)
 
 @app.route('/login', methods=['POST'])
 def login():

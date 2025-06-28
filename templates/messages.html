@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+    <link rel="icon" href="../static/img/logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    {% include '_navbar.html' %}
+    <div class="tm-page-wrap mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light tm-bg-gray rounded">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="{{ url_for('control') }}">Dashboard</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Graphs</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="{{ url_for('users') }}">Users</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link active" href="#">Messages</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Bookings</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container mt-5 pb-5">
+            <h2 class="text-center mb-4">Contact Messages</h2>
+            <div class="text-center mb-3">
+                <button class="btn btn-outline-primary mx-1" onclick="filterMessages('all')">All Messages</button>
+                <button class="btn btn-outline-danger mx-1" onclick="filterMessages('not-answered')">Unanswered</button>
+                <button class="btn btn-outline-success mx-1" onclick="filterMessages('answered')">Answered</button>
+            </div>
+            <div id="contact-table-wrapper" class="table-responsive">
+                <table class="table contact-table table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Subject</th>
+                            <th>Message</th>
+                            <th class="answered-col">Answered</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for contact in contacts %}
+                        <tr class="{% if contact.answered %}answered{% else %}not-answered{% endif %} {% if loop.index0 % 2 == 0 %}even{% else %}odd{% endif %}">
+                            <td>{{ contact.id }}</td>
+                            <td>{{ contact.name }}</td>
+                            <td>{{ contact.email }}</td>
+                            <td>{{ contact.subject }}</td>
+                            <td class="message-cell">{{ contact.message }}</td>
+                            <td class="answered-col">
+                                {% if not contact.answered %}
+                                <form method="POST" action="{{ url_for('messages') }}">
+                                    <input type="hidden" name="contact_id" value="{{ contact.id }}">
+                                    <input type="hidden" name="action" value="mark_answered">
+                                    <button type="submit" class="btn btn-sm btn-dark mark-btn">Mark Answered</button>
+                                </form>
+                                {% else %}
+                                <span class="badge badge-success">Answered</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer class="tm-container-outer">
+        <p>Copyright © 2025 VETRAVEL. Design inspired by TemplateMo.</p>
+    </footer>
+    {% include 'modals.html' %}
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="../static/js/modal.js"></script>
+    <script src="../static/js/messages.js"></script>
+</body>
+</html>

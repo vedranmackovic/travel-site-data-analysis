@@ -480,16 +480,16 @@ footer p { color: white; }
 }
 
 .table-responsive {
-  max-height: 300px;      /* Or whatever height you want */
+  max-height: 300px;
   overflow-y: auto;
 }
 
 .table-responsive thead th {
   position: sticky;
   top: 0;
-  background-color: #343a40; /* Same as Bootstrap's thead-dark background */
-  color: white;              /* Text color for the header */
-  z-index: 10;               /* Make sure it stays above body rows */
+  background-color: #343a40;
+  color: white;            
+  z-index: 10;               
 }
 
 .admin-yes {
@@ -511,6 +511,51 @@ footer p { color: white; }
 .no-border-left {
   border-left: none;
   border-radius: 0 12px 12px 0;
+}
+
+#contact-table-wrapper {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.contact-table .message-cell {
+    word-break: break-word;
+    max-width: 300px;
+}
+
+.contact-table .answered-col {
+    width: 110px;
+    word-break: break-word;
+}
+
+.contact-table tr.answered.even {
+    background-color: #d4edda;
+}
+.contact-table tr.answered.odd {
+    background-color: #c3e6cb;
+}
+.contact-table tr.not-answered.even {
+    background-color: #f8d7da;
+}
+.contact-table tr.not-answered.odd {
+    background-color: #f5c6cb;
+}
+
+.contact-table .mark-btn {
+    border-radius: 8px;
+    padding: 2px 8px;
+    font-size: 0.85rem;
+}
+
+.contact-table td, .contact-table th {
+    vertical-align: middle !important;
+    text-align: center;
+}
+
+.btn.active-filter {
+    background-color: #007bff;
+    color: white;
 }
 
 #google-map { height: 600px; }
