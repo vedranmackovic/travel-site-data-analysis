@@ -271,6 +271,32 @@ def messages():
     all_contacts = Contact.query.all()
     return render_template("messages.html", active_page="control", contacts=all_contacts)
 
+@app.route("/bookings", methods=["GET", "POST"])
+def bookings():
+    if not session.get('is_admin'):
+        flash("Access denied.", "danger")
+        return redirect(url_for('home'))
+
+    if request.method == "POST":
+        booking_id = request.form.get("booking_id")
+        booking = Booking.query.get(booking_id)
+
+        if not booking:
+            flash("Booking not found.", "danger")
+            return redirect(url_for('bookings'))
+
+        action = request.form.get("action")
+
+        if action == "delete_booking":
+            db.session.delete(booking)
+            db.session.commit()
+            flash(f"Booking {booking.id} has been deleted.", "success")
+            return redirect(url_for('bookings'))
+
+    all_bookings = Booking.query.all()
+    users = User.query.with_entities(User.id, User.email).all()
+    return render_template("bookings.html", active_page="control", bookings=all_bookings, users=users)
+
 @app.route('/login', methods=['POST'])
 def login():
     email = request.form.get('email')
