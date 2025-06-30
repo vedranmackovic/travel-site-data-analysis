@@ -14,13 +14,15 @@
         <div id="google-map"></div>
         <form action="{{ url_for('contact') }}" method="post" class="tm-contact-form">
             <div class="form-group tm-name-container">
-                <input type="text" id="contact_name" name="name" class="form-control" placeholder="Name"  required/>
+                <input type="text" id="contact_name" name="name" class="form-control"
+                    placeholder="Name" value="{{ session.get('user_name', '') }}" required/>
             </div>
             <div class="form-group tm-email-container">
-                <input type="email" id="contact_email" name="email" class="form-control" placeholder="Email"  required/>
+                <input type="email" id="contact_email" name="email" class="form-control"
+                    placeholder="Email" value="{{ session.get('user_email', '') }}" required/>
             </div>
             <div class="form-group">
-                <input type="text" id="contact_subject" name="subject" class="form-control" placeholder="Subject"  required/>
+                <input type="text" id="contact_subject" name="subject" class="form-control" placeholder="Subject" required/>
             </div>
             <div class="form-group">
                 <textarea id="contact_message" name="message" class="form-control" rows="9" placeholder="Message" required></textarea>
