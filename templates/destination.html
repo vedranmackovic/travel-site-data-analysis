@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-datepicker@1.9.0/dist/css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     {% include '_navbar.html' %}
@@ -25,8 +26,8 @@
             <div class="tm-slideshow">
                 <img id="img2" src="" alt="Image">
             </div>
-            <div class="tm-slideshow-description tm-bg-primary">
-                <p>GRAPH</p>
+            <div class="tm-slideshow-description tm-bg-primary chart-container">
+                {{ chart_div|safe }}
             </div>
         </section>
         <section class="tm-slideshow-section">

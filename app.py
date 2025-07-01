@@ -5,6 +5,7 @@ from sqlalchemy import func
 import os
 import csv
 from datetime import datetime
+import charts
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -174,11 +175,18 @@ def destination():
         db.session.add(new_booking)
         db.session.commit()
 
-        dest = ''.join(destination.split())
+        dest = destination.replace(" ", "_")
         flash("Booking successful!")
         return redirect(url_for('destination', place=dest))
 
-    return render_template("destination.html", active_page="none")
+    place = request.args.get('place')
+    if place:
+        place = place.replace('_', ' ')
+        chart_div = charts.generate_chart(place)
+    else:
+        chart_div = None
+
+    return render_template("destination.html", active_page="none", chart_div=chart_div, place=place)
 
 @app.route("/destinations")
 def destinations():

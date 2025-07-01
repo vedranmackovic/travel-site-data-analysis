@@ -1,7 +1,7 @@
 
   // 1. Destination data
 const destinations = {
-    GrandCanyon: {
+    Grand_Canyon: {
         name: "Grand Canyon",
         description: `A sheer mile-deep gorge carved over six million years by
         the Colorado River, offering vistas that shift from rust-red cliffs to shadowed side canyons.
@@ -24,7 +24,7 @@ const destinations = {
             "Car rental": 370
         }
     },
-    NiagaraFalls:{
+    Niagara_Falls:{
         name: "Niagara Falls",
         description: `A spectacular triad of waterfalls straddling the US-Canada border, Niagara Falls is famed 
         for its thunderous Horseshoe Falls, scenic walking paths, and mist-drenched cliffside view decks. 
@@ -47,7 +47,7 @@ const destinations = {
             "Car rental": 370
         }
     },
-    BanffNationalPark:{
+    Banff_National_Park:{
         name: "Banff National Park",
         description: `Canada's first national park, nestled in the heart of the Rockies, captivates with towering glaciated peaks, 
         turquoise lakes, and dense forests. Watch wildlife (bears, elk, wolves), paddle Lake Louise or Moraine Lake, 
@@ -69,7 +69,7 @@ const destinations = {
             "Car rental": 390
         }
     },
-    NewYork:{
+    New_York:{
         name: "New York",
         description: `The city that never sleeps, New York dazzles with a skyline of legendary landmarks — 
         from the Empire State Building and Central Park to the Statue of Liberty and Times Square. 
@@ -92,7 +92,7 @@ const destinations = {
             "Car rental": 390
         }
     },
-    HawaiiIslands:{
+    Hawaii_Islands:{
         name: "Hawaii Islands",
         description: `Hawaii is a Pacific paradise of volcanic landscapes, lush rainforests, waterfalls, 
         and palm-lined beaches. Each island offers something distinct: O'ahu's surf and nightlife, Maui's 
@@ -115,7 +115,7 @@ const destinations = {
             "Car rental": 500
         }
     },
-    MachuPicchu:{
+    Machu_Picchu:{
         name: "Machu Picchu",
         description: `A mystical Incan citadel nestled high in the Andes, Machu Picchu is a marvel of ancient 
         engineering and sacred design. Shrouded in clouds and mystery, it offers breathtaking views, 
@@ -137,7 +137,7 @@ const destinations = {
             "Car rental": 410
         }
     },
-    RiodeJaneiro:{
+    Rio_de_Janeiro:{
         name: "Rio de Janeiro",
         description: `Famed for its carnival spirit, dramatic landscapes, and samba rhythms, Rio is a city of vibrant contrasts. 
         Christ the Redeemer watches over lush mountains, golden beaches like Copacabana, and a buzzing urban life. 
@@ -267,7 +267,7 @@ const destinations = {
             "Car rental": 140
         }
     },
-    BlueLagoon:{
+    Blue_Lagoon:{
         name: "Blue Lagoon",
         description: `A geothermal wonder in a lava field, the Blue Lagoon offers milky-blue waters rich in silica and minerals. 
         Visitors can soak in steamy pools while surrounded by volcanic landscapes and distant snowcaps. 
@@ -288,7 +288,7 @@ const destinations = {
             "Car rental": 200
         }
     },
-    SwissAlps:{
+    Swiss_Alps:{
         name: "Swiss Alps",
         description: `A panorama of jagged peaks, alpine meadows, and glacial lakes, 
         the Swiss Alps offer four-season adventure. Ski world-class resorts like Zermatt or St. Moritz, 
@@ -396,7 +396,7 @@ const destinations = {
             "Car rental": 410
         }
     },
-    GreatWallofChina:{
+    Great_Wall_of_China:{
         name: "Great Wall of China",
         description: `Winding over 13,000 miles across mountains and deserts, the Great Wall of China 
         is one of the most iconic and ambitious feats of human engineering. Built over centuries to protect Chinese empires, 
@@ -418,7 +418,7 @@ const destinations = {
             "Car rental": 430
         }
     },
-    TajMahal:{
+    Taj_Mahal:{
         name: "Taj Mahal",
         description: `The Taj Mahal, a marble masterpiece in Agra, stands as a timeless symbol of love and devotion. 
         Commissioned by Emperor Shah Jahan for his late wife Mumtaz Mahal, its ivory domes and intricate 
@@ -462,7 +462,7 @@ const destinations = {
             "Car rental": 440
         }
     },
-    SerengetiNationalPark:{
+    Serengeti_National_Park:{
         name: "Serengeti National Park",
         description: `A vast savannah teeming with life, Serengeti National Park is the stage for the Great Migration — 
         millions of wildebeest and zebras crossing plains and rivers. Home to the “Big Five,” 
@@ -484,7 +484,7 @@ const destinations = {
             "Car rental": 460
         }
     },
-    CapeTown:{
+    Cape_Town:{
         name: "Cape Town",
         description: `Cape Town is a city of striking contrasts — nestled between Table Mountain and the Atlantic, 
         it offers beaches, vineyards, and rich history. Take a cable car to the summit, visit Robben Island, 
@@ -506,7 +506,7 @@ const destinations = {
             "Car rental": 490
         }
     },
-    VictoriaFalls:{
+    Victoria_Falls:{
         name: "Victoria Falls",
         description: `Known as "The Smoke That Thunders," Victoria Falls is one of the largest and most powerful 
         waterfalls in the world. The Zambezi River plunges over 100 meters into a dramatic gorge, sending mist and rainbows 
@@ -549,7 +549,7 @@ const destinations = {
             "Car rental": 420
         }
     },
-    PyramidsofGiza:{
+    Pyramids_of_Giza:{
         name: "Pyramids of Giza",
         description: `Giza is home to the iconic Pyramids and the Great Sphinx, standing as 
         ancient guardians on the edge of the Sahara. These monumental tombs, built over 4,500 years ago, 
@@ -571,7 +571,7 @@ const destinations = {
             "Car rental": 290
         }
     },
-    GreatBarrierReef:{
+    Great_Barrier_Reef:{
         name: "Great Barrier Reef",
         description: `The world's largest coral reef system, the Great Barrier Reef stretches over 2,300 kilometers 
         along Australia's northeast coast. It hosts an underwater paradise of coral gardens, sea turtles, reef sharks, 
@@ -635,7 +635,7 @@ const destinations = {
             "Car rental": 490
         }
     },
-    AntarticaPeninsula:{
+    Antartica_Peninsula:{
         name: "Antartica Peninsula",
         description: `A journey to the Antarctic Peninsula is a true expedition to Earth's last great wilderness. 
         Towering icebergs, glaciers, and snow-covered mountains frame colonies of penguins, seals, and passing whales. 
