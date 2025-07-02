@@ -11,7 +11,7 @@
 10,"Phuket",3/10/2024,3/17/2024,7,Mohammed Ali,39,Male,Emirati,Resort,180,Plane,590
 11,"Uluru",4/1/2024,4/8/2024,7,Ana Hernandez,27,Female,Mexican,Hotel,190,Plane,700
 12,"Bali",5/15/2024,5/22/2024,7,Carlos Garcia,36,Male,Spanish,Airbnb,70,Train,370
-13,"Antarctica Peninsula",6/10/2024,6/18/2024,8,Lily Wong,29,Female,Chinese,Resort,450,Plane,1300
+13,"Antartica Peninsula",6/10/2024,6/18/2024,8,Lily Wong,29,Female,Chinese,Resort,450,Plane,1300
 14,"Phuket",7/1/2024,7/10/2024,9,Hans Mueller,48,Male,German,Hotel,100,Plane,590
 15,"Paris",8/20/2024,8/27/2024,7,Fatima Khouri,26,Female,Moroccan,None,0,Plane,120
 16,"Barcelona",9/5/2024,9/12/2024,7,James MacKenzie,32,Male,Scottish,Hotel,190,Train,80
@@ -108,7 +108,7 @@
 107,New York,6/20/2022,6/25/2022,5,Michael Wong,42,Male,Hong Kong,Hotel,150,Car rental,390
 108,Bali,8/12/2022,8/20/2022,8,Lisa Chen,30,Female,Taiwan,Resort,200,Plane,650
 109,Sydney,7/1/2022,7/10/2022,9,David Kim,26,Male,Canada,Hostel,70,Plane,740
-110,London,6/10/2022,6/15/2022,5,Emily Wong,38,Female,United Kingdom,Hotel,900,Train,150
+110,Bali,6/10/2022,6/15/2022,5,Emily Wong,38,Female,United Kingdom,Villa,170,Plane,650
 111,Phuket,9/5/2022,9/12/2022,7,Mark Tan,45,Male,Singapore,Villa,150,Plane,590
 112,Rome,5/1/2022,5/8/2022,7,Emma Lee,31,Female,Italy,Hotel,200,Train,100
 113,Santorini,7/15/2022,7/22/2022,7,George Chen,27,Male,Greece,Airbnb,130,None,0
@@ -1999,3 +1999,1003 @@
 1998,Grand Canyon,5/7/2023,5/14/2023,7,Milan Thompson,46,Male,Indian,Hotel,140,Train,250
 1999,Victoria Falls,10/11/2025,10/20/2025,9,Skyler Scott,48,Male,Japanese,Villa,200,Bus,350
 2000,Niagara Falls,7/6/2024,7/15/2024,9,Emerson Lopez,50,Female,Indian,Villa,230,Bus,290
+2001,Sydney,8/23/2023,8/31/2023,8,Quinn Martin,53,Male,French,Villa,290,Train,470
+2002,Serengeti National Park,12/2/2024,12/11/2024,9,Dana Wilson,29,Male,American,Resort,280,Plane,620
+2003,Victoria Falls,2/25/2023,3/9/2023,12,Devin Johnson,22,Male,French,Villa,200,Train,330
+2004,Niagara Falls,12/23/2023,1/1/2024,9,Chris Jackson,33,Female,Chinese,Hotel,160,Car rental,370
+2005,Hawaii Islands,7/16/2025,7/22/2025,6,Drew Martinez,39,Male,Australian,Airbnb,140,Train,480
+2006,Great Barrier Reef,6/5/2025,6/10/2025,5,Skyler Williams,40,Female,Spanish,Villa,300,Car rental,470
+2007,Pyramids of Giza,4/2/2023,4/9/2023,7,Casey Jones,35,Male,Spanish,Resort,230,Train,210
+2008,Great Barrier Reef,7/21/2023,8/1/2023,11,Harper Wilson,28,Male,Japanese,Hostel,75,Car rental,470
+2009,Pyramids of Giza,10/22/2023,10/27/2023,5,Skyler Johnson,35,Female,Indian,Villa,200,Bus,240
+2010,Great Wall of China,6/1/2023,6/9/2023,8,Harper Martin,25,Male,Spanish,Hostel,50,Train,370
+2011,Santorini,7/9/2023,7/21/2023,12,Logan Thomas,40,Male,Chinese,Hotel,190,Train,110
+2012,Sydney,7/6/2025,7/14/2025,8,Jesse Garcia,52,Female,British,Hostel,70,Bus,450
+2013,Hawaii Islands,6/10/2025,6/21/2025,11,Dana Garcia,22,Female,French,Hotel,210,Bus,460
+2014,Hawaii Islands,6/5/2023,6/11/2023,6,Jesse Miller,23,Female,French,Resort,340,Car rental,500
+2015,Blue Lagoon,2/16/2023,2/24/2023,8,Kendall Smith,36,Male,Japanese,Airbnb,150,Bus,170
+2016,Machu Picchu,3/9/2024,3/19/2024,10,Jordan Garcia,27,Female,Indian,Resort,220,Car rental,410
+2017,Sydney,6/4/2025,6/15/2025,11,Harper Williams,41,Female,German,Resort,330,Plane,740
+2018,Banff National Park,2/1/2025,2/11/2025,10,Avery Anderson,34,Female,French,Hotel,180,Car rental,390
+2019,Santorini,8/12/2023,8/24/2023,12,Casey Jones,35,Male,Spanish,Hotel,190,Bus,130
+2020,Sydney,6/5/2024,6/16/2024,11,Chris Martin,42,Male,Spanish,Hostel,70,Train,470
+2021,Banff National Park,12/15/2024,12/24/2024,9,Avery Johnson,45,Male,Indian,Hotel,180,Train,330
+2022,Great Wall of China,1/9/2024,1/21/2024,12,Drew Lee,22,Male,American,Hostel,50,Car rental,430
+2023,Phuket,8/24/2024,9/4/2024,11,Jesse Hernandez,44,Female,Chinese,Resort,180,Train,340
+2024,Blue Lagoon,1/7/2024,1/13/2024,6,Jesse Anderson,22,Female,American,Villa,320,Plane,280
+2025,Banff National Park,2/11/2023,2/19/2023,8,Jamie Hernandez,44,Female,Indian,Airbnb,110,Car rental,390
+2026,Grand Canyon,5/17/2024,5/28/2024,11,Quinn Smith,54,Male,Spanish,Hotel,140,Train,250
+2027,Great Barrier Reef,8/15/2023,8/26/2023,11,Logan Taylor,28,Female,Japanese,Villa,300,Car rental,470
+2028,Santorini,7/21/2025,7/27/2025,6,Harper Martin,25,Male,Spanish,Hotel,190,Plane,220
+2029,Galapagos,8/20/2023,8/26/2023,6,Logan Martinez,54,Female,German,Resort,320,Bus,390
+2030,Santorini,7/17/2025,7/22/2025,5,Devin Johnson,22,Male,French,Villa,300,Plane,220
+2031,Hawaii Islands,6/8/2024,6/20/2024,12,Reese Hernandez,48,Female,American,Resort,340,Plane,750
+2032,Machu Picchu,11/2/2023,11/12/2023,10,Jordan Garcia,27,Female,Indian,Hotel,120,Train,300
+2033,Paris,7/8/2025,7/17/2025,9,Taylor Smith,45,Male,German,Airbnb,135,Train,70
+2034,Sydney,7/1/2023,7/7/2023,6,Dana Hernandez,20,Male,German,Hostel,70,Bus,450
+2035,Sydney,7/19/2025,7/26/2025,7,Riley Johnson,50,Female,British,Hostel,70,Car rental,510
+2036,Sydney,8/9/2024,8/14/2024,5,Jordan Lopez,54,Female,Spanish,Villa,290,Plane,740
+2037,Grand Canyon,11/13/2023,11/23/2023,10,Quinn Anderson,53,Male,Indian,Villa,210,Bus,280
+2038,Niagara Falls,2/15/2023,2/27/2023,12,Logan Taylor,28,Female,Japanese,Airbnb,100,Car rental,370
+2039,Grand Canyon,7/4/2025,7/16/2025,12,Chris Martinez,22,Male,British,Airbnb,95,Car rental,370
+2040,Niagara Falls,11/4/2025,11/10/2025,6,Drew Lee,22,Male,American,Hostel,60,Bus,290
+2041,Hawaii Islands,8/25/2023,9/3/2023,9,Avery Smith,36,Male,French,Hostel,70,Plane,750
+2042,Niagara Falls,1/1/2025,1/11/2025,10,Chris Johnson,50,Male,French,Airbnb,100,Bus,290
+2043,Santorini,8/19/2025,8/31/2025,12,Reese Wilson,20,Female,German,Resort,340,Car rental,180
+2044,Hawaii Islands,8/8/2023,8/13/2023,5,Dana Gonzalez,45,Female,Indian,Villa,300,Plane,750
+2045,Sydney,8/14/2024,8/20/2024,6,Parker Hernandez,21,Male,Australian,Airbnb,140,Plane,740
+2046,Great Barrier Reef,7/23/2025,7/29/2025,6,Avery Lopez,33,Male,French,Hotel,220,Plane,640
+2047,Great Barrier Reef,6/20/2025,6/30/2025,10,Taylor Gonzalez,44,Male,French,Resort,350,Plane,640
+2048,Paris,2/3/2025,2/13/2025,10,Logan Thomas,40,Male,Chinese,Airbnb,135,Plane,120
+2049,Santorini,8/24/2023,8/30/2023,6,Kendall Gonzalez,20,Male,Spanish,Resort,340,Car rental,180
+2050,Machu Picchu,9/21/2024,9/26/2024,5,Jesse Miller,23,Female,French,Airbnb,80,Plane,520
+2051,Grand Canyon,10/16/2025,10/21/2025,5,Jordan Thomas,34,Male,German,Airbnb,95,Bus,280
+2052,Great Barrier Reef,6/7/2025,6/12/2025,5,Harper Johnson,55,Female,British,Hostel,75,Plane,640
+2053,Paris,10/14/2025,10/19/2025,5,Casey Smith,33,Female,British,Villa,290,Car rental,160
+2054,Hawaii Islands,8/4/2024,8/11/2024,7,Riley Brown,49,Female,German,Hotel,210,Bus,460
+2055,Galapagos,7/2/2025,7/12/2025,10,Logan Johnson,52,Female,Indian,Resort,320,Plane,620
+2056,Great Barrier Reef,7/21/2023,8/1/2023,11,Devin Miller,36,Male,French,Hotel,220,Plane,640
+2057,Santorini,7/10/2023,7/16/2023,6,Drew Garcia,29,Male,Chinese,Hostel,70,Train,110
+2058,Great Barrier Reef,6/7/2023,6/13/2023,6,Jordan Johnson,25,Male,Canadian,Airbnb,130,Car rental,470
+2059,Great Wall of China,1/4/2023,1/10/2023,6,Parker Jones,50,Female,Canadian,Airbnb,90,Plane,600
+2060,Hawaii Islands,8/7/2024,8/16/2024,9,Avery Lopez,33,Male,French,Resort,340,Train,480
+2061,Phuket,7/16/2023,7/27/2023,11,Jesse Jones,43,Female,Australian,Resort,180,Bus,360
+2062,Paris,6/15/2024,6/26/2024,11,Alex Davis,20,Female,Chinese,Airbnb,135,Bus,90
+2063,Paris,12/6/2024,12/11/2024,5,Taylor Gonzalez,37,Male,American,Hostel,70,Car rental,160
+2064,Blue Lagoon,2/9/2024,2/19/2024,10,Casey Miller,54,Female,French,Resort,370,Car rental,200
+2065,Great Wall of China,5/21/2023,6/2/2023,12,Devin Miller,36,Male,French,Airbnb,90,Train,370
+2066,Sydney,7/3/2023,7/14/2023,11,Drew Lee,23,Female,Chinese,Hostel,70,Plane,740
+2067,Paris,11/2/2024,11/13/2024,11,Quinn Lopez,38,Female,Spanish,Airbnb,135,Car rental,160
+2068,Great Barrier Reef,7/23/2025,8/4/2025,12,Casey Brown,44,Female,Canadian,Airbnb,130,Plane,640
+2069,Sydney,6/21/2024,6/30/2024,9,Devin Anderson,28,Male,American,Hotel,210,Car rental,510
+2070,Blue Lagoon,12/7/2023,12/17/2023,10,Chris Johnson,50,Male,French,Villa,320,Car rental,200
+2071,Machu Picchu,4/1/2023,4/11/2023,10,Jesse Garcia,52,Female,British,Villa,190,Plane,520
+2072,Blue Lagoon,2/25/2025,3/5/2025,8,Drew Johnson,22,Female,American,Villa,320,Plane,280
+2073,Machu Picchu,9/5/2025,9/17/2025,12,Devin Lopez,29,Female,Indian,Hotel,120,Bus,320
+2074,Grand Canyon,12/19/2023,12/30/2023,11,Taylor Gonzalez,37,Male,American,Hostel,55,Plane,450
+2075,Phuket,6/21/2025,7/1/2025,10,Skyler Johnson,35,Female,Indian,Hostel,30,Car rental,440
+2076,Sydney,6/14/2025,6/21/2025,7,Reese Miller,32,Male,Indian,Hostel,70,Plane,740
+2077,Phuket,7/25/2025,8/1/2025,7,Reese Davis,47,Male,Japanese,Villa,150,Bus,360
+2078,Hawaii Islands,8/10/2023,8/15/2023,5,Harper Martinez,32,Female,American,Resort,340,Car rental,500
+2079,Santorini,8/2/2024,8/13/2024,11,Chris Johnson,50,Male,French,Resort,340,Bus,130
+2080,Banff National Park,1/22/2023,1/28/2023,6,Alex Davis,20,Female,Chinese,Villa,240,Plane,520
+2081,Phuket,8/11/2025,8/20/2025,9,Jesse Hernandez,44,Female,Chinese,Hotel,100,Car rental,440
+2082,Great Barrier Reef,8/5/2023,8/12/2023,7,Dana Wilson,31,Female,Canadian,Hostel,75,Train,390
+2083,Great Barrier Reef,6/5/2023,6/11/2023,6,Quinn Jackson,41,Male,Japanese,Villa,300,Plane,640
+2084,Galapagos,7/22/2025,7/31/2025,9,Devin Miller,38,Female,German,Villa,260,Plane,620
+2085,Sydney,8/18/2025,8/29/2025,11,Jesse Miller,27,Male,Australian,Villa,290,Train,470
+2086,Niagara Falls,9/8/2023,9/14/2023,6,Harper Lee,40,Male,Australian,Hotel,160,Car rental,370
+2087,Santorini,6/7/2024,6/18/2024,11,Morgan Thomas,43,Female,German,Airbnb,130,Plane,220
+2088,Hawaii Islands,8/14/2025,8/23/2025,9,Parker Jones,50,Female,Canadian,Resort,340,Bus,460
+2089,Great Barrier Reef,6/22/2023,6/28/2023,6,Drew Martinez,39,Male,Australian,Resort,350,Plane,640
+2090,Sydney,6/6/2024,6/12/2024,6,Harper Martin,25,Male,Spanish,Villa,290,Bus,450
+2091,Banff National Park,1/16/2025,1/22/2025,6,Reese Miller,32,Male,Indian,Resort,290,Train,330
+2092,Niagara Falls,4/22/2023,4/27/2023,5,Logan Martinez,54,Female,German,Hostel,60,Car rental,370
+2093,Paris,8/6/2025,8/15/2025,9,Alex Davis,20,Female,Chinese,Villa,290,Bus,90
+2094,Paris,5/24/2024,5/31/2024,7,Parker Lopez,51,Male,German,Hotel,210,Car rental,160
+2095,Great Wall of China,2/3/2023,2/13/2023,10,Casey Brown,44,Female,Canadian,Airbnb,90,Plane,600
+2096,Great Wall of China,12/15/2023,12/27/2023,12,Jesse Hernandez,44,Female,Chinese,Resort,240,Train,370
+2097,Banff National Park,1/24/2025,2/2/2025,9,Logan Martinez,54,Female,German,Resort,290,Train,330
+2098,Phuket,6/21/2023,6/28/2023,7,Alex Taylor,50,Male,Indian,Airbnb,60,Car rental,440
+2099,Grand Canyon,10/5/2024,10/13/2024,8,Logan Thomas,40,Male,Chinese,Airbnb,95,Car rental,370
+2100,Grand Canyon,11/15/2025,11/24/2025,9,Jamie Gonzalez,22,Female,Australian,Villa,210,Bus,280
+2101,Santorini,6/24/2024,6/30/2024,6,Jordan Jackson,42,Male,Japanese,Hotel,190,Plane,220
+2102,Phuket,8/8/2023,8/14/2023,6,Avery Lopez,21,Female,Canadian,Hostel,30,Car rental,440
+2103,Phuket,8/7/2023,8/17/2023,10,Reese Johnson,23,Female,Australian,Airbnb,60,Train,340
+2104,Grand Canyon,7/6/2023,7/13/2023,7,Jesse Gonzalez,35,Male,Australian,Hotel,140,Plane,450
+2105,Paris,5/13/2025,5/24/2025,11,Skyler Wilson,39,Female,British,Hotel,210,Bus,90
+2106,Great Barrier Reef,6/6/2025,6/13/2025,7,Chris Gonzalez,50,Female,Spanish,Hostel,75,Plane,640
+2107,Niagara Falls,3/22/2024,4/1/2024,10,Quinn Martinez,45,Male,Canadian,Hotel,160,Plane,480
+2108,Phuket,6/11/2023,6/19/2023,8,Logan Johnson,52,Female,Indian,Hotel,100,Bus,360
+2109,Hawaii Islands,6/2/2025,6/9/2025,7,Parker Anderson,31,Female,American,Hostel,70,Bus,460
+2110,Hawaii Islands,6/15/2025,6/22/2025,7,Avery Anderson,35,Female,Canadian,Villa,300,Car rental,500
+2111,Phuket,7/13/2025,7/20/2025,7,Reese Miller,32,Male,Indian,Hotel,100,Bus,360
+2112,Machu Picchu,11/4/2023,11/9/2023,5,Jordan Jackson,42,Male,Japanese,Resort,220,Plane,520
+2113,Machu Picchu,8/17/2024,8/28/2024,11,Logan Taylor,28,Female,Japanese,Hostel,45,Bus,320
+2114,Victoria Falls,10/7/2024,10/13/2024,6,Skyler Jones,37,Male,Spanish,Hotel,150,Plane,580
+2115,Grand Canyon,7/23/2025,7/30/2025,7,Devin Anderson,28,Male,American,Hostel,55,Train,250
+2116,Machu Picchu,3/7/2024,3/18/2024,11,Parker Wilson,39,Male,Chinese,Villa,190,Train,300
+2117,Sydney,7/22/2025,7/31/2025,9,Casey Smith,33,Female,British,Hostel,70,Car rental,510
+2118,Machu Picchu,11/6/2025,11/17/2025,11,Drew Miller,32,Female,Japanese,Villa,190,Bus,320
+2119,Grand Canyon,11/11/2025,11/18/2025,7,Chris Johnson,35,Female,German,Villa,210,Car rental,370
+2120,Phuket,6/11/2025,6/21/2025,10,Riley Brown,35,Female,Japanese,Airbnb,60,Bus,360
+2121,Santorini,6/6/2023,6/17/2023,11,Casey Moore,52,Female,British,Villa,300,Car rental,180
+2122,Sydney,6/7/2025,6/15/2025,8,Jamie Smith,40,Female,Indian,Villa,290,Bus,450
+2123,Blue Lagoon,12/10/2025,12/18/2025,8,Jesse Anderson,22,Female,American,Hostel,90,Plane,280
+2124,Banff National Park,2/9/2024,2/21/2024,12,Drew Johnson,54,Male,British,Hotel,180,Bus,310
+2125,Santorini,6/14/2023,6/22/2023,8,Harper Martinez,32,Female,American,Villa,300,Plane,220
+2126,Paris,9/4/2024,9/13/2024,9,Jordan Garcia,27,Female,Indian,Airbnb,135,Train,70
+2127,Serengeti National Park,9/22/2025,9/28/2025,6,Quinn Smith,22,Male,British,Villa,230,Car rental,460
+2128,Sydney,7/15/2025,7/24/2025,9,Quinn Smith,54,Male,Spanish,Hotel,210,Train,470
+2129,Hawaii Islands,6/22/2024,6/30/2024,8,Jesse Garcia,52,Female,British,Airbnb,140,Bus,460
+2130,Paris,9/5/2025,9/12/2025,7,Devin Anderson,28,Male,American,Villa,290,Train,70
+2131,Grand Canyon,8/22/2023,9/1/2023,10,Taylor Smith,45,Male,German,Hostel,55,Bus,280
+2132,Santorini,6/9/2023,6/19/2023,10,Skyler Anderson,43,Male,French,Villa,300,Plane,220
+2133,Hawaii Islands,7/9/2023,7/15/2023,6,Logan Williams,52,Female,German,Hostel,70,Bus,460
+2134,Sydney,6/5/2025,6/12/2025,7,Morgan Martin,20,Male,Canadian,Hotel,210,Bus,450
+2135,Niagara Falls,4/17/2023,4/22/2023,5,Chris Martin,42,Male,Spanish,Villa,230,Train,270
+2136,Machu Picchu,8/10/2023,8/18/2023,8,Jesse Martin,48,Female,Japanese,Hotel,120,Car rental,410
+2137,Niagara Falls,1/23/2025,1/29/2025,6,Jesse Miller,49,Male,Indian,Villa,230,Train,270
+2138,Paris,10/7/2023,10/14/2023,7,Quinn Jackson,41,Male,Japanese,Hostel,70,Bus,90
+2139,Phuket,8/1/2024,8/10/2024,9,Jesse Gonzalez,35,Male,Australian,Resort,180,Bus,360
+2140,Sydney,8/23/2024,9/2/2024,10,Riley Brown,49,Female,German,Villa,290,Train,470
+2141,Victoria Falls,12/2/2023,12/13/2023,11,Dana Wilson,31,Female,Canadian,Hostel,50,Train,330
+2142,Serengeti National Park,3/2/2025,3/12/2025,10,Quinn Brown,20,Male,British,Hotel,180,Bus,370
+2143,Great Barrier Reef,8/19/2023,8/28/2023,9,Quinn Wilson,27,Male,French,Hostel,75,Plane,640
+2144,Santorini,7/3/2023,7/14/2023,11,Taylor Gonzalez,44,Male,French,Airbnb,130,Train,110
+2145,Grand Canyon,1/25/2025,2/1/2025,7,Dana Garcia,22,Female,French,Hotel,140,Bus,280
+2146,Hawaii Islands,7/9/2024,7/21/2024,12,Drew Johnson,22,Female,American,Hostel,70,Bus,460
+2147,Hawaii Islands,8/15/2024,8/27/2024,12,Parker Jones,50,Female,Canadian,Hostel,70,Bus,460
+2148,Galapagos,6/20/2024,6/26/2024,6,Harper Williams,41,Female,German,Hotel,200,Car rental,450
+2149,Hawaii Islands,7/4/2023,7/16/2023,12,Reese Gonzalez,25,Male,British,Villa,300,Bus,460
+2150,Great Barrier Reef,8/3/2023,8/13/2023,10,Parker Hernandez,21,Female,Canadian,Hostel,75,Bus,370
+2151,Great Wall of China,7/3/2025,7/14/2025,11,Casey Jones,36,Male,Japanese,Villa,200,Plane,600
+2152,Hawaii Islands,6/18/2023,6/28/2023,10,Quinn Wilson,27,Male,French,Airbnb,140,Plane,750
+2153,Niagara Falls,8/20/2025,8/26/2025,6,Jordan Thomas,34,Male,German,Hostel,60,Car rental,370
+2154,Paris,5/22/2023,5/31/2023,9,Drew Lee,23,Female,Chinese,Hotel,210,Train,70
+2155,Paris,2/17/2023,2/22/2023,5,Logan Jackson,24,Male,Chinese,Villa,290,Bus,90
+2156,Pyramids of Giza,6/21/2023,6/30/2023,9,Parker Lopez,51,Male,German,Villa,200,Train,210
+2157,Machu Picchu,1/24/2023,1/30/2023,6,Quinn Jackson,41,Male,Japanese,Villa,190,Car rental,410
+2158,Machu Picchu,1/24/2025,1/31/2025,7,Morgan Martinez,37,Female,Australian,Airbnb,80,Train,300
+2159,Santorini,6/6/2023,6/13/2023,7,Skyler Johnson,38,Female,Canadian,Hotel,190,Plane,220
+2160,Paris,5/11/2024,5/22/2024,11,Drew Garcia,29,Male,Chinese,Airbnb,135,Bus,90
+2161,Santorini,8/13/2025,8/21/2025,8,Casey Jones,38,Female,Spanish,Airbnb,130,Train,110
+2162,Blue Lagoon,1/5/2025,1/11/2025,6,Quinn Hernandez,51,Male,Japanese,Hostel,90,Bus,170
+2163,Grand Canyon,1/21/2023,1/27/2023,6,Chris Johnson,50,Male,French,Airbnb,95,Train,250
+2164,Sydney,7/19/2024,7/30/2024,11,Riley Brown,23,Female,British,Resort,330,Train,470
+2165,Banff National Park,2/22/2025,3/1/2025,7,Chris Martinez,28,Male,Canadian,Hotel,180,Train,330
+2166,Machu Picchu,7/15/2024,7/20/2024,5,Devin Miller,38,Female,German,Airbnb,80,Train,300
+2167,Sydney,8/2/2025,8/11/2025,9,Alex Taylor,50,Female,Chinese,Hostel,70,Bus,450
+2168,Paris,7/4/2023,7/14/2023,10,Quinn Gonzalez,51,Male,German,Villa,290,Bus,90
+2169,Victoria Falls,11/23/2024,12/2/2024,9,Chris Taylor,29,Male,British,Resort,240,Plane,580
+2170,Great Barrier Reef,8/14/2023,8/22/2023,8,Chris Martinez,22,Male,British,Villa,300,Car rental,470
+2171,Phuket,7/7/2023,7/13/2023,6,Morgan Smith,43,Female,British,Hostel,30,Train,340
+2172,Niagara Falls,2/6/2023,2/16/2023,10,Chris Jackson,33,Female,Chinese,Hotel,160,Bus,290
+2173,Santorini,7/19/2023,7/29/2023,10,Riley Johnson,50,Female,British,Hotel,190,Plane,220
+2174,Santorini,8/2/2023,8/14/2023,12,Riley Brown,35,Female,Japanese,Airbnb,130,Plane,220
+2175,Santorini,7/14/2023,7/19/2023,5,Quinn Jackson,41,Male,Japanese,Hostel,70,Train,110
+2176,Hawaii Islands,7/13/2024,7/19/2024,6,Avery Lopez,21,Female,Canadian,Airbnb,140,Bus,460
+2177,Blue Lagoon,1/9/2024,1/18/2024,9,Devin Brown,29,Male,Chinese,Airbnb,150,Train,160
+2178,Sydney,7/19/2023,7/28/2023,9,Jamie Hernandez,44,Female,Indian,Villa,290,Plane,740
+2179,Phuket,7/17/2025,7/26/2025,9,Quinn Lopez,38,Female,Spanish,Resort,180,Bus,360
+2180,Grand Canyon,8/22/2025,8/30/2025,8,Chris Jones,25,Male,American,Resort,250,Car rental,370
+2181,Pyramids of Giza,8/4/2023,8/13/2023,9,Reese Davis,47,Male,Japanese,Hotel,140,Car rental,290
+2182,Sydney,8/4/2024,8/9/2024,5,Casey Miller,54,Female,French,Hotel,210,Car rental,510
+2183,Grand Canyon,11/6/2025,11/12/2025,6,Devin Garcia,34,Female,Australian,Resort,250,Car rental,370
+2184,Great Wall of China,11/21/2023,11/26/2023,5,Dana Lopez,53,Female,American,Resort,240,Bus,350
+2185,Victoria Falls,11/19/2023,11/24/2023,5,Drew Garcia,29,Male,Chinese,Hostel,50,Train,330
+2186,Galapagos,8/16/2024,8/24/2024,8,Jamie Hernandez,44,Female,Indian,Villa,260,Bus,390
+2187,Great Barrier Reef,8/3/2023,8/14/2023,11,Harper Martin,25,Male,Spanish,Hotel,220,Car rental,470
+2188,Great Barrier Reef,8/24/2024,9/5/2024,12,Devin Garcia,34,Female,Australian,Airbnb,130,Plane,640
+2189,Grand Canyon,8/24/2023,9/3/2023,10,Jordan Jackson,42,Male,Japanese,Hotel,140,Train,250
+2190,Paris,10/8/2024,10/14/2024,6,Drew Williams,49,Female,Australian,Airbnb,135,Train,70
+2191,Santorini,7/9/2024,7/19/2024,10,Chris Gonzalez,50,Female,Spanish,Hostel,70,Train,110
+2192,Pyramids of Giza,12/25/2025,1/2/2026,8,Taylor Gonzalez,37,Male,American,Hotel,140,Train,210
+2193,Hawaii Islands,6/24/2024,6/30/2024,6,Riley Brown,35,Female,Japanese,Resort,340,Train,480
+2194,Great Wall of China,3/25/2024,3/31/2024,6,Dana Garcia,22,Female,French,Resort,240,Bus,350
+2195,Hawaii Islands,7/6/2025,7/16/2025,10,Jordan Johnson,25,Male,Canadian,Airbnb,140,Car rental,500
+2196,Niagara Falls,8/17/2025,8/24/2025,7,Chris Martin,42,Male,Spanish,Airbnb,100,Train,270
+2197,Pyramids of Giza,1/24/2025,2/5/2025,12,Drew Williams,49,Female,Australian,Villa,200,Bus,240
+2198,Grand Canyon,4/5/2023,4/10/2023,5,Harper Williams,41,Female,German,Resort,250,Car rental,370
+2199,Santorini,7/18/2023,7/26/2023,8,Taylor Gonzalez,37,Male,American,Hostel,70,Train,110
+2200,Grand Canyon,11/18/2023,11/30/2023,12,Riley Brown,35,Female,Japanese,Hotel,140,Car rental,370
+2201,Paris,4/13/2024,4/24/2024,11,Chris Anderson,41,Male,Japanese,Villa,290,Plane,120
+2202,Serengeti National Park,1/7/2023,1/17/2023,10,Jordan Martinez,28,Female,German,Villa,230,Bus,370
+2203,Niagara Falls,11/25/2024,11/30/2024,5,Dana Lopez,53,Female,American,Villa,230,Train,270
+2204,Niagara Falls,3/7/2024,3/16/2024,9,Parker Lee,44,Female,Spanish,Airbnb,100,Plane,480
+2205,Paris,6/4/2024,6/9/2024,5,Avery Lopez,33,Male,French,Resort,330,Bus,90
+2206,Niagara Falls,5/14/2024,5/21/2024,7,Parker Thomas,28,Female,British,Hostel,60,Bus,290
+2207,Grand Canyon,10/1/2023,10/11/2023,10,Jesse Jones,43,Female,Australian,Hotel,140,Plane,450
+2208,Great Wall of China,5/16/2023,5/24/2023,8,Chris Martinez,22,Male,British,Airbnb,90,Bus,350
+2209,Galapagos,7/25/2025,7/30/2025,5,Jamie Martinez,20,Male,German,Hostel,80,Plane,620
+2210,Hawaii Islands,6/25/2025,6/30/2025,5,Chris Thomas,55,Female,Spanish,Hostel,70,Plane,750
+2211,Niagara Falls,7/22/2025,8/3/2025,12,Alex Davis,20,Female,Chinese,Resort,270,Train,270
+2212,Grand Canyon,7/4/2025,7/10/2025,6,Dana Wilson,29,Male,American,Airbnb,95,Plane,450
+2213,Hawaii Islands,8/24/2023,9/1/2023,8,Parker Thomas,28,Female,British,Hotel,210,Bus,460
+2214,Machu Picchu,3/8/2024,3/13/2024,5,Skyler Taylor,49,Male,Indian,Airbnb,80,Train,300
+2215,Paris,11/1/2025,11/10/2025,9,Riley Brown,49,Female,German,Resort,330,Car rental,160
+2216,Hawaii Islands,7/17/2025,7/22/2025,5,Avery Smith,36,Male,French,Villa,300,Car rental,500
+2217,Banff National Park,12/20/2024,12/31/2024,11,Alex Taylor,50,Female,Chinese,Hotel,180,Car rental,390
+2218,Niagara Falls,7/5/2024,7/15/2024,10,Skyler Hernandez,23,Male,German,Airbnb,100,Train,270
+2219,Santorini,6/5/2025,6/14/2025,9,Casey Jones,38,Female,Spanish,Villa,300,Train,110
+2220,Phuket,8/21/2024,8/30/2024,9,Jordan Anderson,50,Male,Spanish,Hostel,30,Car rental,440
+2221,Paris,3/24/2024,4/1/2024,8,Harper Lee,40,Male,Australian,Hostel,70,Car rental,160
+2222,Galapagos,6/13/2025,6/18/2025,5,Quinn Lopez,38,Female,Spanish,Hostel,80,Plane,620
+2223,Niagara Falls,3/12/2023,3/17/2023,5,Jordan Davis,28,Male,German,Villa,230,Bus,290
+2224,Santorini,7/8/2025,7/17/2025,9,Devin Anderson,28,Male,American,Villa,300,Car rental,180
+2225,Santorini,7/10/2024,7/21/2024,11,Reese Hernandez,48,Female,American,Resort,340,Bus,130
+2226,Hawaii Islands,7/3/2023,7/12/2023,9,Avery Anderson,35,Female,Canadian,Hotel,210,Plane,750
+2227,Blue Lagoon,1/19/2024,1/27/2024,8,Chris Johnson,50,Male,French,Hostel,90,Plane,280
+2228,Hawaii Islands,8/1/2024,8/13/2024,12,Avery Moore,54,Male,Canadian,Hotel,210,Bus,460
+2229,Blue Lagoon,12/22/2024,12/30/2024,8,Riley Brown,35,Female,Japanese,Villa,320,Bus,170
+2230,Great Wall of China,11/22/2024,11/27/2024,5,Alex Davis,20,Female,Chinese,Resort,240,Bus,350
+2231,Hawaii Islands,7/5/2024,7/10/2024,5,Jordan Johnson,25,Male,Canadian,Villa,300,Train,480
+2232,Hawaii Islands,8/3/2024,8/13/2024,10,Parker Taylor,42,Male,American,Villa,300,Train,480
+2233,Blue Lagoon,12/24/2025,1/3/2026,10,Kendall Smith,36,Male,Japanese,Airbnb,150,Bus,170
+2234,Hawaii Islands,8/17/2023,8/23/2023,6,Skyler Gonzalez,35,Female,Canadian,Airbnb,140,Plane,750
+2235,Grand Canyon,4/2/2024,4/7/2024,5,Harper Martinez,32,Female,American,Hostel,55,Bus,280
+2236,Grand Canyon,3/20/2024,3/26/2024,6,Drew Martinez,39,Male,Australian,Hotel,140,Bus,280
+2237,Machu Picchu,9/4/2024,9/9/2024,5,Skyler Thomas,51,Female,Japanese,Resort,220,Train,300
+2238,Hawaii Islands,8/15/2024,8/21/2024,6,Casey Thomas,36,Male,Australian,Airbnb,140,Car rental,500
+2239,Serengeti National Park,3/21/2023,3/27/2023,6,Skyler Thomas,51,Female,Japanese,Resort,280,Plane,620
+2240,Grand Canyon,6/8/2024,6/16/2024,8,Skyler Gonzalez,35,Female,Canadian,Hostel,55,Bus,280
+2241,Paris,2/19/2024,2/24/2024,5,Skyler Jones,37,Male,Spanish,Hotel,210,Bus,90
+2242,Machu Picchu,1/4/2023,1/14/2023,10,Riley Brown,35,Female,Japanese,Resort,220,Plane,520
+2243,Sydney,8/22/2023,8/27/2023,5,Reese Wilson,20,Female,German,Hostel,70,Bus,450
+2244,Niagara Falls,10/23/2025,10/28/2025,5,Jamie Smith,38,Male,Indian,Airbnb,100,Plane,480
+2245,Hawaii Islands,6/5/2025,6/17/2025,12,Jamie Hernandez,42,Female,Canadian,Villa,300,Plane,750
+2246,Victoria Falls,7/16/2025,7/28/2025,12,Reese Johnson,20,Male,Spanish,Airbnb,85,Train,330
+2247,Hawaii Islands,6/1/2025,6/9/2025,8,Reese Moore,21,Male,Spanish,Resort,340,Train,480
+2248,Great Barrier Reef,6/6/2023,6/18/2023,12,Alex Davis,20,Female,Chinese,Villa,300,Bus,370
+2249,Galapagos,8/20/2024,8/25/2024,5,Casey Miller,54,Female,French,Hotel,200,Bus,390
+2250,Serengeti National Park,1/14/2023,1/23/2023,9,Reese Johnson,42,Female,Spanish,Resort,280,Train,350
+2251,Great Wall of China,9/12/2024,9/22/2024,10,Drew Anderson,21,Male,Canadian,Airbnb,90,Plane,600
+2252,Niagara Falls,4/18/2023,4/26/2023,8,Chris Johnson,32,Male,German,Airbnb,100,Bus,290
+2253,Santorini,7/3/2024,7/9/2024,6,Parker Taylor,42,Male,American,Resort,340,Train,110
+2254,Great Wall of China,7/22/2023,7/31/2023,9,Morgan Smith,43,Female,British,Resort,240,Car rental,430
+2255,Machu Picchu,4/3/2023,4/13/2023,10,Quinn Smith,54,Male,Spanish,Airbnb,80,Car rental,410
+2256,Grand Canyon,3/6/2024,3/12/2024,6,Drew Miller,32,Female,Japanese,Airbnb,95,Train,250
+2257,Santorini,7/22/2025,8/3/2025,12,Casey Jones,36,Male,Japanese,Villa,300,Car rental,180
+2258,Santorini,7/5/2024,7/13/2024,8,Riley Lopez,38,Male,American,Airbnb,130,Bus,130
+2259,Pyramids of Giza,3/7/2025,3/14/2025,7,Parker Thomas,28,Female,British,Villa,200,Car rental,290
+2260,Banff National Park,2/20/2024,3/2/2024,11,Jesse Hernandez,44,Female,Chinese,Hotel,180,Plane,520
+2261,Pyramids of Giza,8/13/2024,8/23/2024,10,Logan Martinez,54,Female,German,Villa,200,Bus,240
+2262,Niagara Falls,8/6/2024,8/12/2024,6,Jamie Lee,49,Male,Indian,Hostel,60,Car rental,370
+2263,Santorini,8/11/2024,8/18/2024,7,Kendall Smith,36,Male,Japanese,Airbnb,130,Bus,130
+2264,Blue Lagoon,12/9/2023,12/21/2023,12,Alex Lopez,55,Female,American,Hotel,240,Train,160
+2265,Sydney,7/20/2025,7/25/2025,5,Skyler Williams,40,Female,Spanish,Hotel,210,Car rental,510
+2266,Great Barrier Reef,8/13/2024,8/24/2024,11,Kendall Gonzalez,20,Male,Spanish,Airbnb,130,Train,390
+2267,Niagara Falls,8/16/2024,8/21/2024,5,Chris Johnson,32,Male,German,Resort,270,Plane,480
+2268,Blue Lagoon,12/17/2025,12/22/2025,5,Logan Johnson,52,Female,Indian,Hostel,90,Bus,170
+2269,Great Wall of China,10/11/2023,10/22/2023,11,Drew Johnson,54,Male,British,Airbnb,90,Car rental,430
+2270,Santorini,6/12/2025,6/20/2025,8,Morgan Thomas,43,Female,German,Hostel,70,Plane,220
+2271,Victoria Falls,8/15/2024,8/26/2024,11,Devin Miller,38,Female,German,Hostel,50,Plane,580
+2272,Great Wall of China,5/3/2025,5/14/2025,11,Parker Hernandez,21,Male,Australian,Hotel,160,Train,370
+2273,Serengeti National Park,6/10/2024,6/20/2024,10,Jamie Hernandez,44,Female,Indian,Airbnb,100,Train,350
+2274,Pyramids of Giza,11/2/2025,11/12/2025,10,Dana Hernandez,20,Male,German,Resort,230,Plane,380
+2275,Niagara Falls,12/11/2023,12/23/2023,12,Kendall Smith,36,Male,Japanese,Hotel,160,Train,270
+2276,Galapagos,6/22/2025,6/29/2025,7,Skyler Gonzalez,35,Female,Canadian,Villa,260,Plane,620
+2277,Santorini,8/6/2024,8/16/2024,10,Morgan Martin,20,Male,Canadian,Resort,340,Car rental,180
+2278,Great Barrier Reef,8/22/2024,8/30/2024,8,Parker Anderson,31,Female,American,Villa,300,Car rental,470
+2279,Hawaii Islands,8/22/2024,8/31/2024,9,Dana Garcia,22,Female,French,Hostel,70,Bus,460
+2280,Hawaii Islands,6/21/2023,7/2/2023,11,Skyler Thomas,51,Female,Japanese,Resort,340,Train,480
+2281,Pyramids of Giza,7/15/2023,7/24/2023,9,Riley Jackson,52,Male,German,Villa,200,Bus,240
+2282,Great Barrier Reef,7/7/2024,7/19/2024,12,Logan Williams,52,Female,German,Hotel,220,Plane,640
+2283,Great Wall of China,5/12/2023,5/20/2023,8,Harper Wilson,54,Female,Japanese,Villa,200,Car rental,430
+2284,Sydney,6/2/2025,6/11/2025,9,Kendall Smith,36,Male,Japanese,Resort,330,Train,470
+2285,Sydney,7/16/2025,7/22/2025,6,Chris Taylor,27,Male,Chinese,Resort,330,Train,470
+2286,Blue Lagoon,12/5/2023,12/11/2023,6,Quinn Smith,22,Male,British,Hotel,240,Plane,280
+2287,Pyramids of Giza,12/11/2025,12/19/2025,8,Quinn Gonzalez,51,Male,German,Hostel,50,Car rental,290
+2288,Hawaii Islands,6/10/2024,6/18/2024,8,Jamie Lee,49,Male,Indian,Hostel,70,Car rental,500
+2289,Paris,11/23/2024,12/5/2024,12,Casey Moore,52,Female,British,Hostel,70,Plane,120
+2290,Sydney,6/25/2024,6/30/2024,5,Reese Hernandez,48,Female,American,Hotel,210,Car rental,510
+2291,Grand Canyon,12/24/2025,12/30/2025,6,Jesse Hernandez,44,Female,Chinese,Airbnb,95,Bus,280
+2292,Grand Canyon,9/18/2025,9/26/2025,8,Devin Garcia,34,Female,Australian,Resort,250,Plane,450
+2293,Banff National Park,12/15/2025,12/27/2025,12,Jordan Garcia,27,Female,Indian,Villa,240,Bus,310
+2294,Victoria Falls,4/25/2025,5/3/2025,8,Quinn Wilson,42,Male,Australian,Hotel,150,Bus,350
+2295,Grand Canyon,11/6/2023,11/17/2023,11,Drew Lee,22,Male,American,Resort,250,Bus,280
+2296,Machu Picchu,4/2/2025,4/11/2025,9,Quinn Smith,54,Male,Spanish,Hotel,120,Train,300
+2297,Machu Picchu,10/14/2024,10/23/2024,9,Chris Martin,53,Male,American,Airbnb,80,Car rental,410
+2298,Serengeti National Park,10/18/2024,10/23/2024,5,Quinn Brown,37,Male,American,Resort,280,Car rental,460
+2299,Galapagos,6/16/2024,6/25/2024,9,Casey Jones,38,Female,Spanish,Hotel,200,Bus,390
+2300,Santorini,7/17/2025,7/26/2025,9,Jamie Hernandez,44,Female,Indian,Resort,340,Bus,130
+2301,Victoria Falls,2/19/2024,2/29/2024,10,Jesse Jones,43,Female,Australian,Hostel,50,Plane,580
+2302,Paris,1/4/2024,1/16/2024,12,Chris Johnson,35,Female,German,Hostel,70,Plane,120
+2303,Santorini,7/20/2024,7/26/2024,6,Casey Miller,54,Female,French,Hotel,190,Bus,130
+2304,Phuket,7/23/2023,7/30/2023,7,Reese Johnson,20,Male,Spanish,Resort,180,Car rental,440
+2305,Paris,6/6/2023,6/12/2023,6,Jordan Garcia,27,Female,Indian,Hotel,210,Train,70
+2306,Blue Lagoon,12/4/2025,12/10/2025,6,Quinn Martin,53,Male,French,Hotel,240,Train,160
+2307,Great Barrier Reef,8/18/2025,8/27/2025,9,Logan Johnson,52,Female,Indian,Hotel,220,Plane,640
+2308,Banff National Park,2/22/2025,3/1/2025,7,Jesse Jones,43,Female,Australian,Airbnb,110,Bus,310
+2309,Hawaii Islands,8/17/2025,8/23/2025,6,Parker Taylor,42,Male,American,Resort,340,Plane,750
+2310,Niagara Falls,4/19/2025,4/28/2025,9,Dana Thomas,36,Female,Australian,Airbnb,100,Train,270
+2311,Victoria Falls,3/13/2025,3/21/2025,8,Drew Anderson,21,Male,Canadian,Airbnb,85,Plane,580
+2312,Serengeti National Park,2/15/2025,2/20/2025,5,Riley Smith,30,Male,Canadian,Resort,280,Car rental,460
+2313,Hawaii Islands,8/23/2023,8/29/2023,6,Drew Anderson,21,Male,Canadian,Resort,340,Car rental,500
+2314,Sydney,6/18/2023,6/23/2023,5,Chris Johnson,35,Female,German,Resort,330,Plane,740
+2315,Niagara Falls,3/20/2023,3/27/2023,7,Parker Taylor,42,Male,American,Hotel,160,Plane,480
+2316,Santorini,7/20/2023,7/28/2023,8,Dana Martin,30,Female,Canadian,Resort,340,Car rental,180
+2317,Great Barrier Reef,7/12/2023,7/18/2023,6,Chris Jones,25,Male,American,Villa,300,Plane,640
+2318,Niagara Falls,1/22/2025,1/27/2025,5,Riley Brown,49,Female,German,Villa,230,Car rental,370
+2319,Galapagos,7/11/2023,7/16/2023,5,Drew Anderson,21,Male,Canadian,Hostel,80,Car rental,450
+2320,Serengeti National Park,10/6/2025,10/15/2025,9,Dana Gonzalez,45,Female,Indian,Resort,280,Car rental,460
+2321,Banff National Park,12/19/2025,12/26/2025,7,Avery Lopez,33,Male,French,Resort,290,Bus,310
+2322,Hawaii Islands,6/6/2023,6/12/2023,6,Kendall Gonzalez,20,Male,Spanish,Hostel,70,Bus,460
+2323,Hawaii Islands,7/19/2024,7/24/2024,5,Riley Jackson,52,Male,German,Villa,300,Train,480
+2324,Banff National Park,12/22/2023,12/27/2023,5,Morgan Martinez,37,Female,Australian,Resort,290,Car rental,390
+2325,Santorini,6/20/2025,6/30/2025,10,Alex Lee,25,Male,French,Villa,300,Train,110
+2326,Paris,12/13/2023,12/23/2023,10,Jamie Anderson,49,Male,Indian,Airbnb,135,Plane,120
+2327,Grand Canyon,6/7/2025,6/14/2025,7,Jesse Jones,43,Female,Australian,Resort,250,Plane,450
+2328,Grand Canyon,4/10/2025,4/18/2025,8,Quinn Wilson,42,Male,Australian,Hostel,55,Train,250
+2329,Great Wall of China,1/18/2024,1/27/2024,9,Reese Johnson,23,Female,Australian,Resort,240,Car rental,430
+2330,Hawaii Islands,7/24/2025,7/30/2025,6,Logan Williams,31,Male,Indian,Villa,300,Bus,460
+2331,Santorini,6/1/2023,6/11/2023,10,Jamie Smith,38,Male,Indian,Resort,340,Bus,130
+2332,Pyramids of Giza,2/22/2025,3/2/2025,8,Devin Miller,38,Female,German,Airbnb,85,Car rental,290
+2333,Banff National Park,1/25/2023,2/3/2023,9,Jesse Miller,49,Male,Indian,Hostel,65,Car rental,390
+2334,Paris,2/14/2025,2/22/2025,8,Taylor Gonzalez,37,Male,American,Resort,330,Train,70
+2335,Phuket,6/17/2024,6/27/2024,10,Logan Jackson,24,Male,Chinese,Villa,150,Bus,360
+2336,Paris,3/3/2023,3/14/2023,11,Jamie Hernandez,42,Female,Canadian,Hostel,70,Train,70
+2337,Banff National Park,12/3/2025,12/11/2025,8,Chris Jackson,33,Female,Chinese,Villa,240,Plane,520
+2338,Blue Lagoon,1/10/2025,1/19/2025,9,Jesse Lee,42,Male,Australian,Resort,370,Car rental,200
+2339,Paris,9/1/2023,9/8/2023,7,Harper Johnson,55,Female,British,Airbnb,135,Bus,90
+2340,Hawaii Islands,7/16/2023,7/25/2023,9,Chris Martinez,28,Male,Canadian,Hotel,210,Plane,750
+2341,Machu Picchu,12/14/2023,12/26/2023,12,Devin Garcia,34,Female,Australian,Resort,220,Car rental,410
+2342,Galapagos,6/12/2023,6/18/2023,6,Chris Brown,37,Female,American,Hotel,200,Bus,390
+2343,Sydney,7/1/2024,7/7/2024,6,Jesse Hernandez,44,Female,Chinese,Hostel,70,Train,470
+2344,Paris,12/16/2024,12/28/2024,12,Skyler Wilson,44,Female,Australian,Airbnb,135,Car rental,160
+2345,Santorini,6/11/2025,6/22/2025,11,Taylor Smith,45,Male,German,Hostel,70,Train,110
+2346,Hawaii Islands,6/16/2023,6/26/2023,10,Parker Anderson,31,Female,American,Hotel,210,Bus,460
+2347,Pyramids of Giza,11/1/2025,11/13/2025,12,Casey Miller,54,Female,French,Resort,230,Train,210
+2348,Niagara Falls,6/18/2024,6/27/2024,9,Jamie Smith,40,Female,Indian,Hostel,60,Bus,290
+2349,Galapagos,8/20/2023,8/25/2023,5,Jamie Lee,22,Female,American,Airbnb,120,Plane,620
+2350,Paris,9/8/2024,9/14/2024,6,Harper Williams,41,Female,German,Villa,290,Car rental,160
+2351,Phuket,8/23/2023,9/3/2023,11,Devin Anderson,28,Male,American,Hostel,30,Train,340
+2352,Sydney,7/5/2025,7/11/2025,6,Quinn Brown,20,Male,British,Hotel,210,Train,470
+2353,Machu Picchu,5/21/2025,5/30/2025,9,Reese Moore,21,Male,Spanish,Resort,220,Plane,520
+2354,Banff National Park,12/4/2025,12/14/2025,10,Casey Brown,44,Female,Canadian,Hotel,180,Car rental,390
+2355,Pyramids of Giza,7/9/2024,7/17/2024,8,Jordan Martin,32,Male,Canadian,Hostel,50,Bus,240
+2356,Serengeti National Park,4/18/2023,4/27/2023,9,Jamie Hernandez,42,Female,Canadian,Airbnb,100,Train,350
+2357,Paris,12/8/2023,12/20/2023,12,Reese Johnson,20,Male,Spanish,Hotel,210,Car rental,160
+2358,Grand Canyon,11/12/2025,11/17/2025,5,Skyler Johnson,38,Female,Canadian,Resort,250,Bus,280
+2359,Great Wall of China,10/4/2025,10/13/2025,9,Casey Moore,52,Female,British,Villa,200,Train,370
+2360,Victoria Falls,10/10/2024,10/15/2024,5,Alex Taylor,50,Female,Chinese,Resort,240,Train,330
+2361,Banff National Park,2/25/2023,3/5/2023,8,Jordan Garcia,27,Female,Indian,Villa,240,Train,330
+2362,Serengeti National Park,4/11/2023,4/19/2023,8,Harper Wilson,28,Male,Japanese,Hotel,180,Bus,370
+2363,Hawaii Islands,6/19/2023,6/27/2023,8,Avery Lopez,21,Female,Canadian,Resort,340,Plane,750
+2364,Serengeti National Park,7/2/2023,7/8/2023,6,Drew Anderson,53,Male,Spanish,Airbnb,100,Plane,620
+2365,Paris,2/21/2024,2/27/2024,6,Casey Jones,36,Male,Japanese,Hostel,70,Train,70
+2366,Phuket,6/15/2025,6/24/2025,9,Chris Moore,50,Female,German,Hotel,100,Car rental,440
+2367,Pyramids of Giza,8/8/2023,8/19/2023,11,Jordan Garcia,33,Female,British,Hostel,50,Train,210
+2368,Santorini,7/15/2024,7/27/2024,12,Devin Lopez,29,Female,Indian,Resort,340,Plane,220
+2369,Phuket,8/13/2024,8/22/2024,9,Skyler Williams,40,Female,Spanish,Airbnb,60,Bus,360
+2370,Phuket,7/25/2025,8/3/2025,9,Jordan Garcia,33,Female,British,Villa,150,Plane,590
+2371,Pyramids of Giza,12/24/2023,12/31/2023,7,Avery Anderson,47,Female,Japanese,Airbnb,85,Train,210
+2372,Paris,8/23/2025,9/3/2025,11,Quinn Brown,37,Male,American,Hotel,210,Train,70
+2373,Santorini,6/1/2024,6/9/2024,8,Quinn Brown,37,Male,American,Hotel,190,Train,110
+2374,Niagara Falls,4/18/2023,4/27/2023,9,Drew Anderson,53,Male,Spanish,Villa,230,Bus,290
+2375,Serengeti National Park,9/5/2023,9/17/2023,12,Jordan Garcia,33,Female,British,Hostel,50,Bus,370
+2376,Banff National Park,1/6/2025,1/12/2025,6,Harper Martinez,32,Female,American,Hostel,65,Bus,310
+2377,Grand Canyon,10/18/2025,10/23/2025,5,Devin Miller,38,Female,German,Resort,250,Car rental,370
+2378,Galapagos,8/11/2024,8/23/2024,12,Logan Williams,31,Male,Indian,Resort,320,Train,370
+2379,Banff National Park,2/12/2025,2/20/2025,8,Reese Johnson,52,Female,Spanish,Resort,290,Car rental,390
+2380,Phuket,8/18/2025,8/28/2025,10,Chris Martinez,22,Male,British,Hostel,30,Bus,360
+2381,Machu Picchu,1/13/2023,1/23/2023,10,Reese Hernandez,39,Female,French,Villa,190,Train,300
+2382,Victoria Falls,3/24/2025,4/3/2025,10,Jordan Jackson,42,Male,Japanese,Villa,200,Bus,350
+2383,Blue Lagoon,2/8/2023,2/17/2023,9,Jordan Garcia,33,Female,British,Hostel,90,Train,160
+2384,Great Wall of China,3/13/2023,3/22/2023,9,Skyler Wilson,44,Female,Australian,Hotel,160,Bus,350
+2385,Great Barrier Reef,6/4/2025,6/10/2025,6,Jordan Martin,32,Male,Canadian,Hostel,75,Bus,370
+2386,Pyramids of Giza,3/11/2024,3/19/2024,8,Quinn Hernandez,51,Male,Japanese,Hostel,50,Car rental,290
+2387,Blue Lagoon,1/6/2023,1/18/2023,12,Jordan Davis,28,Male,German,Hotel,240,Train,160
+2388,Grand Canyon,3/12/2023,3/22/2023,10,Drew Anderson,21,Male,Canadian,Hostel,55,Car rental,370
+2389,Machu Picchu,1/22/2023,2/2/2023,11,Skyler Wilson,39,Female,British,Resort,220,Car rental,410
+2390,Grand Canyon,4/16/2023,4/22/2023,6,Reese Hernandez,39,Female,French,Hostel,55,Train,250
+2391,Blue Lagoon,12/14/2023,12/24/2023,10,Devin Miller,36,Male,French,Hostel,90,Car rental,200
+2392,Phuket,8/22/2023,9/2/2023,11,Dana Hernandez,20,Male,German,Airbnb,60,Car rental,440
+2393,Niagara Falls,8/23/2025,8/31/2025,8,Jamie Smith,40,Female,Indian,Hotel,160,Train,270
+2394,Hawaii Islands,8/5/2025,8/10/2025,5,Chris Thomas,34,Female,American,Hostel,70,Plane,750
+2395,Banff National Park,12/7/2023,12/17/2023,10,Logan Hernandez,30,Male,Japanese,Airbnb,110,Train,330
+2396,Paris,11/11/2023,11/20/2023,9,Devin Lopez,29,Female,Indian,Resort,330,Train,70
+2397,Great Wall of China,9/18/2023,9/23/2023,5,Skyler Thomas,52,Male,Australian,Resort,240,Train,370
+2398,Paris,8/1/2024,8/9/2024,8,Kendall Gonzalez,40,Male,Indian,Airbnb,135,Car rental,160
+2399,Paris,8/5/2024,8/16/2024,11,Chris Gonzalez,50,Female,Spanish,Villa,290,Bus,90
+2400,Hawaii Islands,6/16/2025,6/23/2025,7,Jordan Johnson,46,Female,Japanese,Airbnb,140,Bus,460
+2401,Banff National Park,1/23/2025,1/28/2025,5,Dana Lee,43,Male,Japanese,Hotel,180,Bus,310
+2402,Hawaii Islands,7/6/2025,7/11/2025,5,Logan Hernandez,30,Male,Japanese,Hotel,210,Plane,750
+2403,Niagara Falls,3/16/2024,3/27/2024,11,Riley Jackson,52,Male,German,Airbnb,100,Bus,290
+2404,Grand Canyon,5/17/2025,5/25/2025,8,Riley Brown,49,Female,German,Hostel,55,Car rental,370
+2405,Serengeti National Park,3/6/2024,3/15/2024,9,Parker Jones,50,Female,Canadian,Villa,230,Plane,620
+2406,Pyramids of Giza,2/13/2023,2/24/2023,11,Morgan Smith,43,Female,British,Resort,230,Bus,240
+2407,Phuket,7/11/2024,7/22/2024,11,Jesse Anderson,22,Female,American,Villa,150,Bus,360
+2408,Santorini,7/9/2023,7/21/2023,12,Reese Martinez,24,Male,French,Hostel,70,Plane,220
+2409,Paris,2/8/2023,2/20/2023,12,Parker Hernandez,21,Female,Canadian,Villa,290,Car rental,160
+2410,Grand Canyon,12/9/2023,12/14/2023,5,Logan Taylor,28,Female,Japanese,Villa,210,Train,250
+2411,Phuket,8/1/2025,8/10/2025,9,Dana Martin,30,Female,Canadian,Airbnb,60,Bus,360
+2412,Galapagos,7/10/2023,7/19/2023,9,Kendall Smith,35,Female,British,Hostel,80,Bus,390
+2413,Niagara Falls,6/5/2023,6/15/2023,10,Dana Garcia,22,Female,French,Villa,230,Train,270
+2414,Galapagos,8/23/2025,8/31/2025,8,Reese Hernandez,48,Female,American,Hostel,80,Car rental,450
+2415,Santorini,8/21/2024,8/29/2024,8,Jordan Martin,32,Male,Canadian,Hotel,190,Train,110
+2416,Paris,12/2/2024,12/13/2024,11,Reese Brown,33,Male,Canadian,Airbnb,135,Plane,120
+2417,Paris,11/21/2023,11/28/2023,7,Taylor Gonzalez,44,Male,French,Hotel,210,Car rental,160
+2418,Great Wall of China,7/13/2023,7/19/2023,6,Taylor Garcia,42,Female,Japanese,Resort,240,Bus,350
+2419,Paris,9/24/2024,10/4/2024,10,Casey Thomas,36,Male,Australian,Hostel,70,Train,70
+2420,Great Barrier Reef,7/13/2025,7/22/2025,9,Chris Johnson,50,Male,French,Airbnb,130,Bus,370
+2421,Niagara Falls,2/2/2023,2/13/2023,11,Chris Johnson,35,Female,German,Airbnb,100,Bus,290
+2422,Galapagos,6/15/2023,6/24/2023,9,Chris Taylor,27,Male,Chinese,Villa,260,Train,370
+2423,Hawaii Islands,6/5/2024,6/10/2024,5,Parker Jones,50,Female,Canadian,Resort,340,Train,480
+2424,Sydney,7/24/2024,8/1/2024,8,Morgan Thomas,43,Female,German,Villa,290,Plane,740
+2425,Hawaii Islands,8/6/2024,8/18/2024,12,Jesse Miller,23,Female,French,Airbnb,140,Train,480
+2426,Hawaii Islands,7/5/2025,7/16/2025,11,Riley Lopez,38,Male,American,Villa,300,Bus,460
+2427,Machu Picchu,2/14/2023,2/25/2023,11,Parker Smith,31,Male,Indian,Villa,190,Car rental,410
+2428,Blue Lagoon,1/7/2023,1/19/2023,12,Skyler Martinez,31,Male,Indian,Villa,320,Car rental,200
+2429,Machu Picchu,9/2/2025,9/8/2025,6,Skyler Anderson,43,Male,French,Airbnb,80,Bus,320
+2430,Paris,1/19/2025,1/30/2025,11,Jesse Anderson,22,Female,American,Hostel,70,Plane,120
+2431,Santorini,6/12/2024,6/22/2024,10,Jordan Garcia,27,Female,Indian,Resort,340,Train,110
+2432,Paris,5/18/2023,5/24/2023,6,Riley Brown,49,Female,German,Villa,290,Bus,90
+2433,Machu Picchu,10/21/2023,11/1/2023,11,Avery Smith,36,Male,French,Hostel,45,Car rental,410
+2434,Phuket,8/25/2023,8/31/2023,6,Chris Thomas,55,Female,Spanish,Resort,180,Plane,590
+2435,Pyramids of Giza,4/23/2025,5/4/2025,11,Skyler Gonzalez,35,Female,Canadian,Hostel,50,Plane,380
+2436,Hawaii Islands,8/23/2025,9/2/2025,10,Alex Lee,25,Male,French,Resort,340,Plane,750
+2437,Hawaii Islands,8/3/2023,8/8/2023,5,Jordan Anderson,50,Male,Spanish,Resort,340,Bus,460
+2438,Machu Picchu,11/6/2024,11/18/2024,12,Jesse Hernandez,44,Female,Chinese,Hostel,45,Bus,320
+2439,Great Wall of China,2/8/2025,2/15/2025,7,Chris Thomas,55,Female,Spanish,Hotel,160,Plane,600
+2440,Phuket,8/21/2025,8/28/2025,7,Drew Martin,41,Male,Chinese,Airbnb,60,Train,340
+2441,Pyramids of Giza,2/21/2025,2/27/2025,6,Morgan Martin,20,Male,Canadian,Villa,200,Car rental,290
+2442,Victoria Falls,2/9/2023,2/17/2023,8,Jordan Smith,47,Female,Canadian,Hostel,50,Train,330
+2443,Santorini,6/18/2023,6/30/2023,12,Devin Johnson,22,Male,French,Resort,340,Car rental,180
+2444,Niagara Falls,9/23/2023,10/4/2023,11,Parker Lee,44,Female,Spanish,Villa,230,Bus,290
+2445,Sydney,8/21/2024,8/30/2024,9,Quinn Martinez,45,Male,Canadian,Airbnb,140,Car rental,510
+2446,Victoria Falls,3/1/2025,3/13/2025,12,Taylor Lee,50,Male,Canadian,Airbnb,85,Plane,580
+2447,Grand Canyon,3/10/2023,3/17/2023,7,Skyler Johnson,38,Female,Canadian,Resort,250,Plane,450
+2448,Paris,4/19/2025,5/1/2025,12,Riley Brown,49,Female,German,Hostel,70,Train,70
+2449,Sydney,8/4/2024,8/12/2024,8,Chris Brown,37,Female,American,Hostel,70,Train,470
+2450,Machu Picchu,12/11/2023,12/21/2023,10,Chris Martinez,28,Male,Canadian,Hotel,120,Train,300
+2451,Pyramids of Giza,2/17/2024,2/28/2024,11,Jesse Martin,48,Female,Japanese,Villa,200,Plane,380
+2452,Santorini,6/5/2024,6/11/2024,6,Riley Gonzalez,43,Male,British,Resort,340,Car rental,180
+2453,Santorini,7/21/2023,7/26/2023,5,Drew Miller,32,Female,Japanese,Villa,300,Car rental,180
+2454,Banff National Park,12/24/2025,1/3/2026,10,Skyler Johnson,46,Female,British,Hotel,180,Plane,520
+2455,Grand Canyon,3/14/2024,3/20/2024,6,Reese Hernandez,39,Female,French,Hostel,55,Car rental,370
+2456,Galapagos,7/23/2024,7/29/2024,6,Skyler Williams,40,Female,Spanish,Hotel,200,Plane,620
+2457,Great Barrier Reef,8/23/2025,8/29/2025,6,Skyler Wilson,44,Female,Australian,Resort,350,Train,390
+2458,Sydney,6/23/2025,6/30/2025,7,Logan Johnson,34,Male,Chinese,Hotel,210,Car rental,510
+2459,Victoria Falls,8/13/2023,8/25/2023,12,Skyler Johnson,38,Female,Canadian,Resort,240,Car rental,440
+2460,Santorini,8/20/2025,8/26/2025,6,Casey Brown,44,Female,Canadian,Villa,300,Train,110
+2461,Phuket,6/24/2023,7/2/2023,8,Drew Martin,41,Male,Chinese,Hostel,30,Bus,360
+2462,Galapagos,6/5/2023,6/12/2023,7,Jesse Anderson,22,Female,American,Villa,260,Plane,620
+2463,Hawaii Islands,7/17/2024,7/28/2024,11,Skyler Johnson,38,Female,Canadian,Villa,300,Train,480
+2464,Hawaii Islands,6/10/2024,6/16/2024,6,Drew Johnson,22,Female,American,Airbnb,140,Train,480
+2465,Victoria Falls,11/7/2023,11/12/2023,5,Drew Martin,41,Male,Chinese,Hostel,50,Plane,580
+2466,Grand Canyon,12/11/2025,12/17/2025,6,Quinn Anderson,53,Male,Indian,Resort,250,Plane,450
+2467,Machu Picchu,1/9/2025,1/20/2025,11,Parker Taylor,24,Female,Japanese,Villa,190,Bus,320
+2468,Paris,5/20/2024,5/27/2024,7,Alex Lee,25,Male,French,Resort,330,Plane,120
+2469,Great Barrier Reef,7/23/2023,8/3/2023,11,Reese Lee,28,Female,German,Villa,300,Bus,370
+2470,Sydney,7/20/2024,7/30/2024,10,Logan Thomas,40,Male,Chinese,Hotel,210,Bus,450
+2471,Santorini,7/5/2024,7/10/2024,5,Jesse Martin,48,Female,Japanese,Resort,340,Bus,130
+2472,Great Wall of China,1/12/2024,1/19/2024,7,Avery Lopez,33,Male,French,Hotel,160,Bus,350
+2473,Great Barrier Reef,7/13/2025,7/24/2025,11,Morgan Smith,43,Female,British,Resort,350,Bus,370
+2474,Banff National Park,2/2/2024,2/10/2024,8,Drew Williams,49,Female,Australian,Resort,290,Train,330
+2475,Hawaii Islands,7/6/2025,7/15/2025,9,Drew Lee,22,Male,American,Hostel,70,Bus,460
+2476,Grand Canyon,2/19/2024,2/29/2024,10,Reese Johnson,23,Female,Australian,Airbnb,95,Plane,450
+2477,Banff National Park,12/4/2024,12/13/2024,9,Skyler Johnson,38,Female,Canadian,Hotel,180,Bus,310
+2478,Niagara Falls,11/18/2025,11/29/2025,11,Reese Brown,33,Male,Canadian,Villa,230,Plane,480
+2479,Banff National Park,2/9/2024,2/21/2024,12,Reese Lee,28,Female,German,Resort,290,Bus,310
+2480,Hawaii Islands,8/23/2025,9/4/2025,12,Harper Wilson,28,Male,Japanese,Hotel,210,Bus,460
+2481,Banff National Park,1/25/2023,1/30/2023,5,Jordan Thomas,34,Male,German,Villa,240,Train,330
+2482,Banff National Park,1/3/2023,1/8/2023,5,Jamie Anderson,49,Male,Indian,Hotel,180,Bus,310
+2483,Pyramids of Giza,4/16/2024,4/27/2024,11,Skyler Jones,37,Male,Spanish,Hostel,50,Train,210
+2484,Sydney,6/7/2024,6/15/2024,8,Reese Martinez,24,Male,French,Resort,330,Plane,740
+2485,Great Barrier Reef,6/7/2023,6/12/2023,5,Jordan Davis,28,Male,German,Hotel,220,Plane,640
+2486,Santorini,6/20/2024,6/26/2024,6,Parker Lee,44,Female,Spanish,Hotel,190,Train,110
+2487,Galapagos,7/11/2024,7/17/2024,6,Casey Brown,44,Female,Canadian,Villa,260,Plane,620
+2488,Hawaii Islands,6/20/2023,6/26/2023,6,Reese Davis,47,Male,Japanese,Villa,300,Bus,460
+2489,Great Barrier Reef,8/20/2025,8/26/2025,6,Drew Miller,32,Female,Japanese,Hotel,220,Train,390
+2490,Victoria Falls,4/10/2024,4/21/2024,11,Quinn Martinez,45,Male,Canadian,Hotel,150,Car rental,440
+2491,Santorini,6/16/2024,6/24/2024,8,Drew Martinez,39,Male,Australian,Hotel,190,Plane,220
+2492,Blue Lagoon,2/21/2024,2/26/2024,5,Riley Brown,23,Female,British,Resort,370,Train,160
+2493,Great Wall of China,6/3/2025,6/10/2025,7,Avery Smith,36,Male,French,Resort,240,Train,370
+2494,Great Barrier Reef,6/24/2025,7/3/2025,9,Reese Davis,47,Male,Japanese,Hotel,220,Train,390
+2495,Santorini,6/14/2025,6/22/2025,8,Skyler Martinez,31,Male,Indian,Hotel,190,Train,110
+2496,Sydney,7/7/2025,7/16/2025,9,Jordan Garcia,33,Female,British,Hostel,70,Train,470
+2497,Pyramids of Giza,5/15/2023,5/21/2023,6,Reese Johnson,20,Male,Spanish,Airbnb,85,Car rental,290
+2498,Paris,5/10/2024,5/19/2024,9,Parker Taylor,42,Male,American,Hotel,210,Train,70
+2499,Galapagos,6/7/2023,6/16/2023,9,Quinn Smith,22,Male,British,Villa,260,Bus,390
+2500,Machu Picchu,4/13/2023,4/18/2023,5,Reese Davis,47,Male,Japanese,Airbnb,80,Car rental,410
+2501,Blue Lagoon,1/3/2024,1/15/2024,12,Parker Taylor,42,Male,American,Resort,370,Car rental,200
+2502,Phuket,6/3/2023,6/10/2023,7,Casey Jones,36,Male,Japanese,Villa,150,Car rental,440
+2503,Hawaii Islands,6/17/2024,6/28/2024,11,Dana Garcia,22,Female,French,Hostel,70,Train,480
+2504,Sydney,8/21/2024,8/28/2024,7,Reese Johnson,52,Female,Spanish,Airbnb,140,Bus,450
+2505,Niagara Falls,7/15/2024,7/26/2024,11,Jamie Hernandez,42,Female,Canadian,Airbnb,100,Plane,480
+2506,Paris,4/18/2025,4/29/2025,11,Quinn Smith,54,Male,Spanish,Resort,330,Plane,120
+2507,Victoria Falls,1/3/2025,1/12/2025,9,Quinn Smith,22,Male,British,Hotel,150,Car rental,440
+2508,Pyramids of Giza,3/11/2024,3/16/2024,5,Chris Martin,53,Male,American,Resort,230,Bus,240
+2509,Banff National Park,12/13/2025,12/24/2025,11,Jordan Davis,28,Male,German,Hostel,65,Train,330
+2510,Sydney,6/2/2025,6/10/2025,8,Avery Lopez,21,Female,Canadian,Airbnb,140,Train,470
+2511,Paris,12/5/2025,12/15/2025,10,Skyler Thomas,52,Male,Australian,Airbnb,135,Car rental,160
+2512,Great Wall of China,4/16/2024,4/27/2024,11,Harper Wilson,28,Male,Japanese,Villa,200,Plane,600
+2513,Machu Picchu,11/17/2023,11/24/2023,7,Skyler Jones,37,Male,Spanish,Airbnb,80,Bus,320
+2514,Pyramids of Giza,2/9/2024,2/19/2024,10,Alex Lee,25,Male,French,Hostel,50,Bus,240
+2515,Phuket,8/23/2025,9/2/2025,10,Riley Brown,35,Female,Japanese,Airbnb,60,Car rental,440
+2516,Galapagos,8/7/2025,8/14/2025,7,Skyler Johnson,35,Female,Indian,Resort,320,Train,370
+2517,Serengeti National Park,6/17/2023,6/24/2023,7,Chris Gonzalez,50,Female,Spanish,Hotel,180,Car rental,460
+2518,Santorini,6/25/2024,7/1/2024,6,Dana Taylor,26,Female,Chinese,Hotel,190,Bus,130
+2519,Great Barrier Reef,7/13/2023,7/25/2023,12,Kendall Gonzalez,20,Male,Spanish,Airbnb,130,Plane,640
+2520,Grand Canyon,12/12/2024,12/24/2024,12,Riley Gonzalez,43,Male,British,Hostel,55,Plane,450
+2521,Machu Picchu,9/10/2025,9/19/2025,9,Alex Moore,47,Male,Chinese,Villa,190,Train,300
+2522,Grand Canyon,5/11/2023,5/17/2023,6,Quinn Smith,54,Male,Spanish,Airbnb,95,Bus,280
+2523,Grand Canyon,7/20/2024,7/28/2024,8,Jordan Martin,20,Male,French,Hotel,140,Bus,280
+2524,Machu Picchu,6/17/2023,6/28/2023,11,Drew Garcia,29,Male,Chinese,Hostel,45,Plane,520
+2525,Blue Lagoon,1/6/2024,1/12/2024,6,Skyler Hernandez,23,Male,German,Resort,370,Train,160
+2526,Niagara Falls,6/16/2024,6/24/2024,8,Harper Moore,22,Male,Indian,Resort,270,Car rental,370
+2527,Machu Picchu,5/18/2023,5/26/2023,8,Jamie Hernandez,42,Female,Canadian,Resort,220,Train,300
+2528,Great Barrier Reef,7/7/2024,7/13/2024,6,Logan Martinez,54,Female,German,Airbnb,130,Bus,370
+2529,Phuket,7/3/2025,7/10/2025,7,Jordan Smith,47,Female,Canadian,Villa,150,Bus,360
+2530,Paris,8/21/2025,9/1/2025,11,Quinn Martinez,45,Male,Canadian,Airbnb,135,Train,70
+2531,Machu Picchu,8/13/2025,8/20/2025,7,Reese Gonzalez,25,Male,British,Resort,220,Car rental,410
+2532,Phuket,7/10/2025,7/16/2025,6,Quinn Hernandez,51,Male,Japanese,Hostel,30,Bus,360
+2533,Santorini,6/20/2023,6/25/2023,5,Drew Lee,22,Male,American,Airbnb,130,Bus,130
+2534,Galapagos,7/17/2025,7/26/2025,9,Riley Brown,23,Female,British,Resort,320,Bus,390
+2535,Serengeti National Park,5/7/2023,5/18/2023,11,Jordan Garcia,33,Female,British,Villa,230,Bus,370
+2536,Niagara Falls,5/25/2023,5/30/2023,5,Jordan Johnson,46,Female,Japanese,Resort,270,Plane,480
+2537,Galapagos,7/8/2024,7/19/2024,11,Reese Gonzalez,25,Male,British,Resort,320,Train,370
+2538,Phuket,8/3/2023,8/15/2023,12,Jamie Lee,22,Female,American,Resort,180,Train,340
+2539,Great Barrier Reef,6/12/2024,6/20/2024,8,Parker Wilson,39,Male,Chinese,Resort,350,Car rental,470
+2540,Machu Picchu,3/1/2025,3/13/2025,12,Alex Taylor,50,Female,Chinese,Resort,220,Plane,520
+2541,Santorini,6/23/2025,7/3/2025,10,Parker Hernandez,21,Female,Canadian,Villa,300,Car rental,180
+2542,Grand Canyon,10/7/2023,10/18/2023,11,Alex Davis,20,Female,Chinese,Hotel,140,Train,250
+2543,Niagara Falls,11/14/2023,11/21/2023,7,Kendall Smith,35,Female,British,Hotel,160,Car rental,370
+2544,Niagara Falls,7/4/2023,7/13/2023,9,Chris Anderson,35,Female,Spanish,Villa,230,Car rental,370
+2545,Niagara Falls,11/22/2025,11/28/2025,6,Alex Lee,25,Male,French,Resort,270,Car rental,370
+2546,Santorini,6/18/2025,6/24/2025,6,Taylor Garcia,42,Female,Japanese,Villa,300,Car rental,180
+2547,Machu Picchu,9/13/2023,9/19/2023,6,Kendall Gonzalez,20,Male,Spanish,Hotel,120,Car rental,410
+2548,Santorini,8/14/2024,8/21/2024,7,Quinn Smith,54,Male,Spanish,Airbnb,130,Train,110
+2549,Grand Canyon,3/14/2025,3/23/2025,9,Jamie Hernandez,42,Female,Canadian,Hostel,55,Bus,280
+2550,Phuket,8/16/2025,8/24/2025,8,Casey Thomas,36,Male,Australian,Hotel,100,Plane,590
+2551,Hawaii Islands,8/17/2023,8/29/2023,12,Dana Lee,43,Male,Japanese,Hostel,70,Plane,750
+2552,Hawaii Islands,6/15/2024,6/24/2024,9,Chris Jones,25,Male,American,Hotel,210,Bus,460
+2553,Phuket,7/21/2023,7/28/2023,7,Jamie Martinez,20,Male,German,Villa,150,Bus,360
+2554,Phuket,8/1/2024,8/8/2024,7,Devin Garcia,34,Female,Australian,Resort,180,Bus,360
+2555,Banff National Park,2/10/2025,2/21/2025,11,Harper Williams,41,Female,German,Airbnb,110,Train,330
+2556,Paris,5/3/2024,5/12/2024,9,Jordan Garcia,33,Female,British,Villa,290,Car rental,160
+2557,Grand Canyon,5/18/2024,5/25/2024,7,Riley Brown,49,Female,German,Villa,210,Bus,280
+2558,Sydney,7/10/2023,7/16/2023,6,Quinn Martinez,45,Male,Canadian,Hotel,210,Car rental,510
+2559,Paris,5/12/2024,5/24/2024,12,Harper Williams,41,Female,German,Hotel,210,Plane,120
+2560,Great Wall of China,7/6/2023,7/11/2023,5,Jordan Davis,28,Male,German,Hotel,160,Bus,350
+2561,Sydney,8/21/2025,8/30/2025,9,Jordan Garcia,33,Female,British,Hostel,70,Car rental,510
+2562,Sydney,6/7/2024,6/15/2024,8,Chris Johnson,50,Male,French,Resort,330,Train,470
+2563,Niagara Falls,3/22/2025,3/27/2025,5,Jamie Lee,49,Male,Indian,Hotel,160,Car rental,370
+2564,Niagara Falls,10/14/2025,10/19/2025,5,Jordan Martin,32,Male,Canadian,Villa,230,Bus,290
+2565,Santorini,8/8/2025,8/16/2025,8,Quinn Hernandez,51,Male,Japanese,Resort,340,Car rental,180
+2566,Niagara Falls,4/19/2023,4/27/2023,8,Casey Smith,33,Female,British,Resort,270,Plane,480
+2567,Santorini,8/19/2024,8/30/2024,11,Jesse Lee,42,Male,Australian,Hostel,70,Car rental,180
+2568,Galapagos,8/24/2025,9/3/2025,10,Jamie Lee,22,Female,American,Hotel,200,Car rental,450
+2569,Grand Canyon,3/6/2023,3/16/2023,10,Quinn Martinez,45,Male,Canadian,Resort,250,Plane,450
+2570,Great Barrier Reef,6/24/2024,7/3/2024,9,Skyler Johnson,38,Female,Canadian,Villa,300,Train,390
+2571,Great Barrier Reef,8/19/2023,8/27/2023,8,Harper Wilson,54,Female,Japanese,Villa,300,Car rental,470
+2572,Phuket,7/2/2024,7/14/2024,12,Dana Taylor,26,Female,Chinese,Resort,180,Car rental,440
+2573,Paris,4/14/2024,4/21/2024,7,Jamie Hernandez,42,Female,Canadian,Resort,330,Train,70
+2574,Hawaii Islands,8/21/2023,9/2/2023,12,Alex Lopez,55,Female,American,Hostel,70,Bus,460
+2575,Niagara Falls,8/17/2024,8/23/2024,6,Jesse Anderson,22,Female,American,Hostel,60,Train,270
+2576,Blue Lagoon,2/2/2024,2/14/2024,12,Jamie Hernandez,42,Female,Canadian,Resort,370,Bus,170
+2577,Machu Picchu,3/25/2025,3/30/2025,5,Chris Martinez,28,Male,Canadian,Hostel,45,Car rental,410
+2578,Phuket,6/15/2025,6/26/2025,11,Quinn Martin,53,Male,French,Hotel,100,Train,340
+2579,Banff National Park,12/5/2025,12/12/2025,7,Skyler Wilson,44,Female,Australian,Airbnb,110,Plane,520
+2580,Blue Lagoon,12/12/2024,12/24/2024,12,Avery Anderson,35,Female,Canadian,Airbnb,150,Train,160
+2581,Santorini,6/11/2023,6/18/2023,7,Reese Wilson,20,Female,German,Airbnb,130,Plane,220
+2582,Paris,5/24/2024,6/1/2024,8,Drew Lee,22,Male,American,Hotel,210,Plane,120
+2583,Machu Picchu,1/15/2025,1/20/2025,5,Chris Moore,50,Female,German,Hostel,45,Car rental,410
+2584,Galapagos,6/12/2023,6/21/2023,9,Chris Thomas,34,Female,American,Hostel,80,Train,370
+2585,Santorini,6/19/2024,6/28/2024,9,Alex Lopez,55,Female,American,Airbnb,130,Car rental,180
+2586,Niagara Falls,9/22/2024,10/1/2024,9,Drew Martin,41,Male,Chinese,Resort,270,Car rental,370
+2587,Paris,2/11/2024,2/20/2024,9,Chris Johnson,32,Male,German,Airbnb,135,Train,70
+2588,Santorini,8/17/2025,8/22/2025,5,Dana Garcia,22,Female,French,Hostel,70,Car rental,180
+2589,Great Wall of China,3/2/2023,3/7/2023,5,Dana Thomas,36,Female,Australian,Villa,200,Train,370
+2590,Paris,10/1/2023,10/9/2023,8,Reese Hernandez,48,Female,American,Resort,330,Bus,90
+2591,Santorini,6/6/2025,6/17/2025,11,Devin Miller,38,Female,German,Villa,300,Plane,220
+2592,Victoria Falls,10/24/2025,11/3/2025,10,Drew Anderson,53,Male,Spanish,Villa,200,Car rental,440
+2593,Banff National Park,2/12/2024,2/20/2024,8,Reese Gonzalez,25,Male,British,Hostel,65,Bus,310
+2594,Paris,7/16/2024,7/27/2024,11,Parker Taylor,24,Female,Japanese,Villa,290,Car rental,160
+2595,Paris,1/12/2023,1/23/2023,11,Taylor Gonzalez,44,Male,French,Hotel,210,Bus,90
+2596,Banff National Park,1/11/2024,1/18/2024,7,Taylor Garcia,42,Female,Japanese,Resort,290,Car rental,390
+2597,Santorini,7/9/2023,7/19/2023,10,Skyler Wilson,39,Female,British,Hostel,70,Train,110
+2598,Paris,11/8/2023,11/15/2023,7,Devin Miller,38,Female,German,Villa,290,Car rental,160
+2599,Niagara Falls,5/23/2024,6/3/2024,11,Skyler Williams,40,Female,Spanish,Resort,270,Car rental,370
+2600,Banff National Park,12/6/2023,12/15/2023,9,Logan Jackson,24,Male,Chinese,Resort,290,Plane,520
+2601,Galapagos,7/19/2024,7/30/2024,11,Logan Martinez,54,Female,German,Resort,320,Train,370
+2602,Pyramids of Giza,4/9/2023,4/15/2023,6,Dana Martin,30,Female,Canadian,Hotel,140,Car rental,290
+2603,Phuket,7/22/2025,8/3/2025,12,Reese Gonzalez,25,Male,British,Hotel,100,Car rental,440
+2604,Blue Lagoon,1/21/2025,2/1/2025,11,Skyler Johnson,38,Female,Canadian,Villa,320,Plane,280
+2605,Paris,6/19/2024,6/28/2024,9,Quinn Wilson,27,Male,French,Airbnb,135,Car rental,160
+2606,Victoria Falls,2/21/2023,3/5/2023,12,Jordan Thomas,34,Male,German,Hotel,150,Bus,350
+2607,Pyramids of Giza,2/17/2023,3/1/2023,12,Logan Johnson,52,Female,Indian,Hotel,140,Car rental,290
+2608,Great Barrier Reef,8/7/2024,8/15/2024,8,Parker Anderson,31,Female,American,Hostel,75,Bus,370
+2609,Sydney,7/12/2025,7/22/2025,10,Jordan Martin,20,Male,French,Hostel,70,Car rental,510
+2610,Sydney,7/13/2024,7/21/2024,8,Casey Smith,33,Female,British,Airbnb,140,Car rental,510
+2611,Great Barrier Reef,7/19/2023,7/27/2023,8,Quinn Brown,20,Male,British,Resort,350,Plane,640
+2612,Santorini,8/24/2024,9/5/2024,12,Riley Gonzalez,43,Male,British,Resort,340,Plane,220
+2613,Paris,7/15/2025,7/21/2025,6,Reese Davis,47,Male,Japanese,Villa,290,Plane,120
+2614,Great Wall of China,6/5/2024,6/10/2024,5,Avery Johnson,45,Male,Indian,Villa,200,Bus,350
+2615,Serengeti National Park,9/21/2023,10/1/2023,10,Taylor Lee,50,Male,Canadian,Airbnb,100,Bus,370
+2616,Machu Picchu,7/2/2025,7/13/2025,11,Kendall Gonzalez,20,Male,Spanish,Airbnb,80,Car rental,410
+2617,Sydney,6/25/2025,7/1/2025,6,Avery Anderson,35,Female,Canadian,Villa,290,Bus,450
+2618,Galapagos,6/15/2024,6/27/2024,12,Parker Smith,31,Male,Indian,Hostel,80,Train,370
+2619,Serengeti National Park,4/24/2024,5/3/2024,9,Dana Gonzalez,45,Female,Indian,Hostel,50,Plane,620
+2620,Hawaii Islands,8/13/2023,8/25/2023,12,Avery Anderson,47,Female,Japanese,Airbnb,140,Car rental,500
+2621,Galapagos,7/4/2023,7/12/2023,8,Morgan Martin,20,Male,Canadian,Hostel,80,Train,370
+2622,Sydney,7/14/2025,7/20/2025,6,Reese Lee,28,Female,German,Hotel,210,Bus,450
+2623,Banff National Park,1/20/2025,1/29/2025,9,Quinn Martin,53,Male,French,Hostel,65,Plane,520
+2624,Serengeti National Park,8/24/2025,9/2/2025,9,Jordan Lopez,54,Female,Spanish,Hotel,180,Car rental,460
+2625,Sydney,7/10/2024,7/19/2024,9,Quinn Lopez,38,Female,Spanish,Airbnb,140,Plane,740
+2626,Paris,8/20/2023,8/25/2023,5,Jamie Hernandez,42,Female,Canadian,Villa,290,Bus,90
+2627,Paris,9/10/2024,9/22/2024,12,Dana Martin,30,Female,Canadian,Airbnb,135,Plane,120
+2628,Phuket,7/1/2024,7/12/2024,11,Jesse Gonzalez,35,Male,Australian,Resort,180,Plane,590
+2629,Paris,11/5/2025,11/14/2025,9,Skyler Williams,40,Female,Spanish,Villa,290,Car rental,160
+2630,Great Wall of China,1/18/2025,1/26/2025,8,Reese Johnson,52,Female,Spanish,Hostel,50,Car rental,430
+2631,Galapagos,6/23/2025,7/2/2025,9,Casey Jones,38,Female,Spanish,Hostel,80,Plane,620
+2632,Great Wall of China,7/22/2024,7/29/2024,7,Quinn Brown,20,Male,British,Hotel,160,Car rental,430
+2633,Niagara Falls,3/1/2024,3/12/2024,11,Jordan Anderson,50,Male,Spanish,Hostel,60,Car rental,370
+2634,Santorini,6/6/2023,6/14/2023,8,Quinn Lopez,38,Female,Spanish,Airbnb,130,Car rental,180
+2635,Paris,2/25/2025,3/2/2025,5,Riley Jackson,52,Male,German,Hotel,210,Car rental,160
+2636,Great Barrier Reef,7/10/2024,7/20/2024,10,Chris Taylor,29,Male,British,Airbnb,130,Car rental,470
+2637,Santorini,7/9/2025,7/19/2025,10,Quinn Martin,53,Male,French,Hotel,190,Train,110
+2638,Great Barrier Reef,8/13/2025,8/21/2025,8,Quinn Brown,20,Male,British,Resort,350,Bus,370
+2639,Serengeti National Park,9/1/2025,9/9/2025,8,Jesse Garcia,52,Female,British,Hotel,180,Car rental,460
+2640,Sydney,8/25/2024,9/2/2024,8,Logan Williams,31,Male,Indian,Hostel,70,Bus,450
+2641,Machu Picchu,10/2/2024,10/13/2024,11,Logan Hernandez,30,Male,Japanese,Airbnb,80,Plane,520
+2642,Phuket,8/2/2023,8/7/2023,5,Avery Johnson,45,Male,Indian,Villa,150,Plane,590
+2643,Grand Canyon,7/21/2025,7/29/2025,8,Jordan Martinez,28,Female,German,Villa,210,Train,250
+2644,Niagara Falls,8/25/2024,9/2/2024,8,Devin Johnson,22,Male,French,Hostel,60,Train,270
+2645,Hawaii Islands,8/4/2025,8/10/2025,6,Kendall Smith,35,Female,British,Resort,340,Car rental,500
+2646,Machu Picchu,4/13/2025,4/25/2025,12,Skyler Thomas,51,Female,Japanese,Villa,190,Plane,520
+2647,Great Wall of China,7/8/2025,7/16/2025,8,Kendall Smith,36,Male,Japanese,Hotel,160,Plane,600
+2648,Great Wall of China,12/23/2024,12/31/2024,8,Drew Anderson,21,Male,Canadian,Airbnb,90,Train,370
+2649,Santorini,6/21/2025,7/3/2025,12,Morgan Thomas,43,Female,German,Villa,300,Car rental,180
+2650,Blue Lagoon,12/6/2023,12/14/2023,8,Jamie Smith,38,Male,Indian,Hotel,240,Train,160
+2651,Santorini,8/1/2025,8/13/2025,12,Chris Anderson,41,Male,Japanese,Hostel,70,Bus,130
+2652,Pyramids of Giza,4/1/2025,4/8/2025,7,Avery Lopez,33,Male,French,Villa,200,Train,210
+2653,Phuket,7/4/2025,7/9/2025,5,Jordan Jackson,42,Male,Japanese,Hotel,100,Car rental,440
+2654,Paris,6/14/2023,6/23/2023,9,Alex Moore,47,Male,Chinese,Airbnb,135,Train,70
+2655,Paris,3/19/2023,3/30/2023,11,Quinn Brown,37,Male,American,Resort,330,Car rental,160
+2656,Hawaii Islands,8/21/2025,8/30/2025,9,Riley Lopez,38,Male,American,Hostel,70,Plane,750
+2657,Hawaii Islands,6/22/2024,7/3/2024,11,Riley Lopez,38,Male,American,Villa,300,Car rental,500
+2658,Hawaii Islands,6/13/2025,6/23/2025,10,Avery Johnson,45,Male,Indian,Villa,300,Car rental,500
+2659,Pyramids of Giza,8/2/2024,8/8/2024,6,Drew Johnson,54,Male,British,Villa,200,Plane,380
+2660,Great Wall of China,4/19/2023,4/25/2023,6,Jordan Johnson,25,Male,Canadian,Resort,240,Plane,600
+2661,Paris,8/2/2023,8/9/2023,7,Chris Jackson,33,Female,Chinese,Resort,330,Car rental,160
+2662,Santorini,6/23/2025,6/29/2025,6,Jordan Martin,20,Male,French,Villa,300,Plane,220
+2663,Sydney,6/5/2023,6/16/2023,11,Jordan Martin,32,Male,Canadian,Resort,330,Car rental,510
+2664,Great Wall of China,6/24/2024,6/30/2024,6,Jordan Davis,28,Male,German,Villa,200,Plane,600
+2665,Great Barrier Reef,8/1/2025,8/8/2025,7,Dana Gonzalez,45,Female,Indian,Hostel,75,Bus,370
+2666,Paris,9/17/2023,9/28/2023,11,Harper Martin,25,Male,Spanish,Hotel,210,Bus,90
+2667,Paris,12/25/2024,12/31/2024,6,Alex Lee,25,Male,French,Airbnb,135,Bus,90
+2668,Pyramids of Giza,7/18/2023,7/30/2023,12,Skyler Gonzalez,35,Female,Canadian,Airbnb,85,Train,210
+2669,Hawaii Islands,6/18/2023,6/29/2023,11,Quinn Brown,37,Male,American,Hostel,70,Train,480
+2670,Banff National Park,1/6/2024,1/18/2024,12,Casey Thomas,36,Male,Australian,Villa,240,Plane,520
+2671,Grand Canyon,1/5/2025,1/15/2025,10,Avery Smith,36,Male,French,Resort,250,Car rental,370
+2672,Santorini,8/22/2023,8/29/2023,7,Parker Taylor,24,Female,Japanese,Resort,340,Car rental,180
+2673,Great Wall of China,8/3/2024,8/15/2024,12,Chris Martin,42,Male,Spanish,Villa,200,Car rental,430
+2674,Phuket,6/4/2023,6/13/2023,9,Reese Martinez,24,Male,French,Resort,180,Plane,590
+2675,Hawaii Islands,7/4/2023,7/16/2023,12,Jamie Lee,49,Male,Indian,Hotel,210,Bus,460
+2676,Paris,3/2/2023,3/10/2023,8,Morgan Smith,43,Female,British,Airbnb,135,Bus,90
+2677,Blue Lagoon,2/21/2025,2/27/2025,6,Skyler Anderson,43,Male,French,Resort,370,Train,160
+2678,Santorini,8/21/2025,8/31/2025,10,Jamie Martinez,20,Male,German,Hostel,70,Plane,220
+2679,Pyramids of Giza,1/2/2023,1/10/2023,8,Avery Johnson,45,Male,Indian,Hostel,50,Car rental,290
+2680,Grand Canyon,7/17/2023,7/24/2023,7,Harper Johnson,55,Female,British,Resort,250,Train,250
+2681,Niagara Falls,1/25/2024,1/30/2024,5,Quinn Brown,37,Male,American,Hotel,160,Car rental,370
+2682,Galapagos,8/11/2024,8/19/2024,8,Alex Taylor,50,Male,Indian,Hostel,80,Car rental,450
+2683,Niagara Falls,5/4/2023,5/15/2023,11,Skyler Martinez,31,Male,Indian,Airbnb,100,Bus,290
+2684,Machu Picchu,10/7/2024,10/13/2024,6,Reese Gonzalez,25,Male,British,Airbnb,80,Plane,520
+2685,Grand Canyon,1/9/2024,1/18/2024,9,Drew Garcia,55,Male,Spanish,Airbnb,95,Plane,450
+2686,Galapagos,6/1/2023,6/7/2023,6,Jesse Martin,48,Female,Japanese,Airbnb,120,Car rental,450
+2687,Great Barrier Reef,6/4/2023,6/14/2023,10,Jamie Hernandez,51,Male,Chinese,Hostel,75,Train,390
+2688,Blue Lagoon,12/10/2024,12/18/2024,8,Quinn Hernandez,51,Male,Japanese,Villa,320,Train,160
+2689,Sydney,7/23/2023,7/29/2023,6,Casey Brown,44,Female,Canadian,Airbnb,140,Bus,450
+2690,Grand Canyon,12/8/2023,12/13/2023,5,Devin Lopez,29,Female,Indian,Hostel,55,Bus,280
+2691,Phuket,7/4/2025,7/14/2025,10,Parker Smith,31,Male,Indian,Hostel,30,Car rental,440
+2692,Santorini,8/9/2025,8/18/2025,9,Logan Taylor,28,Female,Japanese,Resort,340,Train,110
+2693,Blue Lagoon,1/25/2025,1/31/2025,6,Chris Martinez,28,Male,Canadian,Airbnb,150,Train,160
+2694,Santorini,6/15/2025,6/20/2025,5,Quinn Jackson,41,Male,Japanese,Villa,300,Plane,220
+2695,Niagara Falls,1/3/2024,1/12/2024,9,Logan Johnson,34,Male,Chinese,Hotel,160,Bus,290
+2696,Blue Lagoon,2/10/2024,2/19/2024,9,Casey Jones,36,Male,Japanese,Airbnb,150,Bus,170
+2697,Paris,10/10/2023,10/16/2023,6,Drew Anderson,53,Male,Spanish,Airbnb,135,Bus,90
+2698,Santorini,7/13/2024,7/21/2024,8,Quinn Wilson,27,Male,French,Villa,300,Bus,130
+2699,Niagara Falls,8/5/2025,8/10/2025,5,Taylor Gonzalez,37,Male,American,Villa,230,Bus,290
+2700,Phuket,7/3/2024,7/12/2024,9,Quinn Brown,20,Male,British,Hostel,30,Train,340
+2701,Banff National Park,12/18/2024,12/25/2024,7,Harper Moore,22,Male,Indian,Resort,290,Plane,520
+2702,Santorini,8/22/2025,9/3/2025,12,Harper Martinez,32,Female,American,Hostel,70,Train,110
+2703,Hawaii Islands,6/7/2025,6/14/2025,7,Drew Martinez,39,Male,Australian,Hotel,210,Train,480
+2704,Great Wall of China,3/23/2024,4/2/2024,10,Skyler Miller,46,Male,British,Hostel,50,Car rental,430
+2705,Banff National Park,1/21/2025,1/26/2025,5,Taylor Gonzalez,37,Male,American,Hostel,65,Plane,520
+2706,Paris,10/13/2024,10/21/2024,8,Jamie Smith,38,Male,Indian,Hotel,210,Bus,90
+2707,Santorini,8/22/2024,8/31/2024,9,Chris Thomas,55,Female,Spanish,Villa,300,Car rental,180
+2708,Great Wall of China,2/2/2023,2/13/2023,11,Dana Garcia,22,Female,French,Hostel,50,Train,370
+2709,Victoria Falls,4/10/2025,4/19/2025,9,Reese Hernandez,39,Female,French,Resort,240,Train,330
+2710,Paris,5/24/2025,6/3/2025,10,Chris Jones,25,Male,American,Hostel,70,Car rental,160
+2711,Victoria Falls,9/19/2025,9/25/2025,6,Quinn Lopez,38,Female,Spanish,Airbnb,85,Car rental,440
+2712,Niagara Falls,1/24/2024,1/31/2024,7,Casey Miller,54,Female,French,Resort,270,Train,270
+2713,Pyramids of Giza,12/25/2024,1/6/2025,12,Quinn Lopez,38,Female,Spanish,Villa,200,Train,210
+2714,Sydney,8/1/2023,8/13/2023,12,Chris Taylor,27,Male,Chinese,Airbnb,140,Train,470
+2715,Banff National Park,12/25/2025,1/3/2026,9,Reese Martinez,24,Male,French,Villa,240,Plane,520
+2716,Phuket,7/13/2024,7/20/2024,7,Reese Brown,33,Male,Canadian,Resort,180,Car rental,440
+2717,Great Barrier Reef,6/2/2023,6/11/2023,9,Casey Miller,54,Female,French,Hostel,75,Car rental,470
+2718,Phuket,6/21/2025,7/2/2025,11,Chris Brown,37,Female,American,Resort,180,Bus,360
+2719,Great Wall of China,2/3/2024,2/15/2024,12,Kendall Smith,35,Female,British,Villa,200,Bus,350
+2720,Machu Picchu,2/21/2025,2/27/2025,6,Avery Lopez,33,Male,French,Hotel,120,Bus,320
+2721,Victoria Falls,7/17/2024,7/27/2024,10,Alex Lee,25,Male,French,Villa,200,Train,330
+2722,Pyramids of Giza,6/6/2024,6/15/2024,9,Jordan Johnson,25,Male,Canadian,Hotel,140,Plane,380
+2723,Great Wall of China,7/10/2023,7/19/2023,9,Dana Gonzalez,45,Female,Indian,Resort,240,Train,370
+2724,Santorini,8/11/2023,8/20/2023,9,Reese Brown,33,Male,Canadian,Hotel,190,Car rental,180
+2725,Paris,8/19/2024,8/30/2024,11,Logan Johnson,52,Female,Indian,Villa,290,Train,70
+2726,Galapagos,8/23/2025,9/4/2025,12,Riley Smith,30,Male,Canadian,Villa,260,Plane,620
+2727,Great Wall of China,8/11/2023,8/18/2023,7,Logan Martinez,54,Female,German,Resort,240,Plane,600
+2728,Phuket,8/21/2024,8/28/2024,7,Jesse Gonzalez,35,Male,Australian,Hotel,100,Train,340
+2729,Sydney,6/23/2024,6/29/2024,6,Quinn Martinez,45,Male,Canadian,Villa,290,Bus,450
+2730,Pyramids of Giza,4/23/2023,5/2/2023,9,Chris Jackson,33,Female,Chinese,Hostel,50,Train,210
+2731,Victoria Falls,5/11/2025,5/16/2025,5,Quinn Hernandez,51,Male,Japanese,Airbnb,85,Train,330
+2732,Santorini,6/25/2024,7/1/2024,6,Chris Martinez,28,Male,Canadian,Resort,340,Bus,130
+2733,Victoria Falls,3/18/2025,3/28/2025,10,Harper Williams,41,Female,German,Villa,200,Bus,350
+2734,Santorini,7/16/2023,7/23/2023,7,Parker Jones,50,Female,Canadian,Villa,300,Bus,130
+2735,Sydney,7/7/2024,7/19/2024,12,Parker Hernandez,21,Male,Australian,Hotel,210,Plane,740
+2736,Great Barrier Reef,6/14/2024,6/19/2024,5,Harper Martin,25,Male,Spanish,Hotel,220,Plane,640
+2737,Hawaii Islands,6/10/2025,6/16/2025,6,Reese Brown,33,Male,Canadian,Hotel,210,Train,480
+2738,Pyramids of Giza,2/5/2025,2/14/2025,9,Alex Taylor,50,Male,Indian,Hostel,50,Plane,380
+2739,Machu Picchu,10/15/2024,10/27/2024,12,Jordan Smith,47,Female,Canadian,Airbnb,80,Plane,520
+2740,Victoria Falls,5/6/2025,5/14/2025,8,Quinn Wilson,27,Male,French,Resort,240,Bus,350
+2741,Victoria Falls,11/4/2024,11/16/2024,12,Jamie Hernandez,51,Male,Chinese,Hotel,150,Bus,350
+2742,Santorini,8/12/2024,8/19/2024,7,Quinn Martinez,45,Male,Canadian,Hostel,70,Plane,220
+2743,Niagara Falls,5/24/2024,6/5/2024,12,Quinn Wilson,42,Male,Australian,Villa,230,Car rental,370
+2744,Great Barrier Reef,7/16/2023,7/21/2023,5,Reese Miller,32,Male,Indian,Airbnb,130,Plane,640
+2745,Paris,11/5/2025,11/12/2025,7,Drew Johnson,54,Male,British,Hostel,70,Bus,90
+2746,Serengeti National Park,10/5/2024,10/16/2024,11,Reese Wilson,20,Female,German,Hostel,50,Plane,620
+2747,Santorini,6/24/2023,7/2/2023,8,Jamie Hernandez,42,Female,Canadian,Villa,300,Train,110
+2748,Sydney,8/21/2025,8/31/2025,10,Quinn Anderson,53,Male,Indian,Hotel,210,Train,470
+2749,Paris,8/2/2025,8/8/2025,6,Jesse Gonzalez,35,Male,Australian,Villa,290,Train,70
+2750,Great Barrier Reef,8/6/2024,8/11/2024,5,Skyler Johnson,35,Female,Indian,Villa,300,Plane,640
+2751,Hawaii Islands,7/22/2023,7/31/2023,9,Riley Brown,35,Female,Japanese,Resort,340,Train,480
+2752,Pyramids of Giza,11/1/2024,11/7/2024,6,Chris Martinez,22,Male,British,Hotel,140,Train,210
+2753,Great Wall of China,10/6/2023,10/18/2023,12,Taylor Garcia,42,Female,Japanese,Hotel,160,Plane,600
+2754,Santorini,7/2/2024,7/9/2024,7,Devin Miller,36,Male,French,Villa,300,Plane,220
+2755,Blue Lagoon,1/5/2024,1/15/2024,10,Quinn Smith,54,Male,Spanish,Airbnb,150,Train,160
+2756,Pyramids of Giza,5/1/2023,5/9/2023,8,Chris Thomas,34,Female,American,Hotel,140,Car rental,290
+2757,Grand Canyon,11/19/2024,11/28/2024,9,Devin Miller,38,Female,German,Resort,250,Bus,280
+2758,Hawaii Islands,8/11/2023,8/21/2023,10,Jordan Johnson,46,Female,Japanese,Hotel,210,Bus,460
+2759,Machu Picchu,2/11/2025,2/22/2025,11,Dana Hernandez,20,Male,German,Hostel,45,Bus,320
+2760,Blue Lagoon,12/10/2023,12/17/2023,7,Jamie Gonzalez,22,Female,Australian,Hotel,240,Bus,170
+2761,Sydney,7/4/2023,7/10/2023,6,Dana Wilson,31,Female,Canadian,Resort,330,Plane,740
+2762,Victoria Falls,9/1/2025,9/11/2025,10,Riley Johnson,50,Female,British,Hostel,50,Bus,350
+2763,Victoria Falls,9/6/2023,9/18/2023,12,Chris Brown,37,Female,American,Hotel,150,Bus,350
+2764,Niagara Falls,6/20/2023,6/27/2023,7,Quinn Smith,22,Male,British,Airbnb,100,Train,270
+2765,Sydney,7/14/2024,7/23/2024,9,Jamie Smith,40,Female,Indian,Hotel,210,Train,470
+2766,Niagara Falls,12/25/2025,1/2/2026,8,Chris Anderson,35,Female,Spanish,Hotel,160,Train,270
+2767,Grand Canyon,7/3/2023,7/12/2023,9,Skyler Miller,46,Male,British,Airbnb,95,Train,250
+2768,Blue Lagoon,2/23/2025,3/6/2025,11,Chris Johnson,32,Male,German,Hotel,240,Train,160
+2769,Victoria Falls,7/13/2025,7/18/2025,5,Reese Hernandez,48,Female,American,Airbnb,85,Plane,580
+2770,Blue Lagoon,1/22/2023,1/28/2023,6,Skyler Thomas,52,Male,Australian,Hostel,90,Bus,170
+2771,Galapagos,7/21/2025,8/2/2025,12,Parker Hernandez,21,Female,Canadian,Airbnb,120,Car rental,450
+2772,Hawaii Islands,6/18/2025,6/28/2025,10,Skyler Thomas,51,Female,Japanese,Hostel,70,Train,480
+2773,Santorini,8/9/2024,8/18/2024,9,Riley Lopez,38,Male,American,Hotel,190,Plane,220
+2774,Phuket,6/15/2025,6/22/2025,7,Skyler Hernandez,23,Male,German,Airbnb,60,Car rental,440
+2775,Pyramids of Giza,2/9/2025,2/16/2025,7,Kendall Smith,35,Female,British,Hostel,50,Bus,240
+2776,Hawaii Islands,6/2/2023,6/11/2023,9,Harper Wilson,28,Male,Japanese,Hotel,210,Train,480
+2777,Serengeti National Park,12/14/2024,12/26/2024,12,Drew Garcia,48,Male,Chinese,Hotel,180,Car rental,460
+2778,Pyramids of Giza,12/11/2025,12/22/2025,11,Riley Johnson,50,Female,British,Airbnb,85,Plane,380
+2779,Victoria Falls,12/9/2025,12/15/2025,6,Alex Davis,20,Female,Chinese,Resort,240,Car rental,440
+2780,Phuket,6/11/2024,6/21/2024,10,Devin Miller,45,Male,Chinese,Resort,180,Car rental,440
+2781,Blue Lagoon,1/24/2025,2/2/2025,9,Jordan Jackson,42,Male,Japanese,Airbnb,150,Bus,170
+2782,Paris,4/6/2024,4/18/2024,12,Drew Garcia,55,Male,Spanish,Hotel,210,Train,70
+2783,Niagara Falls,1/9/2024,1/21/2024,12,Skyler Johnson,38,Female,Canadian,Hostel,60,Train,270
+2784,Phuket,7/25/2023,8/6/2023,12,Jesse Miller,49,Male,Indian,Resort,180,Car rental,440
+2785,Machu Picchu,10/7/2023,10/13/2023,6,Kendall Gonzalez,20,Male,Spanish,Hotel,120,Car rental,410
+2786,Machu Picchu,11/19/2024,11/29/2024,10,Alex Anderson,32,Male,French,Airbnb,80,Train,300
+2787,Santorini,6/6/2023,6/11/2023,5,Parker Anderson,31,Female,American,Hotel,190,Bus,130
+2788,Santorini,7/3/2023,7/15/2023,12,Avery Lopez,33,Male,French,Villa,300,Bus,130
+2789,Great Wall of China,7/11/2023,7/17/2023,6,Logan Johnson,34,Male,Chinese,Hostel,50,Plane,600
+2790,Pyramids of Giza,8/8/2023,8/13/2023,5,Quinn Gonzalez,51,Male,German,Airbnb,85,Train,210
+2791,Hawaii Islands,6/18/2025,6/29/2025,11,Skyler Taylor,49,Male,Indian,Airbnb,140,Car rental,500
+2792,Hawaii Islands,8/24/2024,9/2/2024,9,Drew Garcia,48,Male,Chinese,Hostel,70,Car rental,500
+2793,Victoria Falls,11/20/2025,11/30/2025,10,Avery Lopez,33,Male,French,Airbnb,85,Bus,350
+2794,Banff National Park,12/17/2025,12/23/2025,6,Parker Lee,44,Female,Spanish,Hotel,180,Car rental,390
+2795,Phuket,8/8/2024,8/20/2024,12,Morgan Martinez,37,Female,Australian,Resort,180,Bus,360
+2796,Santorini,6/14/2023,6/24/2023,10,Jordan Davis,28,Male,German,Hotel,190,Bus,130
+2797,Galapagos,6/9/2025,6/14/2025,5,Casey Thomas,36,Male,Australian,Resort,320,Plane,620
+2798,Serengeti National Park,11/19/2023,11/27/2023,8,Devin Miller,38,Female,German,Hotel,180,Train,350
+2799,Galapagos,8/22/2023,9/3/2023,12,Dana Wilson,29,Male,American,Resort,320,Bus,390
+2800,Pyramids of Giza,5/12/2025,5/20/2025,8,Jesse Lee,42,Male,Australian,Resort,230,Plane,380
+2801,Niagara Falls,5/5/2024,5/17/2024,12,Reese Wilson,20,Female,German,Hostel,60,Car rental,370
+2802,Great Barrier Reef,7/19/2024,7/28/2024,9,Morgan Martin,20,Male,Canadian,Airbnb,130,Train,390
+2803,Paris,6/3/2023,6/11/2023,8,Chris Gonzalez,50,Female,Spanish,Airbnb,135,Bus,90
+2804,Hawaii Islands,8/15/2025,8/20/2025,5,Skyler Wilson,44,Female,Australian,Resort,340,Train,480
+2805,Pyramids of Giza,9/11/2023,9/21/2023,10,Drew Garcia,48,Male,Chinese,Hotel,140,Train,210
+2806,Hawaii Islands,7/18/2024,7/30/2024,12,Riley Smith,30,Male,Canadian,Resort,340,Plane,750
+2807,Great Barrier Reef,8/4/2024,8/13/2024,9,Dana Wilson,31,Female,Canadian,Villa,300,Plane,640
+2808,Paris,4/1/2023,4/6/2023,5,Reese Johnson,23,Female,Australian,Hostel,70,Car rental,160
+2809,Great Barrier Reef,7/19/2024,7/25/2024,6,Skyler Wilson,44,Female,Australian,Villa,300,Plane,640
+2810,Paris,11/15/2024,11/27/2024,12,Quinn Anderson,53,Male,Indian,Villa,290,Train,70
+2811,Grand Canyon,9/6/2024,9/12/2024,6,Parker Lopez,51,Male,German,Airbnb,95,Bus,280
+2812,Galapagos,7/6/2024,7/12/2024,6,Jamie Hernandez,44,Female,Indian,Hotel,200,Train,370
+2813,Sydney,6/14/2024,6/24/2024,10,Parker Taylor,42,Male,American,Resort,330,Bus,450
+2814,Machu Picchu,3/1/2024,3/11/2024,10,Morgan Thomas,43,Female,German,Villa,190,Plane,520
+2815,Santorini,6/4/2024,6/12/2024,8,Drew Anderson,53,Male,Spanish,Resort,340,Car rental,180
+2816,Niagara Falls,3/18/2023,3/26/2023,8,Chris Anderson,35,Female,Spanish,Resort,270,Plane,480
+2817,Paris,8/16/2024,8/28/2024,12,Logan Hernandez,30,Male,Japanese,Hostel,70,Plane,120
+2818,Banff National Park,12/2/2025,12/13/2025,11,Logan Taylor,28,Female,Japanese,Resort,290,Plane,520
+2819,Grand Canyon,1/10/2024,1/15/2024,5,Parker Jones,50,Female,Canadian,Villa,210,Car rental,370
+2820,Santorini,8/10/2024,8/20/2024,10,Skyler Martinez,31,Male,Indian,Villa,300,Plane,220
+2821,Serengeti National Park,6/1/2025,6/12/2025,11,Parker Hernandez,21,Male,Australian,Hostel,50,Plane,620
+2822,Victoria Falls,6/9/2025,6/20/2025,11,Drew Johnson,54,Male,British,Villa,200,Plane,580
+2823,Pyramids of Giza,3/2/2023,3/9/2023,7,Skyler Johnson,35,Female,Indian,Hostel,50,Plane,380
+2824,Banff National Park,2/4/2025,2/15/2025,11,Riley Brown,35,Female,Japanese,Airbnb,110,Car rental,390
+2825,Niagara Falls,10/25/2025,11/3/2025,9,Quinn Gonzalez,51,Male,German,Hotel,160,Bus,290
+2826,Paris,7/4/2024,7/11/2024,7,Kendall Gonzalez,20,Male,Spanish,Airbnb,135,Car rental,160
+2827,Santorini,7/6/2024,7/13/2024,7,Casey Moore,52,Female,British,Airbnb,130,Plane,220
+2828,Niagara Falls,6/24/2025,6/30/2025,6,Jordan Garcia,27,Female,Indian,Hostel,60,Car rental,370
+2829,Hawaii Islands,7/3/2023,7/12/2023,9,Dana Lee,43,Male,Japanese,Hostel,70,Train,480
+2830,Sydney,6/13/2023,6/18/2023,5,Jordan Anderson,50,Male,Spanish,Resort,330,Car rental,510
+2831,Phuket,7/2/2024,7/11/2024,9,Casey Jones,35,Male,Spanish,Airbnb,60,Train,340
+2832,Hawaii Islands,6/6/2024,6/12/2024,6,Taylor Garcia,42,Female,Japanese,Resort,340,Plane,750
+2833,Hawaii Islands,6/22/2025,6/29/2025,7,Quinn Gonzalez,51,Male,German,Hotel,210,Plane,750
+2834,Niagara Falls,7/17/2024,7/24/2024,7,Avery Anderson,47,Female,Japanese,Airbnb,100,Bus,290
+2835,Machu Picchu,9/4/2025,9/15/2025,11,Chris Thomas,34,Female,American,Hotel,120,Plane,520
+2836,Banff National Park,1/20/2024,1/25/2024,5,Parker Hernandez,21,Male,Australian,Airbnb,110,Car rental,390
+2837,Blue Lagoon,2/1/2024,2/9/2024,8,Quinn Wilson,27,Male,French,Hotel,240,Plane,280
+2838,Great Wall of China,1/19/2025,1/31/2025,12,Drew Garcia,29,Male,Chinese,Villa,200,Plane,600
+2839,Niagara Falls,9/3/2024,9/11/2024,8,Alex Anderson,32,Male,French,Resort,270,Car rental,370
+2840,Banff National Park,12/24/2023,12/30/2023,6,Reese Moore,21,Male,Spanish,Hostel,65,Car rental,390
+2841,Galapagos,7/17/2024,7/25/2024,8,Alex Taylor,50,Female,Chinese,Hostel,80,Car rental,450
+2842,Hawaii Islands,8/22/2025,9/1/2025,10,Morgan Thomas,43,Female,German,Airbnb,140,Car rental,500
+2843,Phuket,7/8/2024,7/16/2024,8,Jordan Smith,47,Female,Canadian,Hostel,30,Car rental,440
+2844,Sydney,8/4/2025,8/15/2025,11,Logan Jackson,24,Male,Chinese,Airbnb,140,Car rental,510
+2845,Santorini,7/12/2025,7/23/2025,11,Skyler Johnson,38,Female,Canadian,Airbnb,130,Train,110
+2846,Grand Canyon,3/8/2025,3/19/2025,11,Alex Davis,20,Female,Chinese,Hostel,55,Car rental,370
+2847,Sydney,6/5/2025,6/10/2025,5,Skyler Taylor,49,Male,Indian,Hotel,210,Car rental,510
+2848,Sydney,6/20/2025,6/30/2025,10,Jesse Martin,48,Female,Japanese,Airbnb,140,Car rental,510
+2849,Blue Lagoon,12/3/2024,12/10/2024,7,Taylor Garcia,42,Female,Japanese,Resort,370,Train,160
+2850,Serengeti National Park,11/1/2025,11/11/2025,10,Jamie Hernandez,51,Male,Chinese,Resort,280,Train,350
+2851,Great Wall of China,10/5/2024,10/11/2024,6,Skyler Thomas,51,Female,Japanese,Hotel,160,Car rental,430
+2852,Paris,1/11/2025,1/18/2025,7,Alex Taylor,50,Male,Indian,Hotel,210,Bus,90
+2853,Pyramids of Giza,10/20/2025,10/27/2025,7,Skyler Martinez,31,Male,Indian,Villa,200,Train,210
+2854,Great Barrier Reef,7/25/2025,8/4/2025,10,Parker Taylor,24,Female,Japanese,Resort,350,Car rental,470
+2855,Hawaii Islands,8/25/2023,9/1/2023,7,Morgan Thomas,43,Female,German,Villa,300,Plane,750
+2856,Pyramids of Giza,8/15/2024,8/22/2024,7,Jordan Johnson,25,Male,Canadian,Hostel,50,Train,210
+2857,Santorini,6/5/2023,6/10/2023,5,Reese Hernandez,39,Female,French,Hotel,190,Plane,220
+2858,Hawaii Islands,7/1/2025,7/8/2025,7,Riley Smith,30,Male,Canadian,Hotel,210,Train,480
+2859,Phuket,7/23/2024,7/28/2024,5,Devin Miller,45,Male,Chinese,Hotel,100,Car rental,440
+2860,Galapagos,8/23/2024,8/29/2024,6,Chris Anderson,41,Male,Japanese,Hostel,80,Train,370
+2861,Sydney,6/12/2025,6/23/2025,11,Drew Anderson,53,Male,Spanish,Hostel,70,Bus,450
+2862,Blue Lagoon,2/4/2025,2/9/2025,5,Chris Martin,53,Male,American,Hostel,90,Car rental,200
+2863,Serengeti National Park,6/21/2024,7/2/2024,11,Dana Wilson,29,Male,American,Hostel,50,Plane,620
+2864,Paris,2/18/2024,2/28/2024,10,Morgan Martinez,37,Female,Australian,Airbnb,135,Bus,90
+2865,Grand Canyon,12/18/2025,12/25/2025,7,Skyler Thomas,52,Male,Australian,Hostel,55,Plane,450
+2866,Pyramids of Giza,9/15/2024,9/20/2024,5,Reese Johnson,42,Female,Spanish,Resort,230,Train,210
+2867,Victoria Falls,4/15/2024,4/23/2024,8,Devin Johnson,22,Male,French,Airbnb,85,Bus,350
+2868,Machu Picchu,9/1/2025,9/6/2025,5,Morgan Martin,20,Male,Canadian,Resort,220,Bus,320
+2869,Blue Lagoon,1/12/2025,1/18/2025,6,Taylor Garcia,42,Female,Japanese,Hotel,240,Bus,170
+2870,Blue Lagoon,2/9/2023,2/20/2023,11,Dana Lopez,53,Female,American,Resort,370,Train,160
+2871,Niagara Falls,9/7/2023,9/15/2023,8,Reese Johnson,23,Female,Australian,Hostel,60,Bus,290
+2872,Victoria Falls,2/4/2025,2/12/2025,8,Reese Moore,21,Male,Spanish,Villa,200,Car rental,440
+2873,Hawaii Islands,6/10/2023,6/18/2023,8,Chris Martinez,28,Male,Canadian,Villa,300,Plane,750
+2874,Victoria Falls,10/9/2024,10/18/2024,9,Morgan Martinez,37,Female,Australian,Airbnb,85,Plane,580
+2875,Galapagos,8/11/2025,8/16/2025,5,Logan Martinez,54,Female,German,Resort,320,Plane,620
+2876,Hawaii Islands,7/3/2023,7/11/2023,8,Harper Martinez,32,Female,American,Villa,300,Bus,460
+2877,Pyramids of Giza,5/1/2025,5/10/2025,9,Drew Garcia,55,Male,Spanish,Hostel,50,Train,210
+2878,Galapagos,7/20/2023,7/26/2023,6,Quinn Hernandez,51,Male,Japanese,Airbnb,120,Train,370
+2879,Grand Canyon,6/18/2024,6/28/2024,10,Casey Brown,44,Female,Canadian,Airbnb,95,Plane,450
+2880,Phuket,8/8/2024,8/14/2024,6,Jordan Martin,20,Male,French,Resort,180,Bus,360
+2881,Grand Canyon,8/17/2024,8/29/2024,12,Drew Lee,23,Female,Chinese,Hotel,140,Bus,280
+2882,Pyramids of Giza,4/1/2023,4/12/2023,11,Jamie Anderson,49,Male,Indian,Hostel,50,Train,210
+2883,Phuket,8/20/2024,8/27/2024,7,Riley Smith,30,Male,Canadian,Hostel,30,Car rental,440
+2884,Galapagos,8/1/2024,8/8/2024,7,Chris Thomas,55,Female,Spanish,Hotel,200,Train,370
+2885,Phuket,7/9/2025,7/15/2025,6,Drew Johnson,54,Male,British,Airbnb,60,Car rental,440
+2886,Machu Picchu,11/7/2025,11/16/2025,9,Drew Anderson,53,Male,Spanish,Hotel,120,Plane,520
+2887,Blue Lagoon,12/15/2024,12/25/2024,10,Dana Lee,43,Male,Japanese,Hotel,240,Train,160
+2888,Blue Lagoon,2/19/2025,2/25/2025,6,Kendall Gonzalez,40,Male,Indian,Airbnb,150,Train,160
+2889,Hawaii Islands,8/24/2024,9/1/2024,8,Kendall Smith,35,Female,British,Resort,340,Train,480
+2890,Grand Canyon,7/24/2024,7/29/2024,5,Skyler Thomas,52,Male,Australian,Hostel,55,Car rental,370
+2891,Galapagos,8/1/2023,8/6/2023,5,Harper Williams,41,Female,German,Resort,320,Bus,390
+2892,Niagara Falls,8/21/2023,8/31/2023,10,Jesse Lee,42,Male,Australian,Hostel,60,Car rental,370
+2893,Santorini,6/21/2024,7/3/2024,12,Alex Moore,47,Male,Chinese,Airbnb,130,Bus,130
+2894,Banff National Park,1/23/2024,2/4/2024,12,Jordan Martin,20,Male,French,Hotel,180,Car rental,390
+2895,Phuket,6/7/2024,6/15/2024,8,Riley Jackson,52,Male,German,Villa,150,Car rental,440
+2896,Galapagos,6/18/2024,6/30/2024,12,Quinn Anderson,53,Male,Indian,Airbnb,120,Train,370
+2897,Paris,12/4/2023,12/14/2023,10,Jesse Miller,23,Female,French,Hostel,70,Plane,120
+2898,Machu Picchu,11/15/2024,11/26/2024,11,Chris Jackson,33,Female,Chinese,Resort,220,Bus,320
+2899,Sydney,8/14/2023,8/20/2023,6,Parker Thomas,28,Female,British,Resort,330,Train,470
+2900,Machu Picchu,6/13/2023,6/18/2023,5,Quinn Gonzalez,51,Male,German,Resort,220,Train,300
+2901,Sydney,7/25/2023,8/5/2023,11,Reese Moore,21,Male,Spanish,Hotel,210,Train,470
+2902,Great Wall of China,3/5/2023,3/16/2023,11,Quinn Brown,37,Male,American,Hostel,50,Car rental,430
+2903,Banff National Park,2/18/2025,2/27/2025,9,Kendall Miller,42,Male,British,Hotel,180,Bus,310
+2904,Pyramids of Giza,6/8/2023,6/14/2023,6,Jamie Gonzalez,22,Female,Australian,Hostel,50,Car rental,290
+2905,Paris,11/10/2024,11/21/2024,11,Logan Hernandez,30,Male,Japanese,Villa,290,Car rental,160
+2906,Niagara Falls,1/4/2025,1/15/2025,11,Reese Moore,21,Male,Spanish,Hostel,60,Car rental,370
+2907,Hawaii Islands,6/2/2023,6/14/2023,12,Avery Anderson,47,Female,Japanese,Villa,300,Plane,750
+2908,Paris,11/9/2025,11/17/2025,8,Parker Lopez,51,Male,German,Hotel,210,Bus,90
+2909,Paris,5/8/2023,5/18/2023,10,Jordan Martin,20,Male,French,Hostel,70,Bus,90
+2910,Paris,4/22/2024,5/3/2024,11,Dana Garcia,22,Female,French,Airbnb,135,Bus,90
+2911,Paris,11/2/2023,11/14/2023,12,Jamie Hernandez,51,Male,Chinese,Hotel,210,Car rental,160
+2912,Paris,5/24/2024,6/3/2024,10,Skyler Johnson,38,Female,Canadian,Villa,290,Train,70
+2913,Grand Canyon,9/24/2024,9/30/2024,6,Jordan Johnson,46,Female,Japanese,Villa,210,Plane,450
+2914,Sydney,7/1/2023,7/10/2023,9,Jordan Martin,20,Male,French,Hotel,210,Car rental,510
+2915,Victoria Falls,5/8/2024,5/14/2024,6,Alex Moore,47,Male,Chinese,Hostel,50,Plane,580
+2916,Victoria Falls,7/25/2024,7/31/2024,6,Drew Garcia,55,Male,Spanish,Villa,200,Plane,580
+2917,Hawaii Islands,8/1/2024,8/13/2024,12,Avery Anderson,35,Female,Canadian,Villa,300,Bus,460
+2918,Paris,5/2/2023,5/11/2023,9,Skyler Johnson,46,Female,British,Hotel,210,Train,70
+2919,Victoria Falls,12/1/2023,12/10/2023,9,Kendall Smith,36,Male,Japanese,Resort,240,Car rental,440
+2920,Great Barrier Reef,7/12/2023,7/23/2023,11,Drew Williams,49,Female,Australian,Hotel,220,Plane,640
+2921,Serengeti National Park,7/24/2023,8/4/2023,11,Reese Williams,38,Female,Indian,Resort,280,Plane,620
+2922,Paris,11/20/2023,11/26/2023,6,Reese Johnson,23,Female,Australian,Hostel,70,Plane,120
+2923,Niagara Falls,7/5/2023,7/16/2023,11,Quinn Anderson,53,Male,Indian,Hotel,160,Plane,480
+2924,Great Barrier Reef,7/20/2025,7/28/2025,8,Jamie Lee,49,Male,Indian,Airbnb,130,Train,390
+2925,Banff National Park,2/7/2024,2/18/2024,11,Logan Williams,31,Male,Indian,Villa,240,Plane,520
+2926,Victoria Falls,4/24/2024,5/1/2024,7,Reese Brown,33,Male,Canadian,Villa,200,Car rental,440
+2927,Banff National Park,12/18/2025,12/23/2025,5,Drew Anderson,21,Male,Canadian,Resort,290,Train,330
+2928,Phuket,8/4/2023,8/10/2023,6,Jamie Smith,38,Male,Indian,Resort,180,Bus,360
+2929,Great Wall of China,10/2/2024,10/12/2024,10,Reese Williams,38,Female,Indian,Hostel,50,Bus,350
+2930,Santorini,6/6/2023,6/14/2023,8,Parker Taylor,42,Male,American,Villa,300,Plane,220
+2931,Niagara Falls,9/5/2023,9/10/2023,5,Casey Jones,35,Male,Spanish,Villa,230,Bus,290
+2932,Sydney,8/14/2023,8/24/2023,10,Avery Moore,54,Male,Canadian,Hostel,70,Plane,740
+2933,Santorini,7/15/2025,7/26/2025,11,Devin Garcia,34,Female,Australian,Airbnb,130,Train,110
+2934,Santorini,6/6/2023,6/17/2023,11,Logan Williams,31,Male,Indian,Resort,340,Plane,220
+2935,Niagara Falls,8/1/2024,8/7/2024,6,Jordan Martin,32,Male,Canadian,Villa,230,Car rental,370
+2936,Machu Picchu,5/16/2023,5/23/2023,7,Casey Miller,54,Female,French,Villa,190,Plane,520
+2937,Great Barrier Reef,6/21/2025,6/27/2025,6,Quinn Brown,20,Male,British,Hotel,220,Train,390
+2938,Phuket,8/2/2024,8/14/2024,12,Skyler Taylor,49,Male,Indian,Hotel,100,Plane,590
+2939,Phuket,7/20/2025,7/27/2025,7,Devin Lopez,29,Female,Indian,Villa,150,Car rental,440
+2940,Santorini,7/5/2023,7/16/2023,11,Skyler Taylor,49,Male,Indian,Hostel,70,Plane,220
+2941,Santorini,6/2/2025,6/13/2025,11,Avery Anderson,34,Female,French,Villa,300,Car rental,180
+2942,Victoria Falls,9/14/2025,9/24/2025,10,Kendall Smith,35,Female,British,Airbnb,85,Bus,350
+2943,Phuket,6/23/2025,7/1/2025,8,Avery Moore,54,Male,Canadian,Hostel,30,Bus,360
+2944,Great Barrier Reef,7/19/2023,7/28/2023,9,Jesse Garcia,52,Female,British,Airbnb,130,Plane,640
+2945,Hawaii Islands,7/1/2025,7/7/2025,6,Parker Taylor,24,Female,Japanese,Hotel,210,Train,480
+2946,Phuket,7/8/2024,7/14/2024,6,Harper Johnson,55,Female,British,Hotel,100,Car rental,440
+2947,Hawaii Islands,6/24/2025,7/3/2025,9,Harper Martinez,32,Female,American,Villa,300,Plane,750
+2948,Serengeti National Park,4/24/2023,4/30/2023,6,Avery Smith,36,Male,French,Hostel,50,Car rental,460
+2949,Paris,9/15/2025,9/23/2025,8,Reese Hernandez,48,Female,American,Airbnb,135,Bus,90
+2950,Serengeti National Park,6/20/2023,6/26/2023,6,Reese Gonzalez,25,Male,British,Hotel,180,Plane,620
+2951,Santorini,8/12/2025,8/17/2025,5,Kendall Smith,35,Female,British,Resort,340,Plane,220
+2952,Pyramids of Giza,10/21/2023,10/29/2023,8,Quinn Gonzalez,51,Male,German,Villa,200,Plane,380
+2953,Grand Canyon,9/6/2025,9/17/2025,11,Drew Miller,32,Female,Japanese,Hotel,140,Car rental,370
+2954,Hawaii Islands,7/13/2025,7/25/2025,12,Alex Anderson,32,Male,French,Airbnb,140,Car rental,500
+2955,Niagara Falls,2/6/2025,2/12/2025,6,Avery Johnson,45,Male,Indian,Hostel,60,Plane,480
+2956,Pyramids of Giza,4/5/2024,4/15/2024,10,Parker Thomas,28,Female,British,Hostel,50,Plane,380
+2957,Great Barrier Reef,8/17/2024,8/27/2024,10,Avery Anderson,54,Male,British,Hostel,75,Car rental,470
+2958,Serengeti National Park,5/23/2025,5/28/2025,5,Dana Martin,30,Female,Canadian,Hotel,180,Bus,370
+2959,Grand Canyon,7/6/2024,7/13/2024,7,Skyler Thomas,52,Male,Australian,Hotel,140,Train,250
+2960,Grand Canyon,3/11/2023,3/18/2023,7,Harper Moore,22,Male,Indian,Airbnb,95,Plane,450
+2961,Galapagos,7/3/2023,7/10/2023,7,Riley Lopez,38,Male,American,Hostel,80,Train,370
+2962,Santorini,6/20/2023,6/29/2023,9,Alex Anderson,32,Male,French,Hostel,70,Bus,130
+2963,Great Barrier Reef,6/19/2023,6/24/2023,5,Avery Smith,36,Male,French,Hostel,75,Plane,640
+2964,Niagara Falls,7/20/2023,7/30/2023,10,Jamie Gonzalez,22,Female,Australian,Resort,270,Bus,290
+2965,Niagara Falls,11/3/2023,11/15/2023,12,Drew Miller,32,Female,Japanese,Hostel,60,Bus,290
+2966,Paris,1/15/2023,1/21/2023,6,Drew Lee,23,Female,Chinese,Hostel,70,Car rental,160
+2967,Grand Canyon,11/22/2024,12/2/2024,10,Skyler Gonzalez,35,Female,Canadian,Airbnb,95,Bus,280
+2968,Grand Canyon,4/13/2023,4/21/2023,8,Reese Johnson,23,Female,Australian,Hostel,55,Plane,450
+2969,Galapagos,7/9/2023,7/16/2023,7,Jordan Garcia,33,Female,British,Hostel,80,Plane,620
+2970,Pyramids of Giza,3/23/2024,3/28/2024,5,Avery Lopez,33,Male,French,Airbnb,85,Plane,380
+2971,Banff National Park,1/7/2023,1/14/2023,7,Chris Martin,53,Male,American,Hostel,65,Plane,520
+2972,Paris,8/23/2025,8/29/2025,6,Quinn Lopez,38,Female,Spanish,Hotel,210,Train,70
+2973,Pyramids of Giza,7/4/2024,7/10/2024,6,Reese Miller,32,Male,Indian,Hotel,140,Plane,380
+2974,Phuket,7/1/2023,7/9/2023,8,Jamie Martinez,20,Male,German,Hostel,30,Train,340
+2975,Phuket,6/5/2023,6/15/2023,10,Drew Garcia,55,Male,Spanish,Hostel,30,Plane,590
+2976,Great Wall of China,8/2/2024,8/7/2024,5,Chris Anderson,35,Female,Spanish,Hostel,50,Train,370
+2977,Blue Lagoon,2/24/2025,3/4/2025,8,Harper Moore,22,Male,Indian,Hotel,240,Train,160
+2978,Sydney,8/10/2025,8/21/2025,11,Riley Smith,30,Male,Canadian,Airbnb,140,Train,470
+2979,Grand Canyon,7/17/2025,7/28/2025,11,Skyler Martinez,31,Male,Indian,Villa,210,Plane,450
+2980,Great Wall of China,3/1/2025,3/13/2025,12,Jamie Hernandez,44,Female,Indian,Resort,240,Car rental,430
+2981,Paris,6/19/2023,6/29/2023,10,Logan Williams,52,Female,German,Villa,290,Bus,90
+2982,Sydney,7/19/2023,7/25/2023,6,Parker Taylor,42,Male,American,Airbnb,140,Bus,450
+2983,Victoria Falls,8/10/2023,8/20/2023,10,Riley Lopez,38,Male,American,Resort,240,Bus,350
+2984,Phuket,7/2/2024,7/8/2024,6,Jesse Miller,23,Female,French,Hotel,100,Train,340
+2985,Sydney,6/8/2023,6/20/2023,12,Alex Lee,25,Male,French,Hotel,210,Bus,450
+2986,Hawaii Islands,6/6/2025,6/15/2025,9,Reese Johnson,52,Female,Spanish,Hostel,70,Train,480
+2987,Blue Lagoon,2/25/2024,3/6/2024,10,Chris Martinez,28,Male,Canadian,Villa,320,Bus,170
+2988,Machu Picchu,10/1/2023,10/9/2023,8,Reese Gonzalez,25,Male,British,Resort,220,Car rental,410
+2989,Niagara Falls,9/4/2023,9/13/2023,9,Quinn Wilson,42,Male,Australian,Resort,270,Car rental,370
+2990,Hawaii Islands,7/24/2023,7/31/2023,7,Skyler Johnson,46,Female,British,Resort,340,Car rental,500
+2991,Santorini,6/24/2023,7/3/2023,9,Avery Johnson,45,Male,Indian,Resort,340,Car rental,180
+2992,Machu Picchu,2/4/2023,2/14/2023,10,Devin Miller,38,Female,German,Villa,190,Car rental,410
+2993,Serengeti National Park,6/21/2025,6/29/2025,8,Kendall Smith,35,Female,British,Airbnb,100,Bus,370
+2994,Phuket,6/21/2024,6/30/2024,9,Dana Lopez,53,Female,American,Hotel,100,Train,340
+2995,Great Wall of China,5/2/2023,5/8/2023,6,Quinn Martinez,45,Male,Canadian,Resort,240,Bus,350
+2996,Victoria Falls,4/22/2024,5/2/2024,10,Parker Hernandez,21,Female,Canadian,Hotel,150,Bus,350
+2997,Pyramids of Giza,10/3/2024,10/9/2024,6,Quinn Martinez,54,Male,Canadian,Hotel,140,Train,210
+2998,Banff National Park,1/4/2025,1/16/2025,12,Taylor Gonzalez,37,Male,American,Villa,240,Bus,310
+2999,Grand Canyon,6/6/2023,6/11/2023,5,Taylor Smith,45,Male,German,Villa,210,Train,250
+3000,Niagara Falls,7/25/2025,8/4/2025,10,Reese Brown,33,Male,Canadian,Hotel,160,Train,270

@@ -558,6 +558,14 @@ footer p { color: white; }
     color: white;
 }
 
+.chart-shadow-box {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
 #google-map { height: 600px; }
 
 @media screen and (max-width: 1080px) {

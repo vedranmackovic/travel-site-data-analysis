@@ -5,7 +5,7 @@ from sqlalchemy import func
 import os
 import csv
 from datetime import datetime
-import charts
+import charts as ch
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -182,7 +182,7 @@ def destination():
     place = request.args.get('place')
     if place:
         place = place.replace('_', ' ')
-        chart_div = charts.generate_chart(place)
+        chart_div = ch.generate_chart(place)
     else:
         chart_div = None
 
@@ -304,6 +304,20 @@ def bookings():
     all_bookings = Booking.query.all()
     users = User.query.with_entities(User.id, User.email).all()
     return render_template("bookings.html", active_page="control", bookings=all_bookings, users=users)
+
+@app.route('/graphs', methods=["GET", "POST"])
+def graphs():
+    if not session.get('is_admin'):
+        flash("Access denied.", "danger")
+        return redirect(url_for('home'))
+    
+    charts = {
+        "top_dest_chart": ch.generate_top_destinations_chart(),
+        "service_cost_chart": ch.generate_service_cost_chart(),
+        "total_earnings": ch.generate_total_earnings_chart()
+    }
+
+    return render_template("graphs.html", active_page="control", **charts)
 
 @app.route('/login', methods=['POST'])
 def login():
