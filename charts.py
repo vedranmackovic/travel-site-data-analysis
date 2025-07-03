@@ -2,7 +2,7 @@ from app import app, db, Booking
 import plotly.graph_objs as go
 from plotly.offline import plot
 from collections import Counter
-from sqlalchemy import func
+from sqlalchemy import func, distinct, literal_column
 
 service_prices = {
     "Grand Canyon":120,
@@ -50,13 +50,12 @@ def generate_chart(place):
                   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
         visits = [month_counts.get(i, 0) for i in range(1, 13)]
 
-        fig = go.Figure(data=[go.Bar(x=months, y=visits, marker_color='#c66995')])
-        fig.update_layout(
-            title=f"Number of Visits per Month for<br>{place} from Vetravel",
-            xaxis_title="Month",
-            yaxis_title="Number of Visits",
-            template="plotly_white"
-        )
+        fig = go.Figure(data=[go.Bar(
+            x=months, 
+            y=visits, 
+            marker_color='#c66995'
+        )])
+        
         fig.update_layout(
             autosize=True,
             height=350,
@@ -65,6 +64,9 @@ def generate_chart(place):
                 'x': 0.5,
                 'xanchor': 'center'
             },
+                        xaxis_title="Month",
+            yaxis_title="Number of Visits",
+            template="plotly_white",
             margin=dict(l=40, r=40, t=60, b=40),
         )
 
@@ -244,6 +246,203 @@ def generate_total_earnings_chart():
                     "pad": {"t": 2, "b": 2, "l": 5, "r": 5},
                 }
             ]
+        )
+
+        return plot(fig, output_type="div", include_plotlyjs=False)
+    
+
+def generate_age_group_chart():
+    with app.app_context():
+        results = db.session.query(Booking.traveler_age).all()
+        ages = [row.traveler_age for row in results if row.traveler_age is not None]
+
+        bins = {}
+        for age in ages:
+            if age < 11:
+                continue 
+            lower = ((age - 1) // 10) * 10 + 1
+            upper = lower + 9
+            label = f"{lower}-{upper}"
+            bins[label] = bins.get(label, 0) + 1
+
+        sorted_labels = sorted(bins.keys(), key=lambda x: int(x.split('-')[0]))
+        counts = [bins[label] for label in sorted_labels]
+
+        fig = go.Figure(data=[go.Bar(
+            x=sorted_labels,
+            y=counts,
+            marker_color="#6a9fb5"
+        )])
+
+        fig.update_layout(
+            title={
+                'text': "Traveler Age Groups",
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            xaxis_title="Age Group",
+            yaxis_title="Number of Travelers",
+            height=400,
+            margin=dict(l=40, r=40, t=60, b=80),
+            template="plotly_white"
+        )
+
+        return plot(fig, output_type="div", include_plotlyjs=False)
+    
+
+def generate_gender_by_destination_chart():
+    with app.app_context():
+        results = db.session.query(
+            Booking.destination,
+            Booking.traveler_gender,
+            func.count().label("count")
+        ).group_by(Booking.destination, Booking.traveler_gender).all()
+
+        gender_data = {}
+        for destination, gender, count in results:
+            if destination not in gender_data:
+                gender_data[destination] = {"Male": 0, "Female": 0}
+            gender_data[destination][gender] = count
+
+        destinations = list(service_prices.keys())
+        male_counts = [gender_data[dest]["Male"] for dest in destinations]
+        female_counts = [gender_data[dest]["Female"] for dest in destinations]
+
+        fig = go.Figure()
+
+        fig.add_trace(go.Bar(
+            x=destinations,
+            y=male_counts,
+            name='Male',
+            marker_color='#4A90E2'
+        ))
+
+        fig.add_trace(go.Bar(
+            x=destinations,
+            y=female_counts,
+            name='Female',
+            marker_color='#FF6F91'
+        ))
+
+        fig.update_layout(
+            barmode='group',
+            title={
+                'text': "Traveler Gender Distribution per Destination",
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            xaxis_title="Destination",
+            yaxis_title="Number of Travelers",
+            height=400,
+            template="plotly_white",
+            margin=dict(l=40, r=40, t=60, b=120),
+            xaxis=dict(
+                tickangle=0,
+                tickfont=dict(size=10),
+                tickmode='array',
+                tickvals=list(range(len(destinations))),
+                ticktext=[
+                    '<br>'.join(dest[i:i+10] for i in range(0, len(dest), 10))
+                    for dest in destinations
+                ],
+                fixedrange=False,
+                range=[-0.5, 4.5]
+            ),
+            yaxis=dict(
+                fixedrange=True
+            ),
+            dragmode="pan"
+        )
+
+        return plot(fig, output_type="div", include_plotlyjs=False)
+    
+
+def generate_nationality_pie_chart():
+    with app.app_context():
+        results = db.session.query(
+            Booking.traveler_nationality,
+            func.count(
+                distinct(
+                    func.concat(Booking.traveler_name, '-', Booking.traveler_nationality)
+                )
+            ).label("count")
+        ).group_by(Booking.traveler_nationality).all()
+
+        sorted_results = sorted(results, key=lambda x: x.count, reverse=True)
+
+        top_n = 10
+        top_labels = []
+        top_values = []
+        others_total = 0
+
+        for i, row in enumerate(sorted_results):
+            if i < top_n:
+                top_labels.append(row.traveler_nationality or "Unknown")
+                top_values.append(row.count)
+            else:
+                others_total += row.count
+
+        if others_total > 0:
+            top_labels.append("Others")
+            top_values.append(others_total)
+
+        fig = go.Figure(data=[go.Pie(
+            labels=top_labels,
+            values=top_values,
+            hole=0.3,  # donut-style
+            textinfo='label+percent',
+            marker=dict(
+                line=dict(color='white', width=1)
+            )
+        )])
+
+        fig.update_layout(
+            title={
+                'text': "Traveler Nationalities (Top 10)",
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            height=400,
+            template="plotly_white",
+            margin=dict(l=40, r=40, t=60, b=60),
+        )
+
+        return plot(fig, output_type="div", include_plotlyjs=False)
+    
+
+def generate_top_travelers_chart():
+    with app.app_context():
+        results = db.session.query(
+            func.concat(Booking.traveler_name, " - ", Booking.traveler_nationality).label("traveler"),
+            Booking.traveler_gender,
+            func.count().label("trips")
+        ).group_by("traveler").order_by(func.count().desc()).limit(10).all()
+
+        travelers = [row.traveler for row in results]
+        genders = [row.traveler_gender for row in results]
+        names = [traveler.split(" - ")[0] for traveler in travelers]
+        trips = [row.trips for row in results]
+
+        colors = ['steelblue' if gender == 'Male' else 'lightcoral' for gender in genders]
+
+        fig = go.Figure(data=[go.Bar(
+            x=names,
+            y=trips,
+            marker_color=colors
+        )])
+
+        fig.update_layout(
+            title={
+                'text': "Top 10 Travelers by Number of Travels",
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            xaxis_title="Travelers",
+            yaxis_title="Number of Travels",
+            height=400,
+            template="plotly_white",
+            margin=dict(l=40, r=40, t=60, b=80),
+            xaxis=dict(tickangle=-45)
         )
 
         return plot(fig, output_type="div", include_plotlyjs=False)

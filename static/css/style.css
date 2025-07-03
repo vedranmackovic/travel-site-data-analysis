@@ -566,6 +566,13 @@ footer p { color: white; }
     margin-bottom: 20px;
 }
 
+.line-break {
+    width: 100%;
+    height: 3px;                 /* Slightly thicker */
+    background-color: #aaa;      /* Medium gray for better visibility */
+    display: block;
+}
+
 #google-map { height: 600px; }
 
 @media screen and (max-width: 1080px) {

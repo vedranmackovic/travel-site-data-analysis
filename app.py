@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, flash, session
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_sqlalchemy import SQLAlchemy
-from sqlalchemy import func
+from sqlalchemy import func, distinct
 import os
 import csv
 from datetime import datetime
@@ -204,8 +204,14 @@ def control():
         .order_by(func.count(Booking.destination).desc())
         .first()
     )
+    old_users_count = (
+        db.session.query(func.count(distinct(func.concat(Booking.traveler_name, '-', Booking.traveler_nationality))))
+        .filter(Booking.user_id == None)
+        .scalar()
+    )
     data = {
     "total_users": User.query.count(),
+    "old_users": old_users_count,
     "total_bookings": Booking.query.count(),
     "total_messages": Contact.query.count(),
     "popular_destination": most_popular.destination if most_popular else 'N/A'
@@ -314,7 +320,11 @@ def graphs():
     charts = {
         "top_dest_chart": ch.generate_top_destinations_chart(),
         "service_cost_chart": ch.generate_service_cost_chart(),
-        "total_earnings": ch.generate_total_earnings_chart()
+        "total_earnings": ch.generate_total_earnings_chart(),
+        "age_group": ch.generate_age_group_chart(),
+        "male_female_dest": ch.generate_gender_by_destination_chart(),
+        "trav_nationality": ch.generate_nationality_pie_chart(),
+        "top_travelers": ch.generate_top_travelers_chart()
     }
 
     return render_template("graphs.html", active_page="control", **charts)
