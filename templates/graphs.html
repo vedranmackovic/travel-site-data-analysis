@@ -74,6 +74,34 @@
                 </div>
             </div>
             <a href="#"><div class="line-break mb-4"></div></a>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="chart-shadow-box">
+                        {{ total_accommodation|safe }}
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="chart-shadow-box">
+                        {{ total_transportation|safe }}
+                    </div>
+                </div>
+            </div>
+            <div class="chart-shadow-box">
+                  {{ total_cost_spent|safe }}
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="chart-shadow-box">
+                        {{ avg_total_cost_spent|safe }}
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="chart-shadow-box">
+                        {{ min_total_cost_spent|safe }}
+                    </div>
+                </div>
+            </div>
+            <a href="#"><div class="line-break mb-4"></div></a>
         </div>
     </div>
     <footer class="tm-container-outer">

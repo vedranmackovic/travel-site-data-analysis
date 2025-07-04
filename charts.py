@@ -446,3 +446,221 @@ def generate_top_travelers_chart():
         )
 
         return plot(fig, output_type="div", include_plotlyjs=False)
+    
+
+def generate_accommodation_spent_chart():
+    with app.app_context():
+        results = db.session.query(
+            Booking.destination,
+            func.sum(Booking.accommodation_cost).label("total")
+        ).group_by(Booking.destination).all()
+
+        filtered_results = [(dest, total) for dest, total in results if total and total > 0]
+
+        sorted_results = sorted(filtered_results, key=lambda x: x[1], reverse=True)
+        destinations = [row[0] for row in sorted_results]
+        totals = [row[1] for row in sorted_results]
+
+        fig = go.Figure(go.Bar(
+            x=totals,
+            y=destinations,
+            orientation='h',
+            marker_color="#69c6ba"
+        ))
+
+        fig.update_layout(
+            title={
+                'text': "Accommodation Spending per Location",
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            xaxis_title="Total Spent ($)",
+            yaxis_title="Destination",
+            height=600,
+            template="plotly_white",
+            margin=dict(l=80, r=40, t=60, b=60),
+        )
+
+        return plot(fig, output_type="div", include_plotlyjs=False)
+
+
+def generate_transport_spent_chart():
+    with app.app_context():
+        results = db.session.query(
+            Booking.destination,
+            func.sum(Booking.transport_cost).label("total")
+        ).group_by(Booking.destination).all()
+
+        filtered_results = [(dest, total) for dest, total in results if total and total > 0]
+
+        sorted_results = sorted(filtered_results, key=lambda x: x[1],reverse=True)
+        destinations =[row[0] for row in sorted_results]
+        totals = [row[1] for row in sorted_results]
+
+        fig = go.Figure(go.Bar(
+            x = totals,
+            y = destinations,
+            orientation = 'h',
+            marker_color = "#6a9bd8"
+        ))
+
+        fig.update_layout(
+            title={
+                'text' : "Transport Spending per Location",
+                'x' : 0.5,
+                'xanchor' : 'center'
+            },
+            xaxis_title = "Total Spent ($)",
+            yaxis_title = "Destination",
+            height = 600,
+            template = "plotly_white",
+            margin = dict(l=80,r=40,t=60,b=60)
+        )
+
+        return plot(fig, output_type='div', include_plotlyjs=False)
+
+
+def generate_total_cost_spent_chart():
+    with app.app_context():
+        places = list(service_prices.keys())
+        results = db.session.query(
+            Booking.destination,
+            func.count().label("count"),
+            func.sum(Booking.transport_cost).label("tcost"),
+            func.sum(Booking.accommodation_cost).label("acost")
+        ).group_by(Booking.destination).all()
+
+        counts_dict = {row.destination : row.count for row in results}
+        service_cost_dict = {dest: counts_dict.get(dest, 0) * service_prices.get(dest, 0) for dest in places}
+        transport_dict = {row.destination: row.tcost or 0 for row in results}
+        accommodation_dict = {row.destination: row.acost or 0 for row in results}
+
+        total_cost = {dest: service_cost_dict.get(dest, 0) + transport_dict.get(dest, 0) + accommodation_dict.get(dest, 0)
+                       for dest in places}
+
+        sorted_results = sorted(total_cost.items(), key=lambda x: x[1], reverse=True)
+        destinations = [item[0] for item in sorted_results]
+        totals = [item[1] for item in sorted_results]
+
+        fig = go.Figure(data=go.Bar(
+            x=destinations,
+            y=totals,
+            marker_color="#3d6e70"
+        ))
+
+        fig.update_layout(
+            title={
+                'text': "Total Cost Spent per Location",
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            xaxis_title="Destination",
+            yaxis_title="Total Spent ($)",
+            height=400,
+            template="plotly_white",
+            margin=dict(l=60, r=40, t=60, b=60)
+        )
+
+        return plot(fig, output_type='div', include_plotlyjs=False)
+
+
+def generate_avg_total_cost_chart():
+    with app.app_context():
+        places = list(service_prices.keys())
+        
+        results = db.session.query(
+            Booking.destination,
+            func.count().label("count"),
+            func.sum(Booking.transport_cost).label("tcost"),
+            func.sum(Booking.accommodation_cost).label("acost")
+        ).group_by(Booking.destination).all()
+
+        avg_costs = {}
+        for row in results:
+            dest = row.destination
+            count = row.count
+            tcost = row.tcost or 0
+            acost = row.acost or 0
+            service = service_prices.get(dest, 0)
+
+            if count > 0:
+                total_cost = tcost + acost + (service * count)
+                avg_costs[dest] = total_cost / count
+
+        sorted_results = sorted(avg_costs.items(), key=lambda x: x[1], reverse=True)
+        destinations = [item[0] for item in sorted_results]
+        averages = [round(item[1], 2) for item in sorted_results]
+
+        fig = go.Figure(data=go.Bar(
+            x=averages,
+            y=destinations,
+            orientation='h',
+            marker_color="#f4a261"
+        ))
+
+        fig.update_layout(
+            title={
+                'text': "Average Total Cost per Traveler per Location",
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            xaxis_title="Average Cost ($)",
+            yaxis_title="Destination",
+            height=600,
+            template="plotly_white",
+            margin=dict(l=80, r=40, t=60, b=60)
+        )
+
+        return plot(fig, output_type='div', include_plotlyjs=False)
+    
+
+def generate_min_total_cost_chart():
+    with app.app_context():
+        results = db.session.query(
+            Booking.destination,
+            Booking.accommodation_cost,
+            Booking.transport_cost
+        ).filter(
+            Booking.accommodation_cost != None,
+            Booking.transport_cost != None,
+            Booking.accommodation_cost > 0,
+            Booking.transport_cost > 0
+        ).all()
+
+        min_costs = {}
+
+        for destination, accom, trans in results:
+            service_cost = service_prices.get(destination, 0)
+            total = accom + trans + service_cost
+
+            if destination not in min_costs or total < min_costs[destination]:
+                min_costs[destination] = total
+
+        sorted_results = sorted(min_costs.items(), key=lambda x: x[1], reverse=True)
+        destinations = [item[0] for item in sorted_results]
+        min_values = [round(item[1], 2) for item in sorted_results]
+
+        # Horizontal bar chart
+        fig = go.Figure(data=go.Bar(
+            x=min_values,
+            y=destinations,
+            orientation='h',
+            marker_color="#8ec07c"
+        ))
+
+        fig.update_layout(
+            title={
+                'text': "Minimum Total Cost per Location",
+                'x': 0.5,
+                'xanchor': 'center'
+            },
+            xaxis_title="Minimum Total Cost ($)",
+            yaxis_title="Destination",
+            height=600,
+            template="plotly_white",
+            margin=dict(l=80, r=40, t=60, b=60)
+        )
+
+        return plot(fig, output_type='div', include_plotlyjs=False)
+    
+    

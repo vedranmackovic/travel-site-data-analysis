@@ -324,7 +324,12 @@ def graphs():
         "age_group": ch.generate_age_group_chart(),
         "male_female_dest": ch.generate_gender_by_destination_chart(),
         "trav_nationality": ch.generate_nationality_pie_chart(),
-        "top_travelers": ch.generate_top_travelers_chart()
+        "top_travelers": ch.generate_top_travelers_chart(),
+        "total_accommodation":ch.generate_accommodation_spent_chart(),
+        "total_transportation": ch.generate_transport_spent_chart(),
+        "total_cost_spent": ch.generate_total_cost_spent_chart(),
+        "avg_total_cost_spent": ch.generate_avg_total_cost_chart(),
+        "min_total_cost_spent": ch.generate_min_total_cost_chart()
     }
 
     return render_template("graphs.html", active_page="control", **charts)
