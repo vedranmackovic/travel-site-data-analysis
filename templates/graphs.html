@@ -33,17 +33,36 @@
         </nav>
         <div class="container mt-5 pb-5">
             <h2 class="text-center mb-4">Graphs</h2>
-            <div class="chart-shadow-box">
+            <div class="mb-4 d-flex justify-content-center">
+                <select id="chart-search" class="form-control w-50 mx-auto">
+                    <option disabled selected>Jump to a chart...</option>
+                    <option value="top-dest">Top Destinations</option>
+                    <option value="service-cost">Service Cost for Destinations</option>
+                    <option value="total-earnings">Total Earnings for company</option>
+                    <option value="age-group">Age Group of Customers</option>
+                    <option value="male-female-dest">Male-Female Comparison per Location</option>
+                    <option value="trav-nationality">Customers nationalities</option>
+                    <option value="top-travelers">Top Travelers</option>
+                    <option value="total-accommodation">Total Accommodation Spending</option>
+                    <option value="total-transportation">Total Transport Spending</option>
+                    <option value="total-cost-spent">Total Cost Spent</option>
+                    <option value="avg-total-cost-spent">Average Cost per Person</option>
+                    <option value="min-total-cost-spent">Minimum Cost per Location</option>
+                    <option value="monthly-trends">Monthly Trends</option>
+                    <option value="monthly-total-cost">Monthly Total Cost</option>
+                </select>
+            </div>
+            <div class="chart-shadow-box" id="top-dest">
                 {{ top_dest_chart|safe }}    
             </div>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="service-cost">
                         {{ service_cost_chart|safe }}
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="total-earnings">
                         {{ total_earnings|safe }}
                     </div>
                 </div>
@@ -51,24 +70,24 @@
             <a href="#"><div class="line-break mb-4"></div></a>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="age-group">
                         {{ age_group|safe }}
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="male-female-dest">
                         {{ male_female_dest|safe }}
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="trav-nationality">
                         {{ trav_nationality|safe }}
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="top-travelers">
                         {{ top_travelers|safe }}
                     </div>
                 </div>
@@ -76,29 +95,60 @@
             <a href="#"><div class="line-break mb-4"></div></a>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="total-accommodation">
                         {{ total_accommodation|safe }}
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="total-transportation">
                         {{ total_transportation|safe }}
                     </div>
                 </div>
             </div>
-            <div class="chart-shadow-box">
+            <div class="chart-shadow-box" id="total-cost-spent">
                   {{ total_cost_spent|safe }}
             </div>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="avg-total-cost-spent">
                         {{ avg_total_cost_spent|safe }}
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <div class="chart-shadow-box">
+                    <div class="chart-shadow-box" id="min-total-cost-spent">
                         {{ min_total_cost_spent|safe }}
                     </div>
+                </div>
+            </div>
+            <a href="#"><div class="line-break mb-4"></div></a>
+            <div class="chart-shadow-box" id="monthly-trends">
+                <form method="POST" action="{{ url_for('graphs') }}#monthly-trends" class="mb-4" id="chart-form">
+                    <label for="destination">Monthly Trends for : (Select Destination)</label>
+                    <select name="destination" class="form-control" required>
+                        <option value="disabled selected">Pick Destination</option>
+                        {% for dest in destinations %}
+                            <option value="{{ dest }}">{{ dest }}</option>
+                        {% endfor %}
+                    </select>
+                    <button type="submit" class="btn btn-primary mt-2">Generate Chart</button>
+                </form>
+                <div class="chart-shadow-box">
+                    {{ monthly_trend_dest|safe }}
+                </div>
+            </div>
+            <div class="chart-shadow-box" id="monthly-total-cost">
+                <form method="POST" action="{{ url_for('graphs') }}#monthly-total-cost" class="mb-4" id="chart-form">
+                    <label for="destination2">Monthly Total Cost for: (Select Destination)</label>
+                    <select name="destination2" class="form-control" required>
+                        <option value="disabled selected">Pick Destination</option>
+                        {% for dest in destinations %}
+                            <option value="{{ dest }}">{{ dest }}</option>
+                        {% endfor %}
+                    </select>
+                    <button type="submit" class="btn btn-primary mt-2">Generate Chart</button>
+                </form>
+                <div class="chart-shadow-box">
+                    {{ monthly_total_cost|safe }}
                 </div>
             </div>
             <a href="#"><div class="line-break mb-4"></div></a>
@@ -112,5 +162,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="../static/js/modal.js"></script>
+    <script src="../static/js/graphs.js"></script>
 </body>
 </html>

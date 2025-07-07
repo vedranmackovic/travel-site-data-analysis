@@ -316,7 +316,27 @@ def graphs():
     if not session.get('is_admin'):
         flash("Access denied.", "danger")
         return redirect(url_for('home'))
-    
+
+    destination = request.form.get('destination')
+    destination2 = request.form.get('destination2')
+
+    if not destination and 'selected_destination' in session:
+        destination = session['selected_destination']
+    if not destination2 and 'selected_destination2' in session:
+        destination2 = session['selected_destination2']
+
+    if destination:
+        session['selected_destination'] = destination
+        chart_html = ch.generate_monthly_trend_chart(destination)
+    else:
+        chart_html = None
+
+    if destination2:
+        session['selected_destination2'] = destination2
+        chart_html2 = ch.generate_monthly_total_cost_chart(destination2)
+    else:
+        chart_html2 = None
+
     charts = {
         "top_dest_chart": ch.generate_top_destinations_chart(),
         "service_cost_chart": ch.generate_service_cost_chart(),
@@ -325,14 +345,19 @@ def graphs():
         "male_female_dest": ch.generate_gender_by_destination_chart(),
         "trav_nationality": ch.generate_nationality_pie_chart(),
         "top_travelers": ch.generate_top_travelers_chart(),
-        "total_accommodation":ch.generate_accommodation_spent_chart(),
+        "total_accommodation": ch.generate_accommodation_spent_chart(),
         "total_transportation": ch.generate_transport_spent_chart(),
         "total_cost_spent": ch.generate_total_cost_spent_chart(),
         "avg_total_cost_spent": ch.generate_avg_total_cost_chart(),
-        "min_total_cost_spent": ch.generate_min_total_cost_chart()
+        "min_total_cost_spent": ch.generate_min_total_cost_chart(),
+        "monthly_trend_dest": chart_html,
+        "monthly_total_cost": chart_html2
     }
 
-    return render_template("graphs.html", active_page="control", **charts)
+    destinations = db.session.query(Booking.destination).distinct().all()
+    destination_list = [d[0] for d in destinations]
+
+    return render_template("graphs.html", active_page="control", **charts, destinations=destination_list)
 
 @app.route('/login', methods=['POST'])
 def login():

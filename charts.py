@@ -3,6 +3,7 @@ import plotly.graph_objs as go
 from plotly.offline import plot
 from collections import Counter
 from sqlalchemy import func, distinct, literal_column
+from datetime import datetime
 
 service_prices = {
     "Grand Canyon":120,
@@ -640,7 +641,6 @@ def generate_min_total_cost_chart():
         destinations = [item[0] for item in sorted_results]
         min_values = [round(item[1], 2) for item in sorted_results]
 
-        # Horizontal bar chart
         fig = go.Figure(data=go.Bar(
             x=min_values,
             y=destinations,
@@ -663,4 +663,76 @@ def generate_min_total_cost_chart():
 
         return plot(fig, output_type='div', include_plotlyjs=False)
     
+
+def generate_monthly_trend_chart(destination):
+    with app.app_context():
+        results = (
+            db.session.query(
+                func.strftime('%Y-%m', Booking.start_date).label("month"),
+                func.count().label("count")
+            )
+            .filter(Booking.destination == destination)
+            .group_by("month")
+            .order_by("month")
+            .all()
+        )
     
+    months = [row[0] for row in results]
+    counts = [row[1] for row in results]
+
+    fig = go.Figure(data=go.Scatter(
+        x=months, 
+        y=counts, 
+        mode='lines+markers', 
+        marker_color="#3366CC"
+    ))
+
+    fig.update_layout(
+        title=f"Monthly Trip Trends: {destination}",
+        xaxis_title="Month",
+        yaxis_title="Number of Trips",
+        height=400,
+        template="plotly_white"
+    )
+
+    return plot(fig, output_type='div', include_plotlyjs=False)
+
+
+def generate_monthly_total_cost_chart(destination):
+    with app.app_context():
+        results = (
+            db.session.query(
+                func.strftime('%Y-%m', Booking.start_date).label("month"),
+                func.sum(Booking.transport_cost).label("tcost"),
+                func.sum(Booking.accommodation_cost).label("acost"),
+                func.count().label("count")
+            )
+            .filter(Booking.destination == destination)
+            .group_by("month")
+            .order_by("month")
+            .all()
+        )
+
+    months = [row.month for row in results]
+    service_cost = [service_prices.get(destination, 0) * row.count for row in results]
+    transport_cost = [row.tcost or 0 for row in results]
+    accommodation_cost = [row.acost or 0 for row in results]
+    total_costs = [s + t + a for s, t, a in zip(service_cost, transport_cost, accommodation_cost)]
+
+    fig = go.Figure(data=go.Scatter(
+        x=months,
+        y=total_costs,
+        mode='lines+markers',
+        marker_color="#cc6633"
+    ))
+
+    fig.update_layout(
+        title=f"Monthly Total Cost for {destination}",
+        xaxis_title="Month",
+        yaxis_title="Total Cost ($)",
+        height=400,
+        template="plotly_white"
+    )
+
+    return plot(fig, output_type='div', include_plotlyjs=False)
+        
