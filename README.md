@@ -14,5 +14,8 @@ Final version will include:
 - Data visualizations (static and interactive)
 - Project documentation and analysis
 
+The notebooks/ folder contains Jupyter Notebook files used for personal practice and data analysis exploration. These are not required to run the main app but demonstrate additional learning during the internship.
+
 ## License
 For educational use only.
+
