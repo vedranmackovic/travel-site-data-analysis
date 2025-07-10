@@ -1,7 +1,6 @@
 import csv
 from datetime import datetime
-from models import Booking
-from app import db
+from models import db, Booking
 
 def import_bookings_from_csv():
     if Booking.query.first():

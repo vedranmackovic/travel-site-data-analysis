@@ -6,6 +6,7 @@ from datetime import datetime
 import charts as ch
 from models import db, User, Contact, Booking
 from utils import initialize_all_data
+from flask_migrate import Migrate
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -17,6 +18,8 @@ db_path = os.path.join(basedir, 'data', 'vetravel.db')
 app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{db_path}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
+
+migrate = Migrate(app, db)
 
 @app.route('/')
 def home():

@@ -1,6 +1,5 @@
-from models import User
+from models import db, User
 from werkzeug.security import generate_password_hash
-from app import db
 
 def create_admin_user():
     admin_email = 'admin@admin.com'

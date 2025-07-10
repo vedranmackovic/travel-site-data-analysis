@@ -17,3 +17,6 @@ Thumbs.db
 
 notebooks/
 *.ipynb
+
+migrations/__pycache__/
+migrations/versions/__pycache__/
