@@ -59,459 +59,154 @@
             <!-- Tab 1 -->
             <div class="tab-pane fade" id="1a">
                 <div class="tm-recommended-place-wrap">
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Canyon1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Grand Canyon</h3>
-                            <p class="tm-text-highlight">Arizona, USA</p>
-                            <p class="tm-text-gray">One of the most iconic natural landmarks in the world, 
-                            the Grand Canyon offers unforgettable views, hiking trails, and sunset experiences that leave visitors in awe.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Grand_Canyon') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$120</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>                        
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Niagara1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Niagara Falls</h3>
-                            <p class="tm-text-highlight">Ontario, Canada</p>
-                            <p class="tm-text-gray">One of the most powerful and awe-inspiring waterfalls in the world.
-                                 Popular for its boat tours and cross-border views.</p>   
-                        </div>
-                        <div id="preload-hover-img"></div>
-                        <a href="{{ url_for('destination', place='Niagara_Falls') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$140</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Banff1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Banff National Park</h3>
-                            <p class="tm-text-highlight">Alberta, Canada</p>
-                            <p class="tm-text-gray">A jewel of the Canadian Rockies with turquoise lakes, 
-                                alpine trails, and scenic beauty. Ideal for nature and adventure lovers.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Banff_National_Park') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$160</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/NewYork1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">New York City</h3>
-                            <p class="tm-text-highlight">New York, USA</p>
-                            <p class="tm-text-gray">A global icon of culture, entertainment, and energy. See Broadway, 
-                                explore museums, or just roam the city streets.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='New_York') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$100</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-                    
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Hawaii1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Hawai'i Islands</h3>
-                            <p class="tm-text-highlight">Hawai'i, USA</p>
-                            <p class="tm-text-gray">Known for their volcanic landscapes, tropical beaches, and rich Polynesian culture,
-                                 the Hawaiian Islands are a dream destination for both relaxation and adventure.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Hawaii_Islands') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$210</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
+                    {% for d in destinations %}
+                        {% if d.continent == 'North America' %}
+                            <div class="tm-recommended-place">
+                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">{{ d.name }}</h3>
+                                    <p class="tm-text-highlight">{{ d.place }}</p>
+                                    <p class="tm-text-gray">{{ d.short_description }}</p>   
+                                </div>
+                                <a href="{{ url_for('destination', place=d.url_name) }}" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">${{ d.service_price }}</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+                        {% endif %}
+                    {% endfor %}
                 </div>                        
             </div>
             
             <!-- Tab 2 -->
             <div class="tab-pane fade" id="2a">
                 <div class="tm-recommended-place-wrap">
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/MachuPicchu1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Machu Picchu</h3>
-                            <p class="tm-text-highlight">Andes Mountains, Peru</p>
-                            <p class="tm-text-gray">This ancient Incan citadel nestled high in the clouds is one of the world's most iconic archaeological sites. 
-                                Hike the Inca Trail or ride the scenic train to discover breathtaking views and rich history.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Machu_Picchu') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$130</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>                        
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Rio1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Rio de Janeiro - Christ the Redeemer & Beaches</h3>
-                            <p class="tm-text-highlight">Rio de Janeiro, Brazil</p>
-                            <p class="tm-text-gray">Explore the vibrant rhythm of Rio with its stunning beaches, 
-                                the towering Christ the Redeemer statue, and colorful street culture. A perfect blend of nature, energy, and beauty.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Rio_de_Janeiro') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$120</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Patagonia1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Patagonia - Torres del Paine</h3>
-                            <p class="tm-text-highlight">Chile & Argentina</p>
-                            <p class="tm-text-gray">A haven for nature lovers and trekkers, Patagonia offers jagged peaks, 
-                                glacial lakes, and wildlife-filled trails. The Torres del Paine National Park is a bucket-list adventure.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Patagonia') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$150</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Galapagos1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Galápagos Islands</h3>
-                            <p class="tm-text-highlight">Ecuador</p>
-                            <p class="tm-text-gray">Walk among giant tortoises, snorkel with sea lions, 
-                                and experience ecosystems found nowhere else on Earth. The Galápagos offer a one-of-a-kind wildlife encounter.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Galapagos') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$180</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>    
+                    {% for d in destinations %}
+                        {% if d.continent == 'South America' %}
+                            <div class="tm-recommended-place">
+                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">{{ d.name }}</h3>
+                                    <p class="tm-text-highlight">{{ d.place }}</p>
+                                    <p class="tm-text-gray">{{ d.short_description }}</p>   
+                                </div>
+                                <a href="{{ url_for('destination', place=d.url_name) }}" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">${{ d.service_price }}</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+                        {% endif %}
+                    {% endfor %}  
                 </div>                        
             </div>         
             
             <!-- Tab 3 -->     
             <div class="tab-pane fade" id="3a">
                 <div class="tm-recommended-place-wrap">
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Paris1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Paris</h3>
-                            <p class="tm-text-highlight">Paris, France</p>
-                            <p class="tm-text-gray">The City of Light is famous for iconic landmarks like the Eiffel Tower, 
-                                world-class museums, and charming streets along the Seine River.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Paris') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$120</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>                        
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Rome1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Rome</h3>
-                            <p class="tm-text-highlight">Rome, Italy</p>
-                            <p class="tm-text-gray">Known for ancient ruins like the Colosseum and Vatican City, 
-                                Rome combines rich history with vibrant street life and delicious cuisine.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Rome') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$100</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Barcelona1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Barcelona</h3>
-                            <p class="tm-text-highlight">Barcelona, Spain</p>
-                            <p class="tm-text-gray">Known for Gaudí's colorful architecture, Mediterranean beaches,
-                                 and lively nightlife, Barcelona is a cultural hotspot.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Barcelona') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$110</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/BlueLagoon1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Blue Lagoon</h3>
-                            <p class="tm-text-highlight">Iceland</p>
-                            <p class="tm-text-gray">A unique geothermal spa surrounded by volcanic landscapes,
-                                 offering relaxing warm waters in a stunning natural setting.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Blue_Lagoon') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$150</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div> 
-                    
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Alps1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Swiss Alps</h3>
-                            <p class="tm-text-highlight">Switzerland</p>
-                            <p class="tm-text-gray">Famous for breathtaking mountain views, hiking, and ski resorts,
-                                 the Swiss Alps are a haven for nature and adventure lovers.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Swiss_Alps') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$170</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Santorini1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Santorini</h3>
-                            <p class="tm-text-highlight">Greece</p>
-                            <p class="tm-text-gray">This beautiful island features whitewashed buildings, 
-                                crystal-clear waters, and spectacular sunsets over the Aegean Sea.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Santorini') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$130</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Fjord1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Fjord Norway</h3>
-                            <p class="tm-text-highlight">Norway</p>
-                            <p class="tm-text-gray">Dramatic fjords with towering cliffs and waterfalls
-                                 make this a breathtaking destination for cruising and nature exploration.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Fjord') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$160</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
+                    {% for d in destinations %}
+                        {% if d.continent == 'Europe' %}
+                            <div class="tm-recommended-place">
+                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">{{ d.name }}</h3>
+                                    <p class="tm-text-highlight">{{ d.place }}</p>
+                                    <p class="tm-text-gray">{{ d.short_description }}</p>   
+                                </div>
+                                <a href="{{ url_for('destination', place=d.url_name) }}" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">${{ d.service_price }}</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+                        {% endif %}
+                    {% endfor %}
                 </div>                        
             </div>
             
             <!-- Tab 4 -->
             <div class="tab-pane fade show active" id="4a">
                 <div class="tm-recommended-place-wrap">
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Tokyo1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Tokyo</h3>
-                            <p class="tm-text-highlight">Japan</p>
-                            <p class="tm-text-gray">A vibrant metropolis blending ultra-modern skyscrapers
-                                 with historic temples, renowned for its food scene and pop culture.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Tokyo') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$140</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>                        
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Bali1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Bali</h3>
-                            <p class="tm-text-highlight">Indonesia</p>
-                            <p class="tm-text-gray">Famous for its lush rice terraces, stunning beaches, 
-                                and spiritual temples, Bali is a tropical paradise for relaxation and adventure.</p>   
-                        </div>
-                        <div id="preload-hover-img"></div>
-                        <a href="{{ url_for('destination', place='Bali') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$110</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/GreatWall1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Great Wall of China</h3>
-                            <p class="tm-text-highlight">China</p>
-                            <p class="tm-text-gray">One of the world's most iconic landmarks, this ancient wall stretches thousands of miles
-                                 offering incredible views and historical significance.</p>   
-                        </div>
-                        <div id="preload-hover-img"></div>
-                        <a href="{{ url_for('destination', place='Great_Wall_of_China') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$130</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/TajMahal1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Taj Mahal</h3>
-                            <p class="tm-text-highlight">India</p>
-                            <p class="tm-text-gray">The stunning white marble mausoleum is a symbol of love
-                                 and a UNESCO World Heritage Site attracting millions of visitors annually.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Taj_Mahal') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$120</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Phuket1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Phuket</h3>
-                            <p class="tm-text-highlight">Thailand</p>
-                            <p class="tm-text-gray">Known for beautiful beaches, vibrant nightlife, and excellent diving spots,
-                                 Phuket is a popular island destination for all types of travelers.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Phuket') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$115</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>    
+                    {% for d in destinations %}
+                        {% if d.continent == 'Asia' %}
+                            <div class="tm-recommended-place">
+                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">{{ d.name }}</h3>
+                                    <p class="tm-text-highlight">{{ d.place }}</p>
+                                    <p class="tm-text-gray">{{ d.short_description }}</p>   
+                                </div>
+                                <a href="{{ url_for('destination', place=d.url_name) }}" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">${{ d.service_price }}</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+                        {% endif %}
+                    {% endfor %}   
                 </div>                        
             </div>
             
             <!-- Tab 5 -->
             <div class="tab-pane fade" id="5a">
                 <div class="tm-recommended-place-wrap">
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Serengeti1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Serengeti National Park</h3>
-                            <p class="tm-text-highlight">Tanzania</p>
-                            <p class="tm-text-gray">Famous for its annual wildebeest migration and abundant wildlife,
-                                 the Serengeti is a must-see for safari lovers.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Serengeti_National_Park') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$150</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>                        
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Cape1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Cape Town</h3>
-                            <p class="tm-text-highlight">South Africa</p>
-                            <p class="tm-text-gray">A vibrant city known for Table Mountain,
-                                 beautiful beaches, and rich cultural diversity.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Cape_Town') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$130</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Victoria1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Victoria Falls</h3>
-                            <p class="tm-text-highlight">Zambia/Zimbabwe</p>
-                            <p class="tm-text-gray">One of the largest and most spectacular waterfalls in the world,
-                                 offering breathtaking views and adventure activities.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Victoria_Falls') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$140</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Madagascar1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Madagascar</h3>
-                            <p class="tm-text-highlight">Madagascar</p>
-                            <p class="tm-text-gray">Renowned for its unique wildlife and diverse ecosystems,
-                                 Madagascar is a paradise for nature and adventure enthusiasts.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Madagascar') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$135</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Giza1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Pyramids of Giza</h3>
-                            <p class="tm-text-highlight">Giza, Egypt</p>
-                            <p class="tm-text-gray">The iconic pyramids are one of the Seven Wonders of the Ancient World and a marvel of ancient engineering.
-                                 Visitors can explore the Great Pyramid, the Sphinx, and learn about Egypt's fascinating history.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Pyramids_of_Giza') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$200</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>    
+                    {% for d in destinations %}
+                        {% if d.continent == 'Africa' %}
+                            <div class="tm-recommended-place">
+                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">{{ d.name }}</h3>
+                                    <p class="tm-text-highlight">{{ d.place }}</p>
+                                    <p class="tm-text-gray">{{ d.short_description }}</p>   
+                                </div>
+                                <a href="{{ url_for('destination', place=d.url_name) }}" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">${{ d.service_price }}</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+                        {% endif %}
+                    {% endfor %}    
                 </div>                        
             </div>  
             
             <!-- Tab 6 -->            
             <div class="tab-pane fade" id="6a">
                 <div class="tm-recommended-place-wrap">
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/BarrierReef1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Great Barrier Reef</h3>
-                            <p class="tm-text-highlight">Queensland, Australia</p>
-                            <p class="tm-text-gray">The world's largest coral reef system, offering stunning snorkeling,
-                                 diving, and marine wildlife experiences in crystal-clear waters.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Great_Barrier_Reef') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$220</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>                        
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Sydney1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Sydney Opera House</h3>
-                            <p class="tm-text-highlight">Sydney, Australia</p>
-                            <p class="tm-text-gray">An iconic architectural masterpiece on Sydney Harbour,
-                                 known for its performing arts shows and breathtaking views.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Sydney') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$180</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>
-
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Uluru1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Uluru (Ayers Rock)</h3>
-                            <p class="tm-text-highlight">Northern Territory, Australia</p>
-                            <p class="tm-text-gray">A massive sandstone monolith sacred to Indigenous Australians,
-                                 famous for its dramatic red color at sunrise and sunset.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Uluru') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$210</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>
-                    </div>    
+                    {% for d in destinations %}
+                        {% if d.continent == 'Australia' %}
+                            <div class="tm-recommended-place">
+                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">{{ d.name }}</h3>
+                                    <p class="tm-text-highlight">{{ d.place }}</p>
+                                    <p class="tm-text-gray">{{ d.short_description }}</p>   
+                                </div>
+                                <a href="{{ url_for('destination', place=d.url_name) }}" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">${{ d.service_price }}</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+                        {% endif %}
+                    {% endfor %}
                 </div>                        
             </div>
                     
             <!-- Tab 7 -->
             <div class="tab-pane fade" id="7a">
                 <div class="tm-recommended-place-wrap">
-                    <div class="tm-recommended-place">
-                        <img src="../static/img/Antartica1.jpg" alt="Image" class="img-fluid tm-recommended-img">
-                        <div class="tm-recommended-description-box">
-                            <h3 class="tm-recommended-title">Antarctic Peninsula</h3>
-                            <p class="tm-text-highlight">Antarctica</p>
-                            <p class="tm-text-gray">The most accessible and scenic region of Antarctica, featuring stunning glaciers, 
-                                abundant wildlife like penguins and seals, and breathtaking icy landscapes. Ideal for expedition cruises 
-                                and nature adventures.</p>   
-                        </div>
-                        <a href="{{ url_for('destination', place='Antartica_Peninsula') }}" class="tm-recommended-price-box">
-                            <p class="tm-recommended-price">$350</p>
-                            <p class="tm-recommended-price-link">Continue Reading</p>
-                        </a>                        
-                    </div>    
+                    {% for d in destinations %}
+                        {% if d.continent == 'Antartica' %}
+                            <div class="tm-recommended-place">
+                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
+                                <div class="tm-recommended-description-box">
+                                    <h3 class="tm-recommended-title">{{ d.name }}</h3>
+                                    <p class="tm-text-highlight">{{ d.place }}</p>
+                                    <p class="tm-text-gray">{{ d.short_description }}</p>   
+                                </div>
+                                <a href="{{ url_for('destination', place=d.url_name) }}" class="tm-recommended-price-box">
+                                    <p class="tm-recommended-price">${{ d.service_price }}</p>
+                                    <p class="tm-recommended-price-link">Continue Reading</p>
+                                </a>                        
+                            </div>
+                        {% endif %}
+                    {% endfor %}
                 </div>                        
             </div>
         </div>

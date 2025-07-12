@@ -4,7 +4,7 @@ from sqlalchemy import func, distinct
 import os
 from datetime import datetime
 import charts as ch
-from models import db, User, Contact, Booking
+from models import db, User, Contact, Booking, Destination
 from utils import initialize_all_data
 from flask_migrate import Migrate
 
@@ -107,7 +107,10 @@ def destination():
 
 @app.route("/destinations")
 def destinations():
-    return render_template("destinations.html", active_page="destinations")
+    all_destinations = Destination.query.all()
+    for dest in all_destinations:
+        dest.url_name = dest.name.replace(" ", "_")
+    return render_template("destinations.html", active_page="destinations", destinations=all_destinations)
 
 @app.route("/control")
 def control():
