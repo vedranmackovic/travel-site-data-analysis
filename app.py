@@ -4,7 +4,7 @@ from sqlalchemy import func, distinct
 import os
 from datetime import datetime
 import charts as ch
-from models import db, User, Contact, Booking, Destination
+from models import db, User, Contact, Booking, Destination, Accommodation, Transport
 from utils import initialize_all_data
 from flask_migrate import Migrate
 
@@ -97,13 +97,18 @@ def destination():
         return redirect(url_for('destination', place=dest))
 
     place = request.args.get('place')
-    if place:
-        place = place.replace('_', ' ')
-        chart_div = ch.generate_chart(place)
-    else:
-        chart_div = None
+    destination_name = place.replace('_', ' ')
 
-    return render_template("destination.html", active_page="none", chart_div=chart_div, place=place)
+    dest_data = Destination.query.filter_by(name=destination_name).first()
+    destination_bundle = {
+        "dest_data": dest_data,
+        "accommodation_data": Accommodation.query.filter_by(destination_id=dest_data.id).all(),
+        "transport_data": Transport.query.filter_by(destination_id=dest_data.id).all(),
+        "chart_div": ch.generate_chart(destination_name)
+    }
+
+
+    return render_template("destination.html", active_page="none", **destination_bundle, place=place)
 
 @app.route("/destinations")
 def destinations():

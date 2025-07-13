@@ -1,43 +1,9 @@
-from models import Booking
-from models import db
+from models import db, Booking, Destination
 import plotly.graph_objs as go
 from plotly.offline import plot
 from collections import Counter
 from sqlalchemy import func, distinct, literal_column
 from datetime import datetime
-
-service_prices = {
-    "Grand Canyon":120,
-    "Niagara Falls":140,
-    "Banff National Park":160,
-    "New York":100,
-    "Hawaii Islands":210,
-    "Machu Picchu":130,
-    "Rio de Janeiro":120,
-    "Patagonia":150,
-    "Galapagos":180,
-    "Paris":120,
-    "Rome":100,
-    "Barcelona":110,
-    "Blue Lagoon":150,
-    "Swiss Alps":170,
-    "Santorini":130,
-    "Fjord":160,
-    "Tokyo":140,
-    "Bali":110,
-    "Great Wall of China":130,
-    "Taj Mahal":120,
-    "Phuket":115,
-    "Serengeti National Park":150,
-    "Cape Town":130,
-    "Victoria Falls":140,
-    "Madagascar":135,
-    "Pyramids of Giza":200,
-    "Great Barrier Reef":220,
-    "Sydney":180,
-    "Uluru":210,
-    "Antartica Peninsula":350
-}
 
 def generate_chart(place):
     bookings = Booking.query.filter_by(destination=place).all()
@@ -76,6 +42,7 @@ def generate_chart(place):
     
 
 def generate_top_destinations_chart():
+    destination_objs = Destination.query.all()
     results = db.session.query(
         Booking.destination,
         func.count().label("count")
@@ -83,7 +50,7 @@ def generate_top_destinations_chart():
 
     count_dict = {row.destination: row.count for row in results}
 
-    fixed_order = list(service_prices.keys())
+    fixed_order = [d.name for d in destination_objs]
     counts_fixed = [count_dict.get(dest, 0) for dest in fixed_order]
 
     sorted_by_popularity = sorted(count_dict.items(), key=lambda x: x[1], reverse=True)
@@ -146,11 +113,12 @@ def generate_top_destinations_chart():
     
 
 def generate_service_cost_chart():
-    destinations = list(service_prices.keys())
-    prices = [service_prices[dest] for dest in destinations]
+    destinations = Destination.query.all()
+    dest_names = [dest.name for dest in destinations]
+    prices = [dest.service_price for dest in destinations]
 
     fig = go.Figure(data=[go.Bar(
-        x=destinations,
+        x=dest_names,
         y=prices,
         marker_color="#c66995"
     )])
@@ -172,7 +140,9 @@ def generate_service_cost_chart():
     
 
 def generate_total_earnings_chart():
-    destinations = list(service_prices.keys())  # fixed order
+    destination_objs = Destination.query.all()
+    destinations = [d.name for d in destination_objs]
+    service_prices = {d.name: d.service_price for d in destination_objs}
 
     results = db.session.query(
         Booking.destination,
@@ -207,7 +177,7 @@ def generate_total_earnings_chart():
     fig.update_layout(
         margin=dict(l=40, r=40, t=100, b=80),
         title={
-            'text': "Total Earnings per Destination from Services (Fixed Order)",
+            'text': "Total Earnings per Destination from Services",
             'x': 0.5,
             'xanchor': 'center'
         },
@@ -223,7 +193,7 @@ def generate_total_earnings_chart():
                         "method": "update",
                         "args": [
                             {"x": [destinations], "y": [earnings_fixed], "text": [ranks_for_fixed_order]},
-                            {"title": "Total Earnings per Destination from Services (Fixed Order)"}
+                            {"title": "Total Earnings per Destination from Services"}
                         ]
                     },
                     {
@@ -231,7 +201,7 @@ def generate_total_earnings_chart():
                         "method": "update",
                         "args": [
                             {"x": [destinations_sorted_for_rank], "y": [earnings_sorted], "text": [ranks_for_sorted]},
-                            {"title": "Total Earnings per Destination from Services (Sorted)"}
+                            {"title": "Total Earnings per Destination from Services (By Earnings)"}
                         ]
                     },
                 ],
@@ -300,9 +270,9 @@ def generate_gender_by_destination_chart():
             gender_data[destination] = {"Male": 0, "Female": 0}
         gender_data[destination][gender] = count
 
-    destinations = list(service_prices.keys())
-    male_counts = [gender_data[dest]["Male"] for dest in destinations]
-    female_counts = [gender_data[dest]["Female"] for dest in destinations]
+    destinations = [d.name for d in Destination.query.all()]
+    male_counts = [gender_data.get(dest, {}).get("Male", 0) for dest in destinations]
+    female_counts = [gender_data.get(dest, {}).get("Female", 0) for dest in destinations]
 
     fig = go.Figure()
 
@@ -513,7 +483,9 @@ def generate_transport_spent_chart():
 
 
 def generate_total_cost_spent_chart():
-    places = list(service_prices.keys())
+    destination_objs = Destination.query.all()
+    places = [d.name for d in destination_objs]
+    service_prices = {d.name: d.service_price for d in destination_objs}
     results = db.session.query(
         Booking.destination,
         func.count().label("count"),
@@ -556,7 +528,8 @@ def generate_total_cost_spent_chart():
 
 
 def generate_avg_total_cost_chart():
-    places = list(service_prices.keys())
+    destination_objs = Destination.query.all()
+    service_prices = {d.name: d.service_price for d in destination_objs}
     
     results = db.session.query(
         Booking.destination,
@@ -615,6 +588,8 @@ def generate_min_total_cost_chart():
         Booking.accommodation_cost > 0,
         Booking.transport_cost > 0
     ).all()
+    destination_objs = Destination.query.all()
+    service_prices = {d.name: d.service_price for d in destination_objs}
 
     min_costs = {}
 
@@ -698,6 +673,8 @@ def generate_monthly_total_cost_chart(destination):
         .order_by("month")
         .all()
     )
+    destination_objs = Destination.query.all()
+    service_prices = {d.name: d.service_price for d in destination_objs}
 
     months = [row.month for row in results]
     service_cost = [service_prices.get(destination, 0) * row.count for row in results]
@@ -721,4 +698,3 @@ def generate_monthly_total_cost_chart(destination):
     )
 
     return plot(fig, output_type='div', include_plotlyjs=False)
-        
