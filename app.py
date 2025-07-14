@@ -284,6 +284,37 @@ def graphs():
 
     return render_template("graphs.html", active_page="control", **charts, destinations=destination_list)
 
+@app.route('/dest_view', methods=["GET", "POST"])
+def dest_view():
+    if not session.get('is_admin'):
+        flash("Access denied.", "danger")
+        return redirect(url_for('home'))
+    
+    if request.method == "POST":
+        action = request.form.get("action")
+        dest_id = request.form.get("dest_id")
+
+        if action == "delete_destination" and dest_id:
+            destination = Destination.query.get_or_404(dest_id)
+            Accommodation.query.filter_by(destination_id=destination.id).delete()
+            Transport.query.filter_by(destination_id=destination.id).delete()
+            db.session.delete(destination)
+            db.session.commit()
+            flash(f"Destination '{destination.name}' has been deleted.", "success")
+            return redirect(url_for('dest_view'))
+        
+        if action == "toggle_activity" and dest_id:
+            destination = Destination.query.get_or_404(dest_id)
+
+            new_status = request.form.get('activity') == 'True'
+            destination.activity = new_status
+            db.session.commit()
+            flash(f"Activity for '{destination.name}' set to {'Active' if new_status else 'Inactive'}.", "success")
+            return redirect(url_for('dest_view'))
+
+    destinations = Destination.query.all()
+    return render_template("dest_view.html", destinations=destinations, active_page="control")
+
 @app.route('/login', methods=['POST'])
 def login():
     email = request.form.get('email')

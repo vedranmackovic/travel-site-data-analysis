@@ -11,6 +11,7 @@ class Destination(db.Model):
     image2 = db.Column(db.String(100), nullable=False)
     image3 = db.Column(db.String(100), nullable=False)
     service_price = db.Column(db.Integer, nullable=False)
+    activity = db.Column(db.Boolean, nullable=False, default=True)
 
     accommodations = db.relationship('Accommodation', backref='destination', cascade="all, delete-orphan")
     transports = db.relationship('Transport', backref='destination', cascade="all, delete-orphan")

@@ -60,7 +60,7 @@
             <div class="tab-pane fade" id="1a">
                 <div class="tm-recommended-place-wrap">
                     {% for d in destinations %}
-                        {% if d.continent == 'North America' %}
+                        {% if d.continent == 'North America' and d.activity %}
                             <div class="tm-recommended-place">
                                 <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
                                 <div class="tm-recommended-description-box">
@@ -82,7 +82,7 @@
             <div class="tab-pane fade" id="2a">
                 <div class="tm-recommended-place-wrap">
                     {% for d in destinations %}
-                        {% if d.continent == 'South America' %}
+                        {% if d.continent == 'South America' and d.activity %}
                             <div class="tm-recommended-place">
                                 <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
                                 <div class="tm-recommended-description-box">
@@ -104,7 +104,7 @@
             <div class="tab-pane fade" id="3a">
                 <div class="tm-recommended-place-wrap">
                     {% for d in destinations %}
-                        {% if d.continent == 'Europe' %}
+                        {% if d.continent == 'Europe' and d.activity %}
                             <div class="tm-recommended-place">
                                 <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
                                 <div class="tm-recommended-description-box">
@@ -126,7 +126,7 @@
             <div class="tab-pane fade show active" id="4a">
                 <div class="tm-recommended-place-wrap">
                     {% for d in destinations %}
-                        {% if d.continent == 'Asia' %}
+                        {% if d.continent == 'Asia' and d.activity %}
                             <div class="tm-recommended-place">
                                 <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
                                 <div class="tm-recommended-description-box">
@@ -148,7 +148,7 @@
             <div class="tab-pane fade" id="5a">
                 <div class="tm-recommended-place-wrap">
                     {% for d in destinations %}
-                        {% if d.continent == 'Africa' %}
+                        {% if d.continent == 'Africa' and d.activity %}
                             <div class="tm-recommended-place">
                                 <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
                                 <div class="tm-recommended-description-box">
@@ -170,7 +170,7 @@
             <div class="tab-pane fade" id="6a">
                 <div class="tm-recommended-place-wrap">
                     {% for d in destinations %}
-                        {% if d.continent == 'Australia' %}
+                        {% if d.continent == 'Australia' and d.activity %}
                             <div class="tm-recommended-place">
                                 <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
                                 <div class="tm-recommended-description-box">
@@ -192,7 +192,7 @@
             <div class="tab-pane fade" id="7a">
                 <div class="tm-recommended-place-wrap">
                     {% for d in destinations %}
-                        {% if d.continent == 'Antartica' %}
+                        {% if d.continent == 'Antartica' and d.activity %}
                             <div class="tm-recommended-place">
                                 <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image" class="img-fluid tm-recommended-img">
                                 <div class="tm-recommended-description-box">
