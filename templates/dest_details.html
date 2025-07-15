@@ -1,0 +1,85 @@
+<div id="destModal{{ d.id }}" class="dest-modal-container" style="display: none;">
+    <div class="modal-dialog dest-modal dest-modal-centered">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title" id="destModalLabel{{ d.id }}">Details for
+                    <span style="font-weight: bold; font-size: 1.6rem; color: #69c6ba;">{{ d.name }}</span>
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                    style="position: absolute; right: 15px;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="dest_det_flex">
+                    <div class="dest_det_flex-item">
+                        <p>Place: {{ d.place }}</p>
+                        <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt="Image 1">
+                    </div>
+                    <div class="dest_det_flex-item">
+                        <p>Continent: {{ d.continent }}</p>
+                        <img src="{{ url_for('static', filename='img/' + d.image2) }}" alt="Image 2">
+                    </div>
+                    <div class="dest_det_flex-item">
+                        <p>Service Price: ${{ d.service_price }}</p>
+                        <img src="{{ url_for('static', filename='img/' + d.image3) }}" alt="Image 3">
+                    </div>
+                </div>
+                <div class="dest_det_desc_flex">
+                    <div class="dest_det_desc_box">
+                        <p><strong>Short Description:</strong></p>
+                        <p>{{ d.short_description }}</p>
+                    </div>
+                    <div class="dest_det_desc_box">
+                        <p><strong>Long Description:</strong></p>
+                        <p>{{ d.long_description }}</p>
+                    </div>
+                </div>
+                <div class="dest_det_tables_container">
+                    <div class="dest_det_table_wrapper">
+                        <h5>Accommodations</h5>
+                        <table class="table table-bordered table-sm dest_det_table">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for a in destinations["accommodations"] %}
+                                {% if a.destination_id == d.id %}
+                                <tr>
+                                    <td>{{ a.type }}</td>
+                                    <td>${{ a.cost }}</td>
+                                </tr>
+                                {% endif %}
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="dest_det_table_wrapper">
+                        <h5>Transports</h5>
+                        <table class="table table-bordered table-sm dest_det_table">
+                            <thead>
+                                <tr>
+                                    <th>Type</th>
+                                    <th>Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for t in destinations["transports"] %}
+                                {% if t.destination_id == d.id %}
+                                <tr>
+                                    <td>{{ t.type }}</td>
+                                    <td>${{ t.cost }}</td>
+                                </tr>
+                                {% endif %}
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

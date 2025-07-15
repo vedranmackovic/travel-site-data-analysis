@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../static/css/style.css">
 </head>
+
 <body>
     {% include '_navbar.html' %}
     <div class="tm-page-wrap mx-auto">
@@ -35,19 +37,19 @@
         </nav>
         <div class="container mt-5 pb-5">
             <h2 class="text-center mb-4">Destinations</h2>
-                <div class="row mb-3">
-                    <div class="col-12 d-flex justify-content-center">
-                        <a href="#" class="btn btn-success">
-                            + Create New Destination
-                        </a>
-                    </div>
+            <div class="row mb-3">
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="#" class="btn btn-success">
+                        + Create New Destination
+                    </a>
                 </div>
+            </div>
             <div class="row mb-3 justify-content-center">
                 <div class="col-md-6">
                     <input type="text" id="searchName" class="form-control" placeholder="Search by Destination Name...">
                 </div>
             </div>
-            <div class="table-responsive" style="max-height: 500px; overflow-y: auto;" >
+            <div class="table-responsive" style="max-height: 500px; overflow-y: auto;">
                 <table class="table table-bordered table-striped table-hover text-center mx-auto" id="usersTable">
                     <thead class="thead-dark ">
                         <tr>
@@ -61,17 +63,19 @@
                         </tr>
                     </thead>
                     <tbody>
-                        {% for d in destinations %}
+                        {% for d in destinations["destinations"] %}
                         <tr>
-                            <td style="width: 50px; height: 100px; font-weight: bold;" class="align-middle">{{ d.id }}</td>
-                            <td style="width: 150px; height: 100px; font-weight: bold;" class="align-middle">{{ d.name }}</td>
+                            <td style="width: 50px; height: 100px; font-weight: bold;" class="align-middle">{{ d.id }}
+                            </td>
+                            <td style="width: 150px; height: 100px; font-weight: bold;" class="align-middle">{{ d.name
+                                }}</td>
                             <td style="width: 250px; height: 150px;">
-                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" 
-                                    alt="" 
+                                <img src="{{ url_for('static', filename='img/' + d.image1) }}" alt=""
                                     style="object-fit: cover; width: 100%; height: 100%;">
                             </td>
                             <td style="width: 150px; height: 100px;" class="align-middle">
-                                <a href="#" class="btn btn-info btn-sm">Info</a>
+                                <a href="#" class="btn btn-info btn-sm"
+                                    onclick="document.getElementById('destModal{{ d.id }}').style.display = 'flex';">Info</a>
                             </td>
                             <td style="width: 150px; height: 100px;" class="align-middle">
                                 <a href="#" class="btn btn-warning btn-sm">Change</a>
@@ -80,22 +84,24 @@
                                 <form method="POST" action="{{ url_for('dest_view') }}">
                                     <input type="hidden" name="dest_id" value="{{ d.id }}">
                                     <input type="hidden" name="action" value="toggle_activity">
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons" style="border-radius: 12px; overflow: hidden;">
-                                        <label class="btn btn-sm {% if d.activity %}admin-yes{% else %}admin-no{% endif %}">
-                                            <input type="radio" name="activity" value="True" autocomplete="off"
-                                                {% if d.activity %}checked{% endif %}
-                                                onchange="this.form.submit()"> Yes
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons"
+                                        style="border-radius: 12px; overflow: hidden;">
+                                        <label
+                                            class="btn btn-sm {% if d.activity %}admin-yes{% else %}admin-no{% endif %}">
+                                            <input type="radio" name="activity" value="True" autocomplete="off" {% if
+                                                d.activity %}checked{% endif %} onchange="this.form.submit()"> Yes
                                         </label>
-                                        <label class="btn btn-sm {% if not d.activity %}admin-yes{% else %}admin-no{% endif %} no-border-left">
-                                            <input type="radio" name="activity" value="False" autocomplete="off"
-                                                {% if not d.activity %}checked{% endif %}
-                                                onchange="this.form.submit()"> No
+                                        <label
+                                            class="btn btn-sm {% if not d.activity %}admin-yes{% else %}admin-no{% endif %} no-border-left">
+                                            <input type="radio" name="activity" value="False" autocomplete="off" {% if
+                                                not d.activity %}checked{% endif %} onchange="this.form.submit()"> No
                                         </label>
                                     </div>
                                 </form>
                             </td>
                             <td style="width: 150px; height: 100px;" class="align-middle">
-                                <form method="POST" action="{{ url_for('dest_view') }}" onsubmit="return confirm('Are you sure you want to delete this destination?');">
+                                <form method="POST" action="{{ url_for('dest_view') }}"
+                                    onsubmit="return confirm('Are you sure you want to delete this destination?');">
                                     <input type="hidden" name="destination_id" value="{{ d.id }}">
                                     <input type="hidden" name="action" value="delete_destination">
                                     <button type="submit" class="btn btn-danger btn-sm">Delete</button>
@@ -111,6 +117,9 @@
     <footer class="tm-container-outer">
         <p>Copyright © 2025 VETRAVEL. Design inspired by TemplateMo.</p>
     </footer>
+    {% for d in destinations["destinations"] %}
+        {% include 'dest_details.html' %}
+    {% endfor %}
     {% include 'modals.html' %}
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -118,4 +127,5 @@
     <script src="../static/js/modal.js"></script>
     <script src="../static/js/dest_view.js"></script>
 </body>
+
 </html>

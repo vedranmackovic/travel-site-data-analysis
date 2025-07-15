@@ -312,7 +312,12 @@ def dest_view():
             flash(f"Activity for '{destination.name}' set to {'Active' if new_status else 'Inactive'}.", "success")
             return redirect(url_for('dest_view'))
 
-    destinations = Destination.query.all()
+    destinations = {
+        "destinations" : Destination.query.all(),
+        "accommodations" : Accommodation.query.all(),
+        "transports" : Transport.query.all()
+    }
+
     return render_template("dest_view.html", destinations=destinations, active_page="control")
 
 @app.route('/login', methods=['POST'])

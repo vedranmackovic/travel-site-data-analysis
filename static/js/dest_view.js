@@ -11,3 +11,12 @@ document.getElementById("searchName").addEventListener("input", function () {
         }
     });
 });
+
+document.querySelectorAll('.close').forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.custom-modal, .dest-modal-container');
+    if (modal) {
+      modal.style.display = 'none';
+    }
+  });
+});
