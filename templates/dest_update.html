@@ -1,0 +1,161 @@
+<div id="editModal{{ d.id }}" class="dest-modal-container dest_update_size" style="display: none;">
+    <div class="modal-dialog dest-modal dest-modal-centered">
+        <div class="modal-content">
+            <form method="POST" action="{{ url_for('update_destination', destination_id=d.id) }}"
+                enctype="multipart/form-data">
+                <div class="modal-header dest-update-header">
+                    <h5 class="modal-title">Edit Destination</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="dest-update-flex-row">
+                        <div class="input-wrapper">
+                            <label for="name">Name:</label>
+                            <input id="name" name="name" class="form-control" value="{{ d.name }}">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="place">Place:</label>
+                            <input id="place" name="place" class="form-control" value="{{ d.place }}">
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="continent">Continent:</label>
+                            <select id="continent" name="continent" class="form-control">
+                                <option value="North America" {% if d.continent=='North America' %}selected{% endif %}>
+                                    North America</option>
+                                <option value="South America" {% if d.continent=='South America' %}selected{% endif %}>
+                                    South America</option>
+                                <option value="Europe" {% if d.continent=='Europe' %}selected{% endif %}>Europe</option>
+                                <option value="Asia" {% if d.continent=='Asia' %}selected{% endif %}>Asia</option>
+                                <option value="Africa" {% if d.continent=='Africa' %}selected{% endif %}>Africa</option>
+                                <option value="Australia" {% if d.continent=='Australia' %}selected{% endif %}>Australia
+                                </option>
+                                <option value="Antartica" {% if d.continent=='Antartica' %}selected{% endif %}>Antartica
+                                </option>
+                            </select>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="service_price">Service Price ($):</label>
+                            <input id="service_price" name="service_price" type="number" step="0.01"
+                                class="form-control" value="{{ d.service_price }}">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3" style="gap: 2rem;">
+                        <div class="flex-fill">
+                            <label for="short_description">Short Description</label>
+                            <textarea name="short_description" class="form-control no-resize"
+                                rows="4">{{ d.short_description }}</textarea>
+                        </div>
+                        <div class="flex-fill">
+                            <label for="long_description">Long Description</label>
+                            <textarea name="long_description" class="form-control no-resize"
+                                rows="4">{{ d.long_description }}</textarea>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4" style="gap: 1rem;">
+                        <div class="input-wrapper text-center flex-fill">
+                            <label id="label-img1">{{ d.image1 }}</label>
+                            <img id="preview-img1" src="{{ url_for('static', filename='img/' + d.image1) }}"
+                                alt="Image 1" class="img-fluid rounded mb-2 dest-update-img">
+                            <input type="file" name="img1_file" id="img1-file" accept="image/*" class="d-none"
+                                onchange="handleImageChange(this, 'preview-img1', 'label-img1')">
+                            <button type="button" class="btn btn-outline-primary btn-sm change-image-btn"
+                                onclick="document.getElementById('img1-file').click()">Change Image 1</button>
+                        </div>
+                        <div class="input-wrapper text-center flex-fill">
+                            <label id="label-img2">{{ d.image2 }}</label>
+                            <img id="preview-img2" src="{{ url_for('static', filename='img/' + d.image2) }}"
+                                alt="Image 2" class="img-fluid rounded mb-2 dest-update-img">
+                            <input type="file" name="img2_file" id="img2-file" accept="image/*" class="d-none"
+                                onchange="handleImageChange(this, 'preview-img2', 'label-img2')">
+                            <button type="button" class="btn btn-outline-primary btn-sm change-image-btn"
+                                onclick="document.getElementById('img2-file').click()">Change Image 2</button>
+                        </div>
+                        <div class="input-wrapper text-center flex-fill">
+                            <label id="label-img3">{{ d.image3 }}</label>
+                            <img id="preview-img3" src="{{ url_for('static', filename='img/' + d.image3) }}"
+                                alt="Image 3" class="img-fluid rounded mb-2 dest-update-img">
+                            <input type="file" name="img3_file" id="img3-file" accept="image/*" class="d-none"
+                                onchange="handleImageChange(this, 'preview-img3', 'label-img3')">
+                            <button type="button" class="btn btn-outline-primary btn-sm change-image-btn"
+                                onclick="document.getElementById('img3-file').click()">Change Image 3</button>
+                        </div>
+                    </div>
+                    <div class="dest_det_tables_container d-flex" style="gap: 1rem;">
+                        <div class="dest_det_table_wrapper" style="flex: 1;">
+                            <div class="dest_det_tables_container">
+                                <div class="dest_det_table_wrapper">
+                                    <h5>Accommodations</h5>
+                                    <table class="table table-bordered table-sm dest_det_table mb-4">
+                                        <thead>
+                                            <tr>
+                                                <th>Type</th>
+                                                <th>Price ($)</th>
+                                                <th style="width: 60px; text-align: center;">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-success add-accommodation-btn"
+                                                        data-id="{{ d.id }}">+</button>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="accommodation-body-{{ d.id }}">
+                                            {% for a in destinations["accommodations"] if a.destination_id == d.id %}
+                                            <tr>
+                                                <td><input type="text" name="accommodation_type_{{ a.id }}"
+                                                        value="{{ a.type }}" class="form-control" /></td>
+                                                <td><input type="number" step="0.01"
+                                                        name="accommodation_cost_{{ a.id }}" value="{{ a.cost }}"
+                                                        class="form-control" /></td>
+                                                <td class="text-center align-middle"
+                                                    style="width: 60px; text-align: center;">
+                                                    <button type="button"
+                                                        class="btn btn-danger btn-sm remove-row-btn">-</button>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="dest_det_table_wrapper">
+                                    <h5>Transports</h5>
+                                    <table class="table table-bordered table-sm dest_det_table mb-4">
+                                        <thead>
+                                            <tr>
+                                                <th>Type</th>
+                                                <th>Cost ($)</th>
+                                                <th style="width: 60px; text-align: center;">
+                                                    <button type="button"
+                                                        class="btn btn-sm btn-success add-transport-btn"
+                                                        data-id="{{ d.id }}">+</button>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="transport-body-{{ d.id }}">
+                                            {% for t in destinations["transports"] if t.destination_id == d.id %}
+                                            <tr>
+                                                <td><input type="text" name="transport_type_{{ t.id }}"
+                                                        value="{{ t.type }}" class="form-control" /></td>
+                                                <td><input type="number" step="0.01" name="transport_cost_{{ t.id }}"
+                                                        value="{{ t.cost }}" class="form-control" /></td>
+                                                <td class="text-center align-middle"
+                                                    style="width: 60px; text-align: center;">
+                                                    <button type="button"
+                                                        class="btn btn-danger btn-sm remove-row-btn">-</button>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success">Save</button>
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,5 +1,6 @@
-from flask import Flask, render_template, request, redirect, url_for, flash, session
+from flask import Flask, render_template, request, redirect, url_for, flash, session, current_app
 from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.utils import secure_filename
 from sqlalchemy import func, distinct
 import os
 from datetime import datetime
@@ -319,6 +320,115 @@ def dest_view():
     }
 
     return render_template("dest_view.html", destinations=destinations, active_page="control")
+
+@app.route('/update_destination/<int:destination_id>', methods=['POST'])
+def update_destination(destination_id):
+    destination = Destination.query.get_or_404(destination_id)
+    accommodations = Accommodation.query.filter_by(destination_id=destination_id).all()
+    transports = Transport.query.filter_by(destination_id=destination_id).all()
+    destination.name = request.form['name']
+    destination.place = request.form['place']
+    destination.continent = request.form['continent']
+    destination.service_price = float(request.form['service_price'])
+    destination.short_description = request.form['short_description']
+    destination.long_description = request.form['long_description']
+    img_folder = os.path.join(current_app.root_path, 'static', 'img')
+    staging_folder = os.path.join(img_folder, 'staging')
+
+    def update_image(image_field_name, file_field_name):
+        file = request.files.get(file_field_name)
+        if file and file.filename != '':
+            filename = secure_filename(file.filename)
+            old_img = getattr(destination, image_field_name)
+            old_img_path = os.path.join(img_folder, old_img)
+            if old_img and os.path.exists(old_img_path):
+                staging_img_path = os.path.join(staging_folder, old_img)
+                os.replace(old_img_path, staging_img_path)
+
+            new_img_path = os.path.join(img_folder, filename)
+            file.save(new_img_path)
+
+            setattr(destination, image_field_name, filename)
+
+    update_image('image1', 'img1_file')
+    update_image('image2', 'img2_file')
+    update_image('image3', 'img3_file')
+
+    for a in accommodations:
+        type_key = f'accommodation_type_{a.id}'
+        cost_key = f'accommodation_cost_{a.id}'
+        if type_key in request.form and cost_key in request.form:
+            a.type = request.form[type_key]
+            try:
+                a.cost = float(request.form[cost_key])
+            except ValueError:
+                a.cost = 0 
+
+    for t in transports:
+        type_key = f'transport_type_{t.id}'
+        cost_key = f'transport_cost_{t.id}'
+        if type_key in request.form and cost_key in request.form:
+            t.type = request.form[type_key]
+            try:
+                t.cost = float(request.form[cost_key])
+            except ValueError:
+                t.cost = 0
+    
+    new_acc_types = request.form.getlist(f'new_accommodation_type_{destination.id}[]')
+    new_acc_costs = request.form.getlist(f'new_accommodation_cost_{destination.id}[]')
+
+    for acc_type, acc_cost in zip(new_acc_types, new_acc_costs):
+        if acc_type.strip() and acc_cost.strip():
+            try:
+                cost_value = float(acc_cost)
+            except ValueError:
+                cost_value = 0
+            new_acc = Accommodation(
+                destination_id=destination.id,
+                type=acc_type.strip(),
+                cost=cost_value
+            )
+            db.session.add(new_acc)
+
+    new_trans_types = request.form.getlist(f'new_transport_type_{destination.id}[]')
+    new_trans_costs = request.form.getlist(f'new_transport_cost_{destination.id}[]')
+
+    for trans_type, trans_cost in zip(new_trans_types, new_trans_costs):
+        if trans_type.strip() and trans_cost.strip():
+            try:
+                cost_value = float(trans_cost)
+            except ValueError:
+                cost_value = 0
+            new_trans = Transport(
+                destination_id=destination.id,
+                type=trans_type.strip(),
+                cost=cost_value
+            )
+            db.session.add(new_trans)
+
+    submitted_accommodation_ids = set()
+    for a in accommodations:
+        type_key = f'accommodation_type_{a.id}'
+        cost_key = f'accommodation_cost_{a.id}'
+        if type_key in request.form and cost_key in request.form:
+            submitted_accommodation_ids.add(a.id)
+    for a in accommodations:
+        if a.id not in submitted_accommodation_ids:
+            db.session.delete(a)
+
+    submitted_transport_ids = set()
+    for t in transports:
+        type_key = f'transport_type_{t.id}'
+        cost_key = f'transport_cost_{t.id}'
+        if type_key in request.form and cost_key in request.form:
+            submitted_transport_ids.add(t.id)
+    for t in transports:
+        if t.id not in submitted_transport_ids:
+            db.session.delete(t)
+
+    db.session.commit()
+    flash("Destination updated successfully!", "success")
+    return redirect(url_for('dest_view'))
 
 @app.route('/login', methods=['POST'])
 def login():
