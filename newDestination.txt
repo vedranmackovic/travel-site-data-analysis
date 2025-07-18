@@ -1,0 +1,31 @@
+name:
+Emerald Coast
+
+place:
+Cascais, Portugal
+
+Continent:
+Europe
+
+Service Price:
+120
+
+Short Description:
+A sun-kissed coastline near Lisbon known for its turquoise waters, golden beaches, and vibrant nightlife.
+
+Long Description:
+Nestled just outside Portugal's capital, the Emerald Coast offers a perfect blend of beach relaxation and cultural exploration. 
+Visitors can surf world-class waves in the morning, explore cobblestone streets in the afternoon, and enjoy seafood feasts at night. 
+It’s a hidden gem for travelers seeking both beauty and authenticity.
+
+Images are in img/staging under Emerald1-2-3 name
+
+Accommodation:
+Hotel, 150
+Hostel, 45
+Villa, 200
+
+Transport:
+Bus, 70
+Train, 50
+Plane, 150

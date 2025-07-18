@@ -297,6 +297,20 @@ def dest_view():
 
         if action == "delete_destination" and dest_id:
             destination = Destination.query.get_or_404(dest_id)
+            img_folder = os.path.join(current_app.root_path, 'static', 'img')
+            staging_folder = os.path.join(img_folder, 'staging')
+            os.makedirs(staging_folder, exist_ok=True)
+            for image_field in ['image1', 'image2', 'image3']:
+                image_name = getattr(destination, image_field)
+                if image_name:
+                    source_path = os.path.join(img_folder, image_name)
+                    dest_path = os.path.join(staging_folder, image_name)
+
+                    if os.path.exists(source_path):
+                        try:
+                            os.replace(source_path, dest_path)
+                        except Exception as e:
+                            print(f"Failed to move {image_name}: {e}")
             Accommodation.query.filter_by(destination_id=destination.id).delete()
             Transport.query.filter_by(destination_id=destination.id).delete()
             db.session.delete(destination)
@@ -306,7 +320,6 @@ def dest_view():
         
         if action == "toggle_activity" and dest_id:
             destination = Destination.query.get_or_404(dest_id)
-
             new_status = request.form.get('activity') == 'True'
             destination.activity = new_status
             db.session.commit()
@@ -428,6 +441,89 @@ def update_destination(destination_id):
 
     db.session.commit()
     flash("Destination updated successfully!", "success")
+    return redirect(url_for('dest_view'))
+
+@app.route('/create_destination', methods=['POST'])
+def create_destination():
+    name = request.form['name']
+    place = request.form['place']
+    continent = request.form['continent']
+    service_price = float(request.form['service_price'])
+    short_description = request.form['short_description']
+    long_description = request.form['long_description']
+
+    img_folder = os.path.join(current_app.root_path, 'static', 'img')
+
+    img_folder = os.path.join(current_app.root_path, 'static', 'img')
+
+    def save_uploaded_image(file_field_name):
+        file = request.files.get(file_field_name)
+        if file and file.filename != '':
+            filename = secure_filename(file.filename)
+            save_path = os.path.join(img_folder, filename)
+
+            # Save the uploaded file to static/img/ (overwrite if exists)
+            file.save(save_path)
+
+            return filename  # Will be saved in DB
+        return ''
+
+    # Save images and get filenames
+    image1 = save_uploaded_image('img1_file')
+    image2 = save_uploaded_image('img2_file')
+    image3 = save_uploaded_image('img3_file')
+
+    new_dest = Destination(
+        name=name,
+        place=place,
+        continent=continent,
+        service_price=service_price,
+        short_description=short_description,
+        long_description=long_description,
+        image1=image1,
+        image2=image2,
+        image3=image3
+    )
+    db.session.add(new_dest)
+    db.session.commit()
+
+    # Pošto sad imamo ID, možemo kreirati povezane entitete
+    destination_id = new_dest.id
+
+    acc_types = request.form.getlist('new_accommodation_type_new[]')
+    acc_costs = request.form.getlist('new_accommodation_cost_new[]')
+
+    for acc_type, acc_cost in zip(acc_types, acc_costs):
+        if acc_type.strip() and acc_cost.strip():
+            try:
+                cost_value = float(acc_cost)
+            except ValueError:
+                cost_value = 0
+            new_acc = Accommodation(
+                destination_id=destination_id,
+                type=acc_type.strip(),
+                cost=cost_value
+            )
+            db.session.add(new_acc)
+
+    trans_types = request.form.getlist('new_transport_type_new[]')
+    trans_costs = request.form.getlist('new_transport_cost_new[]')
+
+    for trans_type, trans_cost in zip(trans_types, trans_costs):
+        if trans_type.strip() and trans_cost.strip():
+            try:
+                cost_value = float(trans_cost)
+            except ValueError:
+                cost_value = 0
+            new_trans = Transport(
+                destination_id=destination_id,
+                type=trans_type.strip(),
+                cost=cost_value
+            )
+            db.session.add(new_trans)
+
+    db.session.commit()
+    flash("New destination created successfully!", "success")
     return redirect(url_for('dest_view'))
 
 @app.route('/login', methods=['POST'])

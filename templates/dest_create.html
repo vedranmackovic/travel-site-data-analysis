@@ -1,0 +1,99 @@
+<div id="createDestinationModal" class="dest-modal-container dest_update_size" style="display: none;">
+    <div class="modal-dialog dest-modal dest-modal-centered">
+        <div class="modal-content">
+            <form method="POST" action="{{ url_for('create_destination') }}" enctype="multipart/form-data">
+                <div class="modal-header dest-update-header">
+                    <h5 class="modal-title">Create New Destination</h5>
+                    <button type="button" class="close" onclick="document.getElementById('createDestinationModal').style.display = 'none';" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="dest-update-flex-row">
+                        <div class="input-wrapper">
+                            <label for="name">Name:</label>
+                            <input id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="place">Place:</label>
+                            <input id="place" name="place" class="form-control" required>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="continent">Continent:</label>
+                            <select id="continent" name="continent" class="form-control">
+                                <option value="North America">North America</option>
+                                <option value="South America">South America</option>
+                                <option value="Europe">Europe</option>
+                                <option value="Asia">Asia</option>
+                                <option value="Africa">Africa</option>
+                                <option value="Australia">Australia</option>
+                                <option value="Antartica">Antartica</option>
+                            </select>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="service_price">Service Price ($):</label>
+                            <input id="service_price" name="service_price" type="number" step="0.01" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3" style="gap: 2rem;">
+                        <div class="flex-fill">
+                            <label for="short_description">Short Description</label>
+                            <textarea name="short_description" class="form-control no-resize" rows="4" required></textarea>
+                        </div>
+                        <div class="flex-fill">
+                            <label for="long_description">Long Description</label>
+                            <textarea name="long_description" class="form-control no-resize" rows="4" required></textarea>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mb-4" style="gap: 1rem;">
+                        {% for i in range(1, 4) %}
+                        <div class="input-wrapper text-center flex-fill">
+                            <label id="label-img{{ i }}">Select Image {{ i }}</label>
+                            <img id="preview-img{{ i }}" src="{{ url_for('static', filename='img/placeholder.jpg') }}" alt="Image {{ i }}" class="img-fluid rounded mb-2 dest-update-img">
+                            <input type="file" name="img{{ i }}_file" id="img{{ i }}-file" accept="image/*" class="d-none"
+                                onchange="handleImageChange(this, 'preview-img{{ i }}', 'label-img{{ i }}')" required>
+                            <button type="button" class="btn btn-outline-primary btn-sm change-image-btn"
+                                onclick="document.getElementById('img{{ i }}-file').click()">Upload Image {{ i }}</button>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="dest_det_tables_container d-flex" style="gap: 1rem;">
+                        <div class="dest_det_table_wrapper" style="flex: 1;">
+                            <h5>Accommodations</h5>
+                            <table class="table table-bordered table-sm dest_det_table mb-4">
+                                <thead>
+                                    <tr>
+                                        <th>Type</th>
+                                        <th>Price ($)</th>
+                                        <th style="width: 60px; text-align: center;">
+                                            <button type="button" class="btn btn-sm btn-success add-accommodation-btn">+</button>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody id="accommodation-body-new">
+                                </tbody>
+                            </table>
+                            <h5>Transports</h5>
+                            <table class="table table-bordered table-sm dest_det_table mb-4">
+                                <thead>
+                                    <tr>
+                                        <th>Type</th>
+                                        <th>Cost ($)</th>
+                                        <th style="width: 60px; text-align: center;">
+                                            <button type="button" class="btn btn-sm btn-success add-transport-btn">+</button>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody id="transport-body-new">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Create</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -71,3 +71,31 @@ document.addEventListener('click', function(event) {
     }
   }
 });
+
+document.querySelectorAll(".add-accommodation-btn").forEach(button => {
+  button.addEventListener("click", () => {
+    const tableBody = document.querySelector("#accommodation-body-new");
+    if (tableBody) {
+      const newRow = document.createElement("tr");
+      newRow.innerHTML = `
+        <td><input type="text" name="new_accommodation_type_new[]" class="form-control" placeholder="Type"></td>
+        <td><input type="number" name="new_accommodation_cost_new[]" class="form-control" placeholder="Cost"></td>
+      `;
+      tableBody.appendChild(newRow);
+    }
+  });
+});
+
+document.querySelectorAll(".add-transport-btn").forEach(button => {
+  button.addEventListener("click", () => {
+    const tableBody = document.querySelector("#transport-body-new");
+    if (tableBody) {
+      const newRow = document.createElement("tr");
+      newRow.innerHTML = `
+        <td><input type="text" name="new_transport_type_new[]" class="form-control" placeholder="Type"></td>
+        <td><input type="number" name="new_transport_cost_new[]" class="form-control" placeholder="Cost"></td>
+      `;
+      tableBody.appendChild(newRow);
+    }
+  });
+});
