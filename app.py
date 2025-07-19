@@ -24,7 +24,43 @@ migrate = Migrate(app, db)
 
 @app.route('/')
 def home():
-    return render_template('index.html', active_page="home")
+    booking_counts = (
+        db.session.query(
+            Booking.destination,
+            func.count(Booking.id).label('count')
+        )
+        .group_by(Booking.destination)
+        .subquery()
+    )
+    results = (
+        db.session.query(Destination)
+        .join(booking_counts, Destination.name == booking_counts.c.destination)
+        .order_by(booking_counts.c.count.desc())
+        .all()
+    )
+
+    continents = {
+        'Europe': [],
+        'Asia': [],
+        'North_America': []
+    }
+    seen_places = {
+        'Europe': set(),
+        'Asia': set(),
+        'North_America': set()
+    }
+    label_map = {
+        'Europe': 'Europe',
+        'Asia': 'Asia',
+        'North America': 'North_America'
+    }
+    for d in results:
+        label = label_map.get(d.continent)
+        if label and len(continents[label]) < 3 and d.place not in seen_places[label]:
+            continents[label].append(d)
+            seen_places[label].add(d.place)
+
+    return render_template('index.html', active_page="home", **continents)
 
 @app.route("/contact", methods=['GET', 'POST'])
 def contact():

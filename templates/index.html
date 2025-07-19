@@ -47,9 +47,9 @@
         <div class="tm-container-outer" id="tm-section-2">
             <section class="tm-slideshow-section">
                 <div class="tm-slideshow">
-                    <img src="../static/img/Barcelona1.jpg" alt="Image">
-                    <img src="../static/img/Fjord1.jpg" alt="Image">
-                    <img src="../static/img/Rome1.jpg" alt="Image">    
+                    <img src="{{ url_for('static', filename='img/' + Europe[0].image1) }}" alt="Image">
+                    <img src="{{ url_for('static', filename='img/' + Europe[1].image1) }}" alt="Image">
+                    <img src="{{ url_for('static', filename='img/' + Europe[2].image1) }}" alt="Image">    
                 </div>
                 <div class="tm-slideshow-description tm-bg-primary">
                     <h2 class="">Europe's most visited places</h2>
@@ -59,9 +59,9 @@
             </section>
             <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
                 <div class="tm-right tm-slideshow tm-slideshow-highlight">
-                    <img src="../static/img/Phuket1.jpg" alt="Image">
-                    <img src="../static/img/Tokyo1.jpg" alt="Image">
-                    <img src="../static/img/Bali1.jpg" alt="Image">
+                    <img src="{{ url_for('static', filename='img/' + Asia[0].image1) }}" alt="Image">
+                    <img src="{{ url_for('static', filename='img/' + Asia[1].image1) }}" alt="Image">
+                    <img src="{{ url_for('static', filename='img/' + Asia[2].image1) }}" alt="Image">
                 </div> 
                 <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
                     <h2 class="">Asia's most popular places</h2>
@@ -71,9 +71,9 @@
             </section>
             <section class="tm-slideshow-section">
                 <div class="tm-slideshow">
-                    <img src="../static/img/Niagara1.jpg" alt="Image">
-                    <img src="../static/img/NewYork1.jpg" alt="Image">
-                    <img src="../static/img/Banff1.jpg" alt="Image">
+                    <img src="{{ url_for('static', filename='img/' + North_America[0].image1) }}" alt="Image">
+                    <img src="{{ url_for('static', filename='img/' + North_America[1].image1) }}" alt="Image">
+                    <img src="{{ url_for('static', filename='img/' + North_America[2].image1) }}" alt="Image">
                 </div>
                 <div class="tm-slideshow-description tm-bg-primary">
                     <h2 class="">America's most famous places</h2>
