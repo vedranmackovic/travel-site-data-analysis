@@ -698,3 +698,76 @@ def generate_monthly_total_cost_chart(destination):
     )
 
     return plot(fig, output_type='div', include_plotlyjs=False)
+
+
+def generate_yearly_trend_chart(destination):
+    results = (
+        db.session.query(
+            func.strftime('%Y', Booking.start_date).label("year"),
+            func.count().label("count")
+        )
+        .filter(Booking.destination == destination)
+        .group_by("year")
+        .order_by("year")
+        .all()
+    )
+    
+    years = [row[0] for row in results]
+    counts = [row[1] for row in results]
+
+    fig = go.Figure(data=go.Scatter(
+        x=years, 
+        y=counts, 
+        mode='lines+markers', 
+        marker_color="#FF6F91"
+    ))
+
+    fig.update_layout(
+        title=f"Yearly Trip Trends: {destination}",
+        xaxis_title="Years",
+        yaxis_title="Number of Trips",
+        height=400,
+        template="plotly_white"
+    )
+
+    return plot(fig, output_type='div', include_plotlyjs=False)
+
+
+def generate_yearly_total_cost_chart(destination):
+    results = (
+        db.session.query(
+            func.strftime('%Y', Booking.start_date).label("year"),
+            func.sum(Booking.transport_cost).label("tcost"),
+            func.sum(Booking.accommodation_cost).label("acost"),
+            func.count().label("count")
+        )
+        .filter(Booking.destination == destination)
+        .group_by("year")
+        .order_by("year")
+        .all()
+    )
+    destination_objs = Destination.query.all()
+    service_prices = {d.name: d.service_price for d in destination_objs}
+
+    years = [row.year for row in results]
+    service_cost = [service_prices.get(destination, 0) * row.count for row in results]
+    transport_cost = [row.tcost or 0 for row in results]
+    accommodation_cost = [row.acost or 0 for row in results]
+    total_costs = [s + t + a for s, t, a in zip(service_cost, transport_cost, accommodation_cost)]
+
+    fig = go.Figure(data=go.Scatter(
+        x=years,
+        y=total_costs,
+        mode='lines+markers',
+        marker_color="#4A90E2"
+    ))
+
+    fig.update_layout(
+        title=f"Yearly Total Cost: {destination}",
+        xaxis_title="Year",
+        yaxis_title="Total Cost ($)",
+        height=400,
+        template="plotly_white"
+    )
+
+    return plot(fig, output_type='div', include_plotlyjs=False)   
