@@ -1,7 +1,7 @@
 <div id="editModal{{ d.id }}" class="dest-modal-container dest_update_size" style="display: none;">
     <div class="modal-dialog dest-modal dest-modal-centered">
         <div class="modal-content">
-            <form method="POST" action="{{ url_for('update_destination', destination_id=d.id) }}"
+            <form id="form-{{ d.id }}" method="POST" action="{{ url_for('update_destination', destination_id=d.id) }}"
                 enctype="multipart/form-data">
                 <div class="modal-header dest-update-header">
                     <h5 class="modal-title">Edit Destination</h5>
@@ -55,31 +55,31 @@
                     </div>
                     <div class="d-flex justify-content-between mb-4" style="gap: 1rem;">
                         <div class="input-wrapper text-center flex-fill">
-                            <label id="label-img1">{{ d.image1 }}</label>
-                            <img id="preview-img1" src="{{ url_for('static', filename='img/' + d.image1) }}"
+                            <label id="label-img1-{{ d.id }}">{{ d.image1 }}</label>
+                            <img id="preview-img1-{{ d.id }}" src="{{ url_for('static', filename='img/' + d.image1) }}"
                                 alt="Image 1" class="img-fluid rounded mb-2 dest-update-img">
-                            <input type="file" name="img1_file" id="img1-file" accept="image/*" class="d-none"
-                                onchange="handleImageChange(this, 'preview-img1', 'label-img1')">
+                            <input type="file" name="img1_file" id="img1-file-{{ d.id }}" accept="image/*" class="d-none"
+                                onchange="handleImageChange(this, 'preview-img1-{{ d.id }}', 'label-img1-{{ d.id }}')">
                             <button type="button" class="btn btn-outline-primary btn-sm change-image-btn"
-                                onclick="document.getElementById('img1-file').click()">Change Image 1</button>
+                                onclick="document.getElementById('img1-file-{{ d.id }}').click()">Change Image 1</button>
                         </div>
                         <div class="input-wrapper text-center flex-fill">
-                            <label id="label-img2">{{ d.image2 }}</label>
-                            <img id="preview-img2" src="{{ url_for('static', filename='img/' + d.image2) }}"
+                            <label id="label-img2-{{ d.id }}">{{ d.image2 }}</label>
+                            <img id="preview-img2-{{ d.id }}" src="{{ url_for('static', filename='img/' + d.image2) }}"
                                 alt="Image 2" class="img-fluid rounded mb-2 dest-update-img">
-                            <input type="file" name="img2_file" id="img2-file" accept="image/*" class="d-none"
-                                onchange="handleImageChange(this, 'preview-img2', 'label-img2')">
+                            <input type="file" name="img2_file" id="img2-file-{{ d.id }}" accept="image/*" class="d-none"
+                                onchange="handleImageChange(this, 'preview-img2-{{ d.id }}', 'label-img2-{{ d.id }}')">
                             <button type="button" class="btn btn-outline-primary btn-sm change-image-btn"
-                                onclick="document.getElementById('img2-file').click()">Change Image 2</button>
+                                onclick="document.getElementById('img2-file-{{ d.id }}').click()">Change Image 2</button>
                         </div>
                         <div class="input-wrapper text-center flex-fill">
-                            <label id="label-img3">{{ d.image3 }}</label>
-                            <img id="preview-img3" src="{{ url_for('static', filename='img/' + d.image3) }}"
+                            <label id="label-img3-{{ d.id }}">{{ d.image3 }}</label>
+                            <img id="preview-img3-{{ d.id }}" src="{{ url_for('static', filename='img/' + d.image3) }}"
                                 alt="Image 3" class="img-fluid rounded mb-2 dest-update-img">
-                            <input type="file" name="img3_file" id="img3-file" accept="image/*" class="d-none"
-                                onchange="handleImageChange(this, 'preview-img3', 'label-img3')">
+                            <input type="file" name="img3_file" id="img3-file-{{ d.id }}" accept="image/*" class="d-none"
+                                onchange="handleImageChange(this, 'preview-img3-{{ d.id }}', 'label-img3-{{ d.id }}')">
                             <button type="button" class="btn btn-outline-primary btn-sm change-image-btn"
-                                onclick="document.getElementById('img3-file').click()">Change Image 3</button>
+                                onclick="document.getElementById('img3-file-{{ d.id }}').click()">Change Image 3</button>
                         </div>
                     </div>
                     <div class="dest_det_tables_container d-flex" style="gap: 1rem;">
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-success">Save</button>
+                        <button type="submit" form="form-{{ d.id }}" class="btn btn-success">Save</button>
                     </div>
             </form>
         </div>
