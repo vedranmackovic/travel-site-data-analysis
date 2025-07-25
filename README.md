@@ -47,6 +47,7 @@ The application allows users to explore, compare, and select travel destinations
 - Yearly Trends and Total Cost – annual performance overview
 
 ## 📁 Project Structure
+```
 INTERNSHIP/
 │
 ├── data/
@@ -72,6 +73,7 @@ INTERNSHIP/
 ├── NewDestination.txt          # Admin test file for creating new destinations
 ├── requirements.txt            # Project dependencies
 └── README.md
+```
 
 ## 🚀 Getting Started
 
