@@ -129,6 +129,12 @@ If you have questions, suggestions, or just want to connect:
 - 📧 Email: [vedran.m.dev@gmail.com](mailto:vedran.m.dev@gmail.com)
 - 🐙 GitHub: [vedranmackovic](https://github.com/vedranmackovic)
 
+## 🧾 Internship Documentation
+
+The project followed a planned structure as closely as possible, but some tasks were completed earlier or later than scheduled, and additional features were implemented beyond the original scope.
+
+- [📄 Weekly Plan (PDF)](internship_docs/Internship_Plan.pdf)
+
 ## License  
 This project and its source code are provided for educational and non-commercial use only.  
 You may use, study, and modify the materials for personal learning and academic projects.  
